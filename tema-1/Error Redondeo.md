@@ -1,22 +1,18 @@
-# Error de Redondeo  
-
-## Definición  
-El **error de redondeo** es la diferencia entre el valor numérico exacto y su aproximación debido a la limitación en la representación de números en sistemas de cómputo. Este tipo de error ocurre cuando se redondean números a un número fijo de dígitos significativos o decimales. Los errores de redondeo pueden acumularse en cálculos repetidos y afectar la precisión de los resultados.  
-
+# Error de Redondeo
+## Definición
+El **error de redondeo** es la diferencia entre el valor numérico exacto y su aproximación debido a la limitación en la representación de números en sistemas de cómputo.
 **Ejemplo:**  
 - Número original: \( 0.3864 \times 10^4 = 3846 \)  
-- Redondeado a 2 decimales: \( 3846.00 \)  
-
+- Redondeado a 2 decimales: \( 3846.00 \)
 ---
 
-## Algoritmo  
-A continuación, se describe un algoritmo para evaluar el error de redondeo en una función \( f(x) \):  
-
+## Algoritmo
+A continuación, se describe un algoritmo para evaluar el error de redondeo en una función \( f(x) \):
 1. **Definir la función** \( f(x) \) cuya evaluación puede introducir errores de redondeo.  
 2. **Especificar el intervalo** de evaluación \([a, b]\).  
 3. **Dividir el intervalo** \([a, b]\) en \( n \) subintervalos de igual tamaño.  
 4. **Evaluar la función** en cada punto del intervalo, aplicando redondeo según la precisión deseada.  
-5. **Calcular el error** comparando el valor exacto con el valor redondeado.  
+5. **Calcular el error** comparando el valor exacto con el valor redondeado.
 
 ---
 
