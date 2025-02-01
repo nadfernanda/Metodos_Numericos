@@ -1,27 +1,16 @@
 # Error de Redondeo
 ## Definición
 El **error de redondeo** es la diferencia entre el valor numérico exacto y su aproximación debido a la limitación en la representación de números en sistemas de cómputo. Este error surge cuando números con infinitos decimales (como \( \pi \) o \( \frac{1}{3} \)) se redondean a una cantidad finita de dígitos para su almacenamiento o cálculo.  
-
-**Ejemplo:**  
-\[
-0.3864 \times 10^4 = 3846 \quad \text{(valor exacto)}  
-\]
-\[
-\text{Redondeado a 2 decimales: } 3846.00 \quad \text{(valor aproximado)}  
-\]
-
 ---
 
 ## Algoritmo  
 Pasos para evaluar el error de redondeo en una función \( f(x) \):  
-
 1. **Definir la función** \( f(x) \) a evaluar.  
 2. **Especificar el intervalo** de evaluación \([a, b]\).  
 3. **Dividir el intervalo** en \( n \) subintervalos de tamaño \( h = \frac{b - a}{n} \).  
 4. **Evaluar la función** en cada punto \( x_i = a + i \cdot h \).  
 5. **Redondear** los resultados a la precisión deseada.  
 6. **Calcular el error** como \( | \text{Valor exacto} - \text{Valor redondeado} | \).  
-
 ---
 
 ## Ejemplo en Python  
