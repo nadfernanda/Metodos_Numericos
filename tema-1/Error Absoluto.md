@@ -28,7 +28,7 @@ def calcular_error_absoluto(valor_exacto, valor_aproximado):
     return abs(valor_exacto - valor_aproximado)
 ```
 ## Ejercicios Prácticos
------
+---
 ### Ejercicio 1: Error en una Aproximación de π
 
 **Enunciado:**  
