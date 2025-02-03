@@ -27,7 +27,7 @@ def calcular_error_relativo(valor_exacto, valor_aproximado):
     return error_absoluto / abs(valor_exacto)
 ```
 ## Ejercicios Prácticos
-----------
+
 ### Ejercicio 1: Error en la Medición de una Longitud
 **Enunciado:**  
 La longitud exacta de un objeto es 5.0 cm. Un estudiante mide 4.8 cm. Calcula el error relativo.
@@ -48,7 +48,7 @@ Error absoluto: 0.2 cm.
 Error relativo: 0.04 (o 4%).
 Aunque el error absoluto es pequeño (0.2 cm), el error relativo del 4% indica una desviación significativa en relación con el tamaño del objeto.
 En mediciones de magnitudes pequeñas, un error absoluto reducido puede traducirse en un error relativo alto. Es crítico usar instrumentos precisos en estos casos.
-------------------
+
 ### Ejercicio 2: Error en Mediciones Físicas
 ** Enunciado: **
 La población exacta de una ciudad es 1,000,000 habitantes. Un censo aproximado reporta 980,000 habitantes. Calcula el error relativo.
@@ -69,4 +69,3 @@ Error absoluto: 20,000 habitantes.
 Error relativo: 0.02 (o 2%).
 Aunque el error absoluto es grande (20,000), el error relativo es bajo (2%), lo que indica una buena precisión relativa.
 En magnitudes grandes, un error absoluto elevado puede tener un impacto relativo pequeño. El error relativo contextualiza la precisión de la medición.
---------------
