@@ -33,6 +33,7 @@ def calcular_error_absoluto(valor_exacto, valor_aproximado):
 
 **Enunciado:**  
 El valor exacto de π es `3.141592653589793`. Si aproximamos π como `3.14`, calcula el error absoluto.
+
 **Solución en Python:**
 ```python
 # Función para calcular el error absoluto
@@ -62,6 +63,7 @@ La aproximación 3.14 subestima π en aproximadamente 0.0016. Es adecuada para u
 Un estudiante mide la longitud de una mesa 5 veces y obtiene:
 [2.5 m, 2.7 m, 2.6 m, 2.4 m, 2.5 m].
 Si la longitud real es 2.55 m, calcula el error absoluto de cada medición y el error máximo.
+
 **Solución en Python:**
 ```python
 # Función para calcular el error absoluto
