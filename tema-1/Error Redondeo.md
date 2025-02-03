@@ -4,12 +4,12 @@ El **error de redondeo** es la diferencia entre el valor aproximado de un númer
 ---
 
 ## Algoritmo  
-1. **Definir la función \( f(x) \)** a evaluar.
-2. **Especificar el intervalo** de evaluación \([a, b]\).
-3. **Dividir el intervalo** en \( n \) subintervalos de tamaño \( h = \frac{b - a}{n} \).
-4. **Evaluar la función** en cada punto \( x_i = a + i \cdot h \) para \( i = 0, 1, 2, \dots, n \).
+1. **Definir la función f(x)** a evaluar.
+2. **Especificar el intervalo** de evaluación [a, b].
+3. **Dividir el intervalo** en `n` subintervalos de tamaño `h = (b - a) / n`.
+4. **Evaluar la función** en cada punto `x_i = a + i * h` para `i = 0, 1, 2, ..., n`.
 5. **Redondear** los resultados a un número fijo de decimales o dígitos significativos.
-6. **Calcular el error** en cada punto como \( | \text{Valor exacto} - \text{Valor redondeado} | \).
+6. **Calcular el error** en cada punto como `| Valor exacto - Valor redondeado |`.
 7. **Calcular el error total** (suma de los errores) o el **error máximo**.
 ---
 
