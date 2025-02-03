@@ -19,8 +19,9 @@ Existen muchos tipos de métodos numéricos, cada uno diseñado para resolver un
 -------------------
 ### Tema 1: Tipos de Errores  
 1. [Error Absoluto](tema-1/Error%20de%20Absoluto.md)
-2. [Error de Redondeo](tema-1/Error%20Redondeo.md)
-3. [Error de Truncamiento](tema-1/Error%20de%20truncamiento.md)
+2. [Error Relativo](tema-1/Error%20Relativo.md)
+3. [Error de Redondeo](tema-1/Error%20Redondeo.md)
+4. [Error de Truncamiento](tema-1/Error%20de%20truncamiento.md)
 
 -------------------
 
