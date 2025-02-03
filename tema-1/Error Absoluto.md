@@ -58,11 +58,10 @@ Aunque pequeño, este error puede ser significativo en aplicaciones de alta prec
 La aproximación 3.14 subestima π en aproximadamente 0.0016. Es adecuada para uso cotidiano, pero no en contextos científicos.
 
 ### Ejercicio 2: Error en Mediciones Físicas
-** Enunciado: **
+**Enunciado:**
 Un estudiante mide la longitud de una mesa 5 veces y obtiene:
 [2.5 m, 2.7 m, 2.6 m, 2.4 m, 2.5 m].
 Si la longitud real es 2.55 m, calcula el error absoluto de cada medición y el error máximo.
-
 **Solución en Python:**
 ```python
 # Función para calcular el error absoluto
