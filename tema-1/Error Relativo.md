@@ -50,7 +50,7 @@ Aunque el error absoluto es pequeño (0.2 cm), el error relativo del 4% indica u
 En mediciones de magnitudes pequeñas, un error absoluto reducido puede traducirse en un error relativo alto. Es crítico usar instrumentos precisos en estos casos.
 
 ### Ejercicio 2: Error en Mediciones Físicas
-** Enunciado: **
+**Enunciado:**
 La población exacta de una ciudad es 1,000,000 habitantes. Un censo aproximado reporta 980,000 habitantes. Calcula el error relativo.
 **Solución en Python:**
 ```python
