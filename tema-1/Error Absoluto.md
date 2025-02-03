@@ -1,7 +1,7 @@
 ## Definición
 El **error absoluto** es la diferencia entre el valor exacto (o teórico) de una magnitud y su valor aproximado (o medido). Se define matemáticamente como:
 Error Absoluto = |Valor Exacto - Valor Aproximado|
-Donde:
+- Donde:
 - `| |` representa el valor absoluto (siempre positivo).
 - **Valor Exacto**: El valor teórico o real.
 - **Valor Aproximado**: El valor obtenido mediante medición o cálculo.
