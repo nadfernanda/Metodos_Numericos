@@ -1,6 +1,7 @@
 ## Definición
 El **error relativo** es una medida de la precisión de una aproximación en relación con el valor exacto. Se define como el cociente entre el error absoluto y el valor exacto:
 Error Relativo = |Valor Exacto - Valor Aproximado| / |Valor Exacto|
+
 ## Algoritmo 
 1. **Obtener el valor exacto** y el **valor aproximado**.
 2. **Calcular el error absoluto**: `|Valor Exacto - Valor Aproximado|`.
@@ -25,7 +26,6 @@ def calcular_error_relativo(valor_exacto, valor_aproximado):
     error_absoluto = abs(valor_exacto - valor_aproximado)
     return error_absoluto / abs(valor_exacto)
 ```
-----------
 ## Ejercicios Prácticos
 ----------
 ### Ejercicio 1: Error en la Medición de una Longitud
