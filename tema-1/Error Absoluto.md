@@ -11,7 +11,22 @@ Donde:
 1. **Obtener el valor exacto** y el **valor aproximado**.
 2. **Calcular la diferencia** entre ambos valores.
 3. **Tomar el valor absoluto** de la diferencia.
-   
+
+### Implementación en Python
+```python
+def calcular_error_absoluto(valor_exacto, valor_aproximado):
+    """
+    Calcula el error absoluto entre un valor exacto y su aproximación.
+    
+    Parámetros:
+    valor_exacto (float): El valor exacto.
+    valor_aproximado (float): El valor aproximado.
+    
+    Retorna:
+    float: El error absoluto.
+    """
+    return abs(valor_exacto - valor_aproximado)
+```
 ## Ejercicios Prácticos
 ### Ejercicio 1: Error en una Aproximación de π
 
