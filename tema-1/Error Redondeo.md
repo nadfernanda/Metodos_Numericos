@@ -1,16 +1,16 @@
 # Error de Redondeo
 ## Definición
-El **error de redondeo** es la diferencia entre el valor numérico exacto y su aproximación debido a la limitación en la representación de números en sistemas de cómputo. Este error surge cuando números con infinitos decimales (como \( \pi \) o \( \frac{1}{3} \)) se redondean a una cantidad finita de dígitos para su almacenamiento o cálculo.  
+El **error de redondeo** es la diferencia entre el valor aproximado de un número y su valor exacto. Este error ocurre cuando se redondea un número a un cierto número de decimales o dígitos significativos. Es común en cálculos numéricos, especialmente cuando se trabaja con números de punto flotante en computadoras, donde la precisión es limitada.  
 ---
 
 ## Algoritmo  
-Pasos para evaluar el error de redondeo en una función \( f(x) \):  
-1. **Definir la función** \( f(x) \) a evaluar.  
-2. **Especificar el intervalo** de evaluación \([a, b]\).  
-3. **Dividir el intervalo** en \( n \) subintervalos de tamaño \( h = \frac{b - a}{n} \).  
-4. **Evaluar la función** en cada punto \( x_i = a + i \cdot h \).  
-5. **Redondear** los resultados a la precisión deseada.  
-6. **Calcular el error** como \( | \text{Valor exacto} - \text{Valor redondeado} | \).  
+1. **Definir la función \( f(x) \)** a evaluar.
+2. **Especificar el intervalo** de evaluación \([a, b]\).
+3. **Dividir el intervalo** en \( n \) subintervalos de tamaño \( h = \frac{b - a}{n} \).
+4. **Evaluar la función** en cada punto \( x_i = a + i \cdot h \) para \( i = 0, 1, 2, \dots, n \).
+5. **Redondear** los resultados a un número fijo de decimales o dígitos significativos.
+6. **Calcular el error** en cada punto como \( | \text{Valor exacto} - \text{Valor redondeado} | \).
+7. **Calcular el error total** (suma de los errores) o el **error máximo**.
 ---
 
 ## Ejemplo en Python  
