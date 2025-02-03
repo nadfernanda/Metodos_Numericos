@@ -31,6 +31,7 @@ def calcular_error_relativo(valor_exacto, valor_aproximado):
 ### Ejercicio 1: Error en la Medición de una Longitud
 **Enunciado:**  
 La longitud exacta de un objeto es 5.0 cm. Un estudiante mide 4.8 cm. Calcula el error relativo.
+
 **Solución en Python:**
 ```python
 # Valores
@@ -52,6 +53,7 @@ En mediciones de magnitudes pequeñas, un error absoluto reducido puede traducir
 ### Ejercicio 2: Error en Mediciones Físicas
 **Enunciado:**
 La población exacta de una ciudad es 1,000,000 habitantes. Un censo aproximado reporta 980,000 habitantes. Calcula el error relativo.
+
 **Solución en Python:**
 ```python
 # Valores
