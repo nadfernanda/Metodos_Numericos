@@ -29,11 +29,11 @@ donde d(t) representa la distancia recorrida en metros después de t minutos.
 El corredor sigue la ecuación:
 p(t)=-3+36
 donde p(t) representa su distancia en metros después de t minutos.
-**Pregunta:** ¿En qué momento y a qué distancia del punto de inicio se encontrarán el ciclista y el corredor?
+**Pregunta:** 
+¿En qué momento y a qué distancia del punto de inicio se encontrarán el ciclista y el corredor?
 
 **Solución**
-
-![Solución del problema con ayuda del sofware 'Geogebra'](tema-2/Imagenes/metodo%20grafico%20ejemplo1.png)
+![método gráfico ejemplo1](Metodos_Numericos/tema-2/Imagenes/metodo_grafico_ejemplo1.png)
 El ciclista y el corredor se encuentran en el minuto 4, a una distancia de 24 metros del punto de inicio.
 En la gráfica, este punto de intersección se representa como:
 **(4,24)**
