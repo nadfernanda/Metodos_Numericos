@@ -33,9 +33,7 @@ donde p(t) representa su distancia en metros después de t minutos.
 ¿En qué momento y a qué distancia del punto de inicio se encontrarán el ciclista y el corredor?
 
 **Solución**
+
 ![método gráfico ejemplo1](Metodos_Numericos/tema-2/Imagenes/metodo_grafico_ejemplo1.png)
-El ciclista y el corredor se encuentran en el minuto 4, a una distancia de 24 metros del punto de inicio.
-En la gráfica, este punto de intersección se representa como:
-**(4,24)**
-Esto indica que cuando t=4 minutos, ambas ecuaciones tienen el mismo valor de distancia 24,
-lo que confirma que en ese instante ambos coinciden en el mismo lugar.
+
+El ciclista y el corredor se encuentran en el minuto 4, a una distancia de 24 metros del punto de inicio. En la gráfica, este punto de intersección se representa como: (4,24) Esto indica que cuando t=4 minutos, ambas ecuaciones tienen el mismo valor de distancia 24, lo que confirma que en ese instante ambos coinciden en el mismo lugar.
