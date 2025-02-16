@@ -51,6 +51,41 @@ x para los cuales f(x)=0. Estos puntos indican los lugares donde la tensión en 
 Determina en qué puntos el puente presenta una tensión nula resolviendo la ecuación:  x³ - 3x² - 3x + 1 = 0
 
 **Solución**
+
 <img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-2/Imagenes/metodo%20grafico%20ejemplo2.png" width="70%" alt="método gráfico ejemplo2">
 
+
 El puente presenta puntos de tensión nula en las posiciones x ≈ -1, x ≈ 0.27 y x ≈ 3.73. Los ingenieros deben prestar especial atención a estos puntos para reforzar la estructura y evitar riesgos.
+
+### Ejercicio 3: Encuentro en el Mercado 🛍️
+Eric y Kenny son dos vendedores ambulantes que recorren la ciudad vendiendo frutas y verduras. Cada mañana, parten desde distintos puntos y siguen rutas diferentes hasta llegar al mercado principal.
+Eric sigue un camino descrito por la ecuación:
+y=2x+3
+Mientras que Kenny sigue un trayecto diferente, descrito por la ecuación:
+y=−x+9
+En algún momento del día, ambos vendedores se cruzan en una intersección antes de llegar al mercado. Para planear mejor su estrategia de ventas, quieren saber en qué punto exacto de la ciudad se encontrarán.
+
+**Pregunta:**
+¿En qué coordenadas se cruzan las trayectorias de Eric y Kenny?
+
+**Solución**
+
+<img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-2/Imagenes/metodo%20grafico%20ejemplo3.png" width="60%" alt="método gráfico ejemplo2">
+
+Si Eric y Kenny quieren aprovechar su encuentro para intercambiar productos o conversar sobre estrategias de venta, saben que deben encontrarse en la posición (2,7) dentro de la ciudad.
+
+### Ejercicio 4: Cruce de Caminos 🏙️
+En una ciudad, dos carreteras principales se cruzan en un punto. La primera carretera sigue una trayectoria que se puede representar con la ecuación:
+3x−y=4
+Mientras que la segunda carretera sigue un recorrido distinto, descrito por la ecuación:
+x+y=2
+El departamento de tránsito necesita determinar el punto exacto donde ambas carreteras se cruzan para instalar una nueva señal de tráfico y mejorar la seguridad vial.
+
+**Pregunta:**
+¿En qué coordenadas se intersectan estas dos carreteras?
+
+**Solución**
+
+<img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-2/Imagenes/metodo%20grafico%20ejemplo4.png" width="60%" alt="método gráfico ejemplo2">
+
+El departamento de tránsito debe colocar la nueva señal en la ubicación (1.5, 0.5) para garantizar una mejor circulación y seguridad en la intersección.
