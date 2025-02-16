@@ -89,3 +89,42 @@ El departamento de tránsito necesita determinar el punto exacto donde ambas car
 <img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-2/Imagenes/metodo%20grafico%20ejemplo4.png" width="60%" alt="método gráfico ejemplo2">
 
 El departamento de tránsito debe colocar la nueva señal en la ubicación (1.5, 0.5) para garantizar una mejor circulación y seguridad en la intersección.
+
+### Ejercicio 5: Intersección de Rutas 🚌
+Dos rutas de autobuses atraviesan la ciudad y en algún punto se cruzan. La primera ruta sigue el camino descrito por la ecuación:
+2x+3y=12
+Mientras que la segunda ruta sigue la trayectoria:
+4x−y=5
+Los conductores de ambas líneas de autobuses quieren saber en qué punto exacto se intersectan para optimizar los tiempos de viaje y evitar congestión en la parada compartida.
+
+**Pregunta:**
+¿En qué coordenadas se intersectan ambas rutas?
+
+**Solución**
+
+<img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-2/Imagenes/metodo%20grafico%20ejemplo5.png" width="60%" alt="método gráfico ejemplo2">
+
+**Tablas de Tabulación**
+**Primera función:** y = (12-2x)/3
+| x | y |
+|---|---|
+| 0 | 4 |
+| 3 | 2 |
+| 6 | 0 |
+
+**Segunda función:** y = 4x - 5
+| x | y |
+|---|---|
+| 0 | -5 |
+| 2 | 3 |
+| 3 | 7 |
+
+Los conductores pueden planear su parada conjunta en la ubicación (1.93, 5.43) para mejorar la eficiencia del servicio y reducir tiempos de espera. Además, la tabulación de valores permite visualizar gráficamente cómo se cruzan las rutas en ese punto.
+
+
+
+
+
+
+
+
