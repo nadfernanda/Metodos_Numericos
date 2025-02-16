@@ -76,9 +76,9 @@ Si Eric y Kenny quieren aprovechar su encuentro para intercambiar productos o co
 
 ### Ejercicio 4: Cruce de Caminos 🏙️
 En una ciudad, dos carreteras principales se cruzan en un punto. La primera carretera sigue una trayectoria que se puede representar con la ecuación:
-** 3x−y=4** 
+**3x−y=4** 
 Mientras que la segunda carretera sigue un recorrido distinto, descrito por la ecuación:
-** x+y=2** 
+**x+y=2** 
 El departamento de tránsito necesita determinar el punto exacto donde ambas carreteras se cruzan para instalar una nueva señal de tráfico y mejorar la seguridad vial.
 
 **Pregunta:**
@@ -92,9 +92,9 @@ El departamento de tránsito debe colocar la nueva señal en la ubicación **(1.
 
 ### Ejercicio 5: Intersección de Rutas 🚌
 Dos rutas de autobuses atraviesan la ciudad y en algún punto se cruzan. La primera ruta sigue el camino descrito por la ecuación:
-** 2x+3y=12** 
+**2x+3y=12** 
 Mientras que la segunda ruta sigue la trayectoria:
-** 4x−y=5** 
+**4x−y=5** 
 Los conductores de ambas líneas de autobuses quieren saber en qué punto exacto se intersectan para optimizar los tiempos de viaje y evitar congestión en la parada compartida.
 
 **Pregunta:**
