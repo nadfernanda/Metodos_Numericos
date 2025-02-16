@@ -46,7 +46,10 @@ El ciclista y el corredor se encuentran en el minuto 4, a una distancia de 24 me
 Esto indica que cuando t=4 minutos, ambas ecuaciones tienen el mismo valor de distancia 24, lo que confirma que en ese instante ambos coinciden en el mismo lugar.
 
 ### Ejercicio 2: El Puente Inestable 🌉
-En una ciudad costera, los ingenieros están diseñando un puente colgante sobre un río. La estabilidad del puente depende de la tensión en los cables principales, la cual varía según la ecuación: **f(x) = x³ - 3x² - 3x + 1**
+En una ciudad costera, los ingenieros están diseñando un puente colgante sobre un río. La estabilidad del puente depende de la tensión en los cables principales, la cual varía según la ecuación:
+
+**f(x) = x³ - 3x² - 3x + 1**
+
 donde x representa la distancia horizontal en metros desde un extremo del puente y f(x) representa la fuerza neta ejercida en esa posición.
 Por motivos de seguridad, es crucial encontrar los puntos donde la fuerza neta es cero, es decir, los valores de 
 x para los cuales f(x)=0. Estos puntos indican los lugares donde la tensión en los cables es nula, lo que podría comprometer la estabilidad del puente.
@@ -59,7 +62,8 @@ Determina en qué puntos el puente presenta una tensión nula resolviendo la ecu
 <img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-2/Imagenes/metodo%20grafico%20ejemplo2.png" width="70%" alt="método gráfico ejemplo2">
 
 
-El puente presenta puntos de tensión nula en las posiciones **x ≈ -1, x ≈ 0.27 y x ≈ 3.73.**  Los ingenieros deben prestar especial atención a estos puntos para reforzar la estructura y evitar riesgos.
+El puente presenta puntos de tensión nula en las posiciones **x ≈ -1, x ≈ 0.27 y x ≈ 3.73.**  
+Los ingenieros deben prestar especial atención a estos puntos para reforzar la estructura y evitar riesgos.
 
 ### Ejercicio 3: Encuentro en el Mercado 🛍️
 Eric y Kenny son dos vendedores ambulantes que recorren la ciudad vendiendo frutas y verduras. Cada mañana, parten desde distintos puntos y siguen rutas diferentes hasta llegar al mercado principal.
@@ -85,9 +89,13 @@ Si Eric y Kenny quieren aprovechar su encuentro para intercambiar productos o co
 
 ### Ejercicio 4: Cruce de Caminos 🏙️
 En una ciudad, dos carreteras principales se cruzan en un punto. La primera carretera sigue una trayectoria que se puede representar con la ecuación:
+
 **3x−y=4** 
+
 Mientras que la segunda carretera sigue un recorrido distinto, descrito por la ecuación:
+
 **x+y=2** 
+
 El departamento de tránsito necesita determinar el punto exacto donde ambas carreteras se cruzan para instalar una nueva señal de tráfico y mejorar la seguridad vial.
 
 **Pregunta:**
@@ -101,9 +109,13 @@ El departamento de tránsito debe colocar la nueva señal en la ubicación **(1.
 
 ### Ejercicio 5: Intersección de Rutas 🚌
 Dos rutas de autobuses atraviesan la ciudad y en algún punto se cruzan. La primera ruta sigue el camino descrito por la ecuación:
+
 **2x+3y=12** 
+
 Mientras que la segunda ruta sigue la trayectoria:
+
 **4x−y=5** 
+
 Los conductores de ambas líneas de autobuses quieren saber en qué punto exacto se intersectan para optimizar los tiempos de viaje y evitar congestión en la parada compartida.
 
 **Pregunta:**
@@ -129,11 +141,3 @@ Los conductores de ambas líneas de autobuses quieren saber en qué punto exacto
 <img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-2/Imagenes/metodo%20grafico%20ejemplo5.png" width="60%" alt="método gráfico ejemplo2">
 
 Los conductores pueden planear su parada conjunta en la ubicación **(1.93, 5.43)** para mejorar la eficiencia del servicio y reducir tiempos de espera. Además, la tabulación de valores permite visualizar gráficamente cómo se cruzan las rutas en ese punto.
-
-
-
-
-
-
-
-
