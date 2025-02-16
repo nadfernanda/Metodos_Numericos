@@ -24,7 +24,7 @@ Existen muchos tipos de métodos numéricos, cada uno diseñado para resolver un
 4. [Error de Truncamiento](tema-1/Error%20De%20Truncamiento.md)
 
 ### Tema 2: Métodos de solución de ecuaciones
-1. [Método Gráfico] (tema-2/Método%20Gráfico.md)
+1. [Método Gráfico](tema-2/Método%20Gráfico.md)
 -------------------
 
 ## 👥 Equipo  
