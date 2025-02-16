@@ -26,9 +26,13 @@ al representar visualmente las soluciones en un plano cartesiano.
 
 ### Ejercicio 1: Encuentro entre un ciclista y un corredor 🚴‍♂️🏃‍♂️
 Un ciclista y un corredor comienzan su recorrido en diferentes puntos y con velocidades distintas.
+
 El ciclista sigue la ecuación: 
+
 **d(t)=3t+12** donde d(t) representa la distancia recorrida en metros después de t minutos.
+
 El corredor sigue la ecuación:
+
 **p(t)=-3+36** donde p(t) representa su distancia en metros después de t minutos.
 
 **Pregunta:** 
@@ -36,7 +40,7 @@ El corredor sigue la ecuación:
 
 **Solución**
 
-<img src="https://raw.githubusercontent.com/nadfernanda/Metodos_Numericos/main/tema-2/Imagenes/metodo%20grafico%20ejemplo1.png" width="40%" alt="método gráfico ejemplo1">
+<img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-2/Imagenes/metodo%20grafico%20ejemplo%201.png" width="40%" alt="método gráfico ejemplo1">
 
 El ciclista y el corredor se encuentran en el minuto 4, a una distancia de 24 metros del punto de inicio. En la gráfica, este punto de intersección se representa como: **(4,24)**.
 Esto indica que cuando t=4 minutos, ambas ecuaciones tienen el mismo valor de distancia 24, lo que confirma que en ese instante ambos coinciden en el mismo lugar.
