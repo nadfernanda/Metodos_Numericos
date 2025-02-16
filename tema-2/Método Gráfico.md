@@ -26,8 +26,8 @@ al representar visualmente las soluciones en un plano cartesiano.
 ### Ejercicio 1: Encuentro entre un ciclista y un corredor 🚴‍♂️🏃‍♂️
 Un ciclista y un corredor comienzan su recorrido en diferentes puntos y con velocidades distintas.
 El ciclista sigue la ecuación:
-
 d(t)=3t+12
+
 donde d(t) representa la distancia recorrida en metros después de t minutos.
 El corredor sigue la ecuación:
 p(t)=-3+36
