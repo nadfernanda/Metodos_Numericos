@@ -51,6 +51,6 @@ x para los cuales f(x)=0. Estos puntos indican los lugares donde la tensión en 
 Determina en qué puntos el puente presenta una tensión nula resolviendo la ecuación:  x³ - 3x² - 3x + 1 = 0
 
 **Solución**
-<img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-2/Imagenes/metodo%20grafico%20ejemplo2.png" width="40%" alt="método gráfico ejemplo2">
+<img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-2/Imagenes/metodo%20grafico%20ejemplo2.png" width="70%" alt="método gráfico ejemplo2">
 
 El puente presenta puntos de tensión nula en las posiciones x ≈ -1, x ≈ 0.27 y x ≈ 3.73. Los ingenieros deben prestar especial atención a estos puntos para reforzar la estructura y evitar riesgos.
