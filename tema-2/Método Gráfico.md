@@ -140,4 +140,4 @@ Los conductores de ambas líneas de autobuses quieren saber en qué punto exacto
 
 <img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-2/Imagenes/metodo%20grafico%20ejemplo5.png" width="60%" alt="método gráfico ejemplo2">
 
-Los conductores pueden planear su parada conjunta en la ubicación **(1.93, 5.43)** para mejorar la eficiencia del servicio y reducir tiempos de espera. Además, la tabulación de valores permite visualizar gráficamente cómo se cruzan las rutas en ese punto.
+Los conductores pueden planear su parada conjunta en la ubicación **(1.93, 2.71)** para mejorar la eficiencia del servicio y reducir tiempos de espera. Además, la tabulación de valores permite visualizar gráficamente cómo se cruzan las rutas en ese punto.
