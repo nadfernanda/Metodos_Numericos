@@ -61,9 +61,11 @@ El puente presenta puntos de tensión nula en las posiciones **x ≈ -1, x ≈ 0
 Eric y Kenny son dos vendedores ambulantes que recorren la ciudad vendiendo frutas y verduras. Cada mañana, parten desde distintos puntos y siguen rutas diferentes hasta llegar al mercado principal.
 
 Eric sigue un camino descrito por la ecuación:
+
 **y=2x+3**
 
 Mientras que Kenny sigue un trayecto diferente, descrito por la ecuación:
+
 **y=−x+9**
 
 En algún momento del día, ambos vendedores se cruzan en una intersección antes de llegar al mercado. Para planear mejor su estrategia de ventas, quieren saber en qué punto exacto de la ciudad se encontrarán.
