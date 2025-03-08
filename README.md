@@ -25,8 +25,12 @@ Existen muchos tipos de métodos numéricos, cada uno diseñado para resolver un
 
 ### Tema 2: Métodos de solución de ecuaciones
 1. [Método Gráfico](tema-2/Método%20Gráfico.md)
--------------------
 
+
+### Tema 3: Métodos de solución de sistemas de ecuaciones
+1.
+
+-------------------
 ## 👥 Equipo  
 - **Mendoza Romero Nadia Fernanda**  
   
