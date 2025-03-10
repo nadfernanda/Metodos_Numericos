@@ -1,1 +1,1 @@
-hola
+class Gauss;
