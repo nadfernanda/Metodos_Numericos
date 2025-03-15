@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/bff1120d-f261-449d-ac1c-c9d18c4e06eb)## Definición
+## Definición
 El método de Gauss, también conocido como **eliminación gaussiana**, es un algoritmo utilizado para resolver
 sistemas de ecuaciones lineales. Consiste en transformar el sistema original en un sistema equivalente más sencillo,
 mediante operaciones elementales sobre las filas de la matriz aumentada del sistema. El objetivo es obtener una matriz
@@ -17,6 +17,7 @@ triangular superior (o una forma escalonada), a partir de la cual se pueden enco
    -Si hay filas de ceros, el sistema tiene infinitas soluciones.
 5. Resuelve por sustitución hacia atrás:
 Despeja las incógnitas comenzando desde la última fila hacia arriba.
+
 ### Implementación en Python
 ```python
 import numpy as np
@@ -86,11 +87,15 @@ solucion = gauss_elimination(A, b)
 Resolver los siguientes sistemas de ecuaciones utilizando el método de eliminación de Gauss.
 ### Ejercicio 1:
 Sistema de ecuaciones:
-<img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-3/Imagenes/metodo_gauss/Ejercicio%201.png" width="60%" alt="sistemas de ecuaciones ejemplo1">
+<img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-3/imagenes/metodo_gauss/Ejercicio%201.png" width="60%" alt="sistemas de ecuaciones ejemplo1">
 Resultado con python:
-<img src="SUBIR IMAGEN" width="60%" alt="Solucion E1">
+<img src="(https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-3/imagenes/metodo_gauss/Solucion%20E1.png)" width="60%" alt="Solucion E1">
 
 ### Ejercicio 2:
+Sistema de ecuaciones:
+<img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-3/imagenes/metodo_gauss/Ejercicio%202.png" width="60%" alt="sistemas de ecuaciones ejemplo2">
+Resultado con python:
+<img src="" width="60%" alt="Solucion E2">
 
 ### Ejercicio 3:
 
