@@ -124,8 +124,16 @@ public class GaussElimination {
 ```
 ## Ejercicios Prácticos
 Resolver los siguientes sistemas de ecuaciones utilizando el método de eliminación de Gauss Simple.
-### Ejercicio 1:
-### Ejercicio 2:
-### Ejercicio 3:
-### Ejercicio 4:
-### Ejercicio 5:(cuando no existe una solución)
+### Ejercicio 1: Sistema con solución única
+<img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-3/imagenes/metodo_gauss/Ejercicio%201.png" width="30%" alt="Ejercicio 1">
+
+## Solución con algoritmo de java
+<img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-3/imagenes/metodo_gauss/Solucion%20E1.png" width="30%" alt="Solución Ejercicio 1">
+
+### Ejercicio 2: Sistema con solución única
+
+### Ejercicio 3: Sistema sin solución
+
+### Ejercicio 4: Sistema con solución única
+
+### Ejercicio 5: Sistema con solución única
