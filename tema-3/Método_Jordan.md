@@ -70,4 +70,4 @@ Resolver los siguientes sistemas de ecuaciones utilizando el método de eliminac
 ### Ejercicio 2:
 ### Ejercicio 3:
 ### Ejercicio 4:
-### Ejercicio 5:
+### Ejercicio 5(cuando no existe una solución):
