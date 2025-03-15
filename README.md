@@ -13,7 +13,6 @@ Existen muchos tipos de métodos numéricos, cada uno diseñado para resolver un
 * **Interpolación y ajuste de curvas**: Métodos como la interpolación polinómica o el ajuste por mínimos cuadrados se utilizan para aproximar funciones a partir de un conjunto de datos.
 * **Integración numérica**: Métodos como la regla del trapecio o la regla de Simpson se utilizan para aproximar el valor de integrales definidas.
 * **Ecuaciones diferenciales**: Métodos como el método de Euler o el método de Runge-Kutta se utilizan para resolver ecuaciones diferenciales ordinarias y parciales.
--------------------
 
 ## 📚 Temas  
 
@@ -41,7 +40,6 @@ Aquí están los métodos numéricos enumerados con la palabra "método" al inic
 4. [Método de Gauss-Seidel](tema-3/Método%20Gauss%20Seidel.md)
 5. [Método de Jacobi](tema-3/Método%20Jacobi.md)
 
--------------------
 ## 👥 Equipo  
 - **Mendoza Romero Nadia Fernanda**  
   
