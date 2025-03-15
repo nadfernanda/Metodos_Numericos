@@ -31,77 +31,96 @@ con forma triangular superior, para luego resolverlo mediante sustitución hacia
 Este método transforma el sistema original en uno triangular superior y luego resuelve las incógnitas
 una por una desde la última hasta la primera.
 
-### Implementación en Python
-```python
-import numpy as np
+### Implementación en Java
+```java
+import java.util.Arrays;
 
-def eliminacion_gauss_simple(A, b):
-    """
-    Parámetros:
-    A: matriz de coeficientes (numpy array)
-    b: vector de términos independientes (numpy array)
+/**
+ * Clase que implementa el método de eliminación de Gauss para resolver sistemas de ecuaciones lineales.
+ */
+public class GaussElimination {
     
-    Retorna:
-    x: solución del sistema
-    """
-    # Crear una copia de A y b para no modificar los originales
-    n = len(b)
-    A_aumentada = np.column_stack((A, b))  # Matriz aumentada [A|b]
-    
-    # Fase de eliminación hacia adelante
-    for i in range(n):
-        # Pivoteo parcial (buscar el valor máximo en la columna)
-        max_fila = i
-        for k in range(i + 1, n):
-            if abs(A_aumentada[k, i]) > abs(A_aumentada[max_fila, i]):
-                max_fila = k
+    /**
+     * Aplica el método de eliminación de Gauss para resolver un sistema de ecuaciones lineales.
+     * @param A Matriz de coeficientes del sistema.
+     * @param b Vector de términos independientes.
+     * @return Vector con la solución del sistema.
+     */
+    public static double[] eliminacionGaussSimple(double[][] A, double[] b) {
+        int n = b.length;
+        double[][] A_aumentada = new double[n][n + 1];
         
-        # Intercambiar filas
-        if max_fila != i:
-            A_aumentada[[i, max_fila]] = A_aumentada[[max_fila, i]]
+        // Construir la matriz aumentada [A|b]
+        for (int i = 0; i < n; i++) {
+            System.arraycopy(A[i], 0, A_aumentada[i], 0, n);
+            A_aumentada[i][n] = b[i];
+        }
         
-        # Eliminación
-        for j in range(i + 1, n):
-            factor = A_aumentada[j, i] / A_aumentada[i, i]
-            A_aumentada[j, i:] = A_aumentada[j, i:] - factor * A_aumentada[i, i:]
+        // Fase de eliminación hacia adelante
+        for (int i = 0; i < n; i++) {
+            // Pivoteo parcial: encontrar la fila con el mayor valor absoluto en la columna actual
+            int maxFila = i;
+            for (int k = i + 1; k < n; k++) {
+                if (Math.abs(A_aumentada[k][i]) > Math.abs(A_aumentada[maxFila][i])) {
+                    maxFila = k;
+                }
+            }
+            
+            // Intercambiar filas si es necesario
+            if (maxFila != i) {
+                double[] temp = A_aumentada[i];
+                A_aumentada[i] = A_aumentada[maxFila];
+                A_aumentada[maxFila] = temp;
+            }
+            
+            // Eliminación de los elementos por debajo del pivote
+            for (int j = i + 1; j < n; j++) {
+                double factor = A_aumentada[j][i] / A_aumentada[i][i];
+                for (int k = i; k <= n; k++) {
+                    A_aumentada[j][k] -= factor * A_aumentada[i][k];
+                }
+            }
+        }
+        
+        // Fase de sustitución hacia atrás para encontrar la solución
+        double[] x = new double[n];
+        for (int i = n - 1; i >= 0; i--) {
+            x[i] = A_aumentada[i][n];
+            for (int j = i + 1; j < n; j++) {
+                x[i] -= A_aumentada[i][j] * x[j];
+            }
+            x[i] /= A_aumentada[i][i];
+        }
+        
+        return x;
+    }
     
-    # Fase de sustitución hacia atrás
-    x = np.zeros(n)
-    for i in range(n - 1, -1, -1):
-        x[i] = A_aumentada[i, -1]
-        for j in range(i + 1, n):
-            x[i] = x[i] - A_aumentada[i, j] * x[j]
-        x[i] = x[i] / A_aumentada[i, i]
-    
-    return x
-
-# Ejemplo de uso
-if __name__ == "__main__":
-    # Sistema de ejemplo: 
-    # 2x + y - z = 8
-    # -3x - y + 2z = -11
-    # -2x + y + 2z = -3
-    A = np.array([
-        [2, 1, -1],
-        [-3, -1, 2],
-        [-2, 1, 2]
-    ])
-    
-    b = np.array([8, -11, -3])
-    
-    # Resolver usando Eliminación de Gauss
-    solucion = eliminacion_gauss_simple(A, b)
-    
-    print("Solución:")
-    for i, valor in enumerate(solucion):
-        print(f"x{i+1} = {valor}")
-    
-    # Verificar la solución
-    print("\nVerificación:")
-    resultado = A @ solucion
-    print("A * x =", resultado)
-    print("b =", b)
-    print("Error =", np.linalg.norm(resultado - b))
+    /**
+     * Método principal que prueba la eliminación de Gauss con un sistema de ejemplo.
+     * Imprime la solución del sistema en la consola.
+     */
+    public static void main(String[] args) {
+        // Definición de la matriz de coeficientes A
+        double[][] A = {
+            {2, 1, -1},
+            {-3, -1, 2},
+            {-2, 1, 2}
+        };
+        
+        // Definición del vector de términos independientes b
+        double[] b = {8, -11, -3};
+        
+        // Resolver el sistema usando Eliminación de Gauss
+        double[] solucion = eliminacionGaussSimple(A, b);
+        
+        // Imprimir la solución
+        char[] variables = {'x', 'y', 'z'};
+        System.out.println("Solución:");
+        for (int i = 0; i < solucion.length; i++) {
+            System.out.printf("%c = %.6f\n", variables[i], solucion[i]);
+        }
+    }
+}
 ```
 ## Ejercicios Prácticos
 Resolver los siguientes sistemas de ecuaciones utilizando el método de eliminación de Gauss Simple.
