@@ -18,16 +18,22 @@ Existen muchos tipos de métodos numéricos, cada uno diseñado para resolver un
 ## 📚 Temas  
 
 ### Tema 1: Tipos de Errores  
+En este tema, exploraremos los fundamentos de los métodos numéricos, que son herramientas esenciales en el análisis y la resolución de problemas matemáticos y científicos. Comenzaremos examinando el concepto de error de redondeo, seguido por el error de truncamiento y el fenómeno de overflow. Estos conceptos son cruciales para comprender cómo los cálculos numéricos pueden desviarse de los valores exactos y cómo mitigar estos errores en nuestros cálculos.
+
 1. [Error Absoluto](tema-1/Error%20Absoluto.md)
 2. [Error Relativo](tema-1/Error%20Relativo.md)
 3. [Error de Redondeo](tema-1/Error%20Redondeo.md)
 4. [Error de Truncamiento](tema-1/Error%20De%20Truncamiento.md)
 
 ### Tema 2: Métodos de solución de ecuaciones
+Los métodos de solución de ecuaciones son técnicas utilizadas para encontrar las raíces o soluciones de ecuaciones algebraicas o trascendentales. En este tema, nos sumergiremos en tres métodos fundamentales: el método de aproximación sucesiva, el método de bisección y el método de interpolación. Estos métodos proporcionan herramientas poderosas para encontrar soluciones aproximadas de ecuaciones en una variedad de contextos matemáticos y científicos.
+
 1. [Método Gráfico](tema-2/Método%20Gráfico.md)
 
 
 ### Tema 3: Métodos de solución de sistemas de ecuaciones
+Cuando lidiamos con sistemas de ecuaciones, necesitamos técnicas específicas para encontrar soluciones. En este tema, exploraremos varios métodos, incluido el método de Gauss-Jordan, el método de Gauss-Seidel, el método de Gauss y el método de Jacobi. Estas técnicas nos permiten resolver sistemas de ecuaciones lineales y no lineales, que son fundamentales en numerosas aplicaciones en ingeniería, física, economía y más.
+
 1.
 
 -------------------
