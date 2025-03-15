@@ -33,8 +33,15 @@ Los métodos de solución de ecuaciones son técnicas utilizadas para encontrar 
 
 ### Tema 3: Métodos de solución de sistemas de ecuaciones
 Cuando lidiamos con sistemas de ecuaciones, necesitamos técnicas específicas para encontrar soluciones. En este tema, exploraremos varios métodos, incluido el método de Gauss-Jordan, el método de Gauss-Seidel, el método de Gauss y el método de Jacobi. Estas técnicas nos permiten resolver sistemas de ecuaciones lineales y no lineales, que son fundamentales en numerosas aplicaciones en ingeniería, física, economía y más.
+Aquí están los métodos numéricos enumerados con la palabra "método" al inicio de cada uno:
 
-1.
+1. [Método de eliminación de Gauss simple](tema-3/Eliminación%20de%20Gauss%20simple.md)
+2. [Método de Gauss-Seidel](tema-3/Método%20Gauss%20Seidel.md)
+3. [Método de Gauss]
+4. [Método de Jacobi]
+5. [Método de Jordan]
+
+¿Te gustaría que te explique alguno de estos métodos numéricos para resolver sistemas de ecuaciones lineales?
 
 -------------------
 ## 👥 Equipo  
