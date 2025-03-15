@@ -99,7 +99,7 @@ if __name__ == "__main__":
     print("Verificación Ax - b:", np.linalg.norm(A @ solution - b))
 ```
 ## Ejercicios Prácticos
-Resolver los siguientes sistemas de ecuaciones utilizando el método de eliminación de Gauss Seidel.
+Resolver los siguientes sistemas de ecuaciones utilizando el método de Jacobi.
 ### Ejercicio 1:
 ### Ejercicio 2:
 ### Ejercicio 3:
