@@ -12,9 +12,11 @@ triangular superior (o una forma escalonada), a partir de la cual se pueden enco
 3. Verifica la consistencia:
    -Si hay una fila [00…0∣c] con C ≠  0, no hay solución.
    -Si no, sigue adelante.
+   
 4. Obtén la solución:
    -Si la matriz es cuadrada y tiene pivotes en todas las filas, el sistema tiene solución única.
    -Si hay filas de ceros, el sistema tiene infinitas soluciones.
+   
 5. Resuelve por sustitución hacia atrás:
 Despeja las incógnitas comenzando desde la última fila hacia arriba.
 
