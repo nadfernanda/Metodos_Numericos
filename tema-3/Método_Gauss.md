@@ -74,7 +74,7 @@ def gauss_elimination(A, b):
 
     return x
 
-# Definir el sistema de ecuaciones (Ejercicio 1)
+# Definir el sistema de ecuaciones 
 A = np.array([[2, -1, 1],
               [4, 1, -2],
               [-2, 2, 4]], dtype=float)
