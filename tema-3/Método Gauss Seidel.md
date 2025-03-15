@@ -83,4 +83,8 @@ else:
 ## Ejercicios Prácticos
 Resolver los siguientes sistemas de ecuaciones utilizando el método de eliminación de Gauss Seidel.
 ### Ejercicio 1:
-### Ejercicio 1:
+### Ejercicio 2:
+### Ejercicio 3:
+### Ejercicio 4:
+### Ejercicio 5((cuando no existe una solución)):
+
