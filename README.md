@@ -36,12 +36,10 @@ Cuando lidiamos con sistemas de ecuaciones, necesitamos técnicas específicas p
 Aquí están los métodos numéricos enumerados con la palabra "método" al inicio de cada uno:
 
 1. [Método de eliminación de Gauss simple](tema-3/Eliminación%20de%20Gauss%20simple.md)
-2. [Método de Gauss-Seidel](tema-3/Método%20Gauss%20Seidel.md)
-3. [Método de Gauss]
-4. [Método de Jacobi]
-5. [Método de Jordan]
-
-¿Te gustaría que te explique alguno de estos métodos numéricos para resolver sistemas de ecuaciones lineales?
+2. [Método de Gauss](tema-3/Método%20Gauss.md) 
+3. [Método de Gauss Jordan](tema-3/Método%20Gauss%20Jordan.md)
+4. [Método de Gauss-Seidel](tema-3/Método%20Gauss%20Seidel.md)
+5. [Método de Jacobi](tema-3/Método%20Jacobi.md)
 
 -------------------
 ## 👥 Equipo  
