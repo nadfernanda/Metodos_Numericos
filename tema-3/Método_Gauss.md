@@ -6,18 +6,19 @@ triangular superior (o una forma escalonada), a partir de la cual se pueden enco
 
 ## Algoritmo 
 1. Escribe la matriz aumentada [A B] del sistema de ecuaciones.
-2. Aplica operaciones elementales para convertir la matriz en una forma escalonada (triangular superior):
+   
+3. Aplica operaciones elementales para convertir la matriz en una forma escalonada (triangular superior):
   -Haz ceros debajo de los pivotes (primer elemento no nulo de cada fila).
   -Usa: intercambio de filas, multiplicación de filas por escalares, y suma/resta de filas.
-3. Verifica la consistencia:
+4. Verifica la consistencia:
    -Si hay una fila [00…0∣c] con C ≠  0, no hay solución.
    -Si no, sigue adelante.
    
-4. Obtén la solución:
+5. Obtén la solución:
    -Si la matriz es cuadrada y tiene pivotes en todas las filas, el sistema tiene solución única.
    -Si hay filas de ceros, el sistema tiene infinitas soluciones.
    
-5. Resuelve por sustitución hacia atrás:
+6. Resuelve por sustitución hacia atrás:
 Despeja las incógnitas comenzando desde la última fila hacia arriba.
 
 ### Implementación en Python
