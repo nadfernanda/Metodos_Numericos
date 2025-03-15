@@ -37,8 +37,6 @@ import numpy as np
 
 def eliminacion_gauss_simple(A, b):
     """
-    Método de Eliminación de Gauss Simple para resolver sistemas de ecuaciones lineales
-    
     Parámetros:
     A: matriz de coeficientes (numpy array)
     b: vector de términos independientes (numpy array)
