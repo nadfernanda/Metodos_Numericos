@@ -145,7 +145,7 @@ Resolver los siguientes sistemas de ecuaciones utilizando el método de eliminac
 
 <img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-3/imagenes/metodo_gauss/Solucion%20E3.png" width="20%" alt="Solución Ejercicio 3">
 
-Este sistema no tiene solución porque sus filas son linealmente dependientes. Las filas 2 y 3 son múltiplos de la fila 1, lo que implica una contradicción en los términos independientes. Por ejemplo, al multiplicar la primera ecuación por 3, obtenemos "3x + 3y + 3z = 18", lo cual contradice la tercera ecuación, que es "3x + 3y + 3z = 15". Debido a esta inconsistencia, el algoritmo de Gauss fallará o generará resultados incorrectos, posiblemente por una división por cero.
+Este sistema no tiene solución porque sus filas son linealmente dependientes. Las filas 2 y 3 son múltiplos de la fila 1, lo que implica una contradicción en los términos independientes. Por ejemplo, al multiplicar la primera ecuación por 3, obtenemos 3x + 3y + 3z = 18, lo cual contradice la tercera ecuación, que es 3x + 3y + 3z = 15. Debido a esta inconsistencia, el algoritmo de Gauss fallará o generará resultados incorrectos, posiblemente por una división por cero.
 
 ### Ejercicio 4: Sistema con solución única
 <img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-3/imagenes/metodo_gauss/Ejercicio%204.png" width="20%" alt="Ejercicio 4">
