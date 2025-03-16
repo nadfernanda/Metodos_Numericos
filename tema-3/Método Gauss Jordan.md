@@ -148,5 +148,5 @@ Resolver los siguientes sistemas de ecuaciones utilizando el método de eliminac
 
 **Solución con algoritmo de java**
 
-<img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-3/imagenes/metodo_gauss_jordan/Solucion%20E5.png" width="20%" alt="Solución Ejercicio 5">
+<img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-3/imagenes/metodo_gauss_jordan/Solucion%20E5.png" width="35%" alt="Solución Ejercicio 5">
 Este sistema no tiene solución porque las dos primeras ecuaciones son equivalentes (representan el mismo plano), pero la tercera es contradictoria: dice que x + y + z = 4, mientras que la primera dice x + y + z = 3. No puede ser ambas cosas a la vez, por eso no hay ningún valor de x, y, z que cumpla las tres ecuaciones al mismo tiempo. El sistema es incompatible.
