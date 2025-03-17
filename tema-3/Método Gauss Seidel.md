@@ -44,7 +44,7 @@ Resuelve el siguiente sistema de ecuaciones en 12 interacciones:
 
 **Solución con algoritmo de java**
 
-<img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-3/imagenes/metodo_gauss_seidel/Ejercicio%202.png" width="20%" alt="Solución Ejercicio 2">
+<img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-3/imagenes/metodo_gauss_seidel/Solucion%20E2.png" width="20%" alt="Solución Ejercicio 2">
 
 ### Ejercicio 3:
 Resuelve el siguiente sistema de ecuaciones en 13 interacciones:
