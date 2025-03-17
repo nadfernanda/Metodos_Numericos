@@ -35,7 +35,7 @@ Resuelve el siguiente sistema de ecuaciones en 11 interacciones:
 
 **Solución con algoritmo de java**
 
-<img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-3/imagenes/metodo_gauss_seidel/Solucion%20E1.png" width="20%" alt="Solución Ejercicio 1">
+<img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-3/imagenes/metodo_gauss_seidel/Solucion%20E1.png" width="30%" alt="Solución Ejercicio 1">
 
 ### Ejercicio 2:
 Resuelve el siguiente sistema de ecuaciones en 12 interacciones:
@@ -44,7 +44,7 @@ Resuelve el siguiente sistema de ecuaciones en 12 interacciones:
 
 **Solución con algoritmo de java**
 
-<img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-3/imagenes/metodo_gauss_seidel/Solucion%20E2.png" width="20%" alt="Solución Ejercicio 2">
+<img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-3/imagenes/metodo_gauss_seidel/Solucion%20E2.png" width="30%" alt="Solución Ejercicio 2">
 
 ### Ejercicio 3:
 Resuelve el siguiente sistema de ecuaciones en 13 interacciones:
@@ -53,7 +53,7 @@ Resuelve el siguiente sistema de ecuaciones en 13 interacciones:
 
 **Solución con algoritmo de java**
 
-<img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-3/imagenes/metodo_gauss_seidel/Solucion%20E3.png" width="20%" alt="Solución Ejercicio 4">
+<img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-3/imagenes/metodo_gauss_seidel/Solucion%20E3.png" width="30%" alt="Solución Ejercicio 4">
 
 ### Ejercicio 4:
 Resuelve el siguiente sistema de ecuaciones en 8 interacciones:
@@ -62,7 +62,7 @@ Resuelve el siguiente sistema de ecuaciones en 8 interacciones:
 
 **Solución con algoritmo de java**
 
-<img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-3/imagenes/metodo_gauss_seidel/Solucion%20E4.png" width="20%" alt="Solución Ejercicio 4">
+<img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-3/imagenes/metodo_gauss_seidel/Solucion%20E4.png" width="30%" alt="Solución Ejercicio 4">
 
 Los resultados obtenidos con el método de Gauss-Seidel para el sistema propuesto son correctos. La solución encontrada (x = 1.299980, y = 2.868074, z = 2.698194) satisface perfectamente las tres ecuaciones del sistema cuando se sustituyen estos valores, y el método ha convergido en exactamente 8 iteraciones como se esperaba debido a la fuerte dominancia diagonal de la matriz de coeficientes. Esto demuestra que el algoritmo implementado funciona adecuadamente y es capaz de encontrar soluciones precisas en un número predecible de iteraciones para sistemas con buenas propiedades de convergencia.
 
@@ -73,7 +73,7 @@ Resuelve el siguiente sistema de ecuaciones en 101 interacciones:
 
 **Solución con algoritmo de java**
 
-<img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-3/imagenes/metodo_gauss_seidel/Solucion%20E5.png" width="30%" alt="Solución Ejercicio 5">
+<img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-3/imagenes/metodo_gauss_seidel/Solucion%20E5.png" width="40%" alt="Solución Ejercicio 5">
 
 Este sistema no debería converger con el método de Gauss-Seidel porque no cumple con el criterio de dominancia diagonal. Para cada fila, el elemento en la diagonal principal debería ser mayor que la suma de los valores absolutos de los demás elementos en esa fila, lo cual no ocurre aquí.
 
