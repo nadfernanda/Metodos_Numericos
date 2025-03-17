@@ -24,67 +24,52 @@ El último vector calculado es la aproximación a la solución del sistema.
 
 ### Implementación en Python
 ```python
-import numpy as np
-
-def gauss_seidel(A, b, x0, tol, Nmax):
-    """
-    Función para resolver un sistema de ecuaciones lineales utilizando el método de Gauss-Seidel.
-
-    Parámetros:
-    A (numpy.ndarray): Matriz de coeficientes del sistema.
-    b (numpy.ndarray): Vector de términos independientes.
-    x0 (numpy.ndarray): Vector de soluciones inicial.
-    tol (float): Tolerancia para la convergencia.
-    Nmax (int): Número máximo de iteraciones.
-
-    Devuelve:
-    numpy.ndarray: Vector de soluciones aproximado.
-    int: Número de iteraciones realizadas.
-    bool: Indicador de convergencia.
-    """
-    n = len(b)
-    x = x0.copy()
-    convergencia = False
-
-    for k in range(Nmax):
-        x_ant = x.copy()
-        for i in range(n):
-            suma = 0
-            for j in range(n):
-                if j != i:
-                    suma += A[i, j] * x[j]
-            x[i] = (b[i] - suma) / A[i, i]
-        
-        # Criterio de convergencia
-        if np.linalg.norm(x - x_ant) < tol:
-            convergencia = True
-            break
-    
-    return x, k+1, convergencia
-
-# Ejemplo de sistema de ecuaciones lineales
-A = np.array([[4, 1, 1],
-              [2, 7, 2],
-              [1, 2, 4]], dtype=float)
-b = np.array([2, 5, 3], dtype=float)
-x0 = np.zeros_like(b)
-tol = 1e-6
-Nmax = 100
-
-# Aplicar el método de Gauss-Seidel
-solucion, iteraciones, convergencia = gauss_seidel(A, b, x0, tol, Nmax)
-
-# Imprimir resultados
-if convergencia:
-    print(f"Solución encontrada: {solucion} en {iteraciones} iteraciones")
-else:
-    print(f"No se alcanzó la convergencia en {iteraciones} iteraciones")
+codigo xd
 ```
 ## Ejercicios Prácticos
 Resolver los siguientes sistemas de ecuaciones utilizando el método de eliminación de Gauss Seidel.
-### Ejercicio 1:
+### Ejercicio 1: 
+Resuelve el siguiente sistema de ecuaciones en 11 interacciones:
+<img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-3/imagenes/metodo_gauss_seidel/Ejercicio%201.png" width="20%" alt="Ejercicio 1">
+
+**Solución con algoritmo de java**
+
+<img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-3/imagenes/metodo_gauss_seidel/Solucion%20E1.png" width="20%" alt="Solución Ejercicio 1">
+
 ### Ejercicio 2:
+Resuelve el siguiente sistema de ecuaciones en 12 interacciones:
+<img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-3/imagenes/metodo_gauss_seidel/Ejercicio%202.png" width="20%" alt="Ejercicio 2">
+
+**Solución con algoritmo de java**
+
+<img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-3/imagenes/metodo_gauss_seidel/Ejercicio%202.png" width="20%" alt="Solución Ejercicio 2">
+
 ### Ejercicio 3:
+Resuelve el siguiente sistema de ecuaciones en 13 interacciones:
+<img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-3/imagenes/metodo_gauss_seidel/Ejercicio%203.png" width="20%" alt="Ejercicio 3">
+
+**Solución con algoritmo de java**
+
+<img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-3/imagenes/metodo_gauss_seidel/Solucion%20E3.png" width="20%" alt="Solución Ejercicio 4">
+
 ### Ejercicio 4:
-### Ejercicio 5((cuando no existe una solución)):
+Resuelve el siguiente sistema de ecuaciones en 8 interacciones:
+<img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-3/imagenes/metodo_gauss_seidel/Ejercicio%204.png" width="20%" alt="Ejercicio 4">
+
+**Solución con algoritmo de java**
+
+<img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-3/imagenes/metodo_gauss_seidel/Solucion%20E4.png" width="20%" alt="Solución Ejercicio 4">
+
+Los resultados obtenidos con el método de Gauss-Seidel para el sistema propuesto son correctos. La solución encontrada (x = 1.299980, y = 2.868074, z = 2.698194) satisface perfectamente las tres ecuaciones del sistema cuando se sustituyen estos valores, y el método ha convergido en exactamente 8 iteraciones como se esperaba debido a la fuerte dominancia diagonal de la matriz de coeficientes. Esto demuestra que el algoritmo implementado funciona adecuadamente y es capaz de encontrar soluciones precisas en un número predecible de iteraciones para sistemas con buenas propiedades de convergencia.
+
+### Ejercicio 5:(Sin solución)
+Resuelve el siguiente sistema de ecuaciones en 101 interacciones:
+<img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-3/imagenes/metodo_gauss_seidel/Ejercicio%205.png" width="20%" alt="Ejercicio 5">
+
+**Solución con algoritmo de java**
+
+<img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-3/imagenes/metodo_gauss_seidel/Solucion%20E5.png" width="20%" alt="Solución Ejercicio 5">
+
+Este sistema no debería converger con el método de Gauss-Seidel porque no cumple con el criterio de dominancia diagonal. Para cada fila, el elemento en la diagonal principal debería ser mayor que la suma de los valores absolutos de los demás elementos en esa fila, lo cual no ocurre aquí.
+
 
