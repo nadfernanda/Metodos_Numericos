@@ -22,7 +22,7 @@ o hasta alcanzar un número máximo de iteraciones.
 5.Obtén la solución:
 El último vector calculado es la aproximación a la solución del sistema.
 
-### Implementación en Python
+### Implementación en Java
 ```python
 codigo xd
 ```
@@ -30,6 +30,7 @@ codigo xd
 Resolver los siguientes sistemas de ecuaciones utilizando el método de eliminación de Gauss Seidel.
 ### Ejercicio 1: 
 Resuelve el siguiente sistema de ecuaciones en 11 interacciones:
+
 <img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-3/imagenes/metodo_gauss_seidel/Ejercicio%201.png" width="20%" alt="Ejercicio 1">
 
 **Solución con algoritmo de java**
@@ -38,6 +39,7 @@ Resuelve el siguiente sistema de ecuaciones en 11 interacciones:
 
 ### Ejercicio 2:
 Resuelve el siguiente sistema de ecuaciones en 12 interacciones:
+
 <img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-3/imagenes/metodo_gauss_seidel/Ejercicio%202.png" width="20%" alt="Ejercicio 2">
 
 **Solución con algoritmo de java**
@@ -46,6 +48,7 @@ Resuelve el siguiente sistema de ecuaciones en 12 interacciones:
 
 ### Ejercicio 3:
 Resuelve el siguiente sistema de ecuaciones en 13 interacciones:
+
 <img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-3/imagenes/metodo_gauss_seidel/Ejercicio%203.png" width="20%" alt="Ejercicio 3">
 
 **Solución con algoritmo de java**
@@ -54,6 +57,7 @@ Resuelve el siguiente sistema de ecuaciones en 13 interacciones:
 
 ### Ejercicio 4:
 Resuelve el siguiente sistema de ecuaciones en 8 interacciones:
+
 <img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-3/imagenes/metodo_gauss_seidel/Ejercicio%204.png" width="20%" alt="Ejercicio 4">
 
 **Solución con algoritmo de java**
@@ -64,6 +68,7 @@ Los resultados obtenidos con el método de Gauss-Seidel para el sistema propuest
 
 ### Ejercicio 5:(Sin solución)
 Resuelve el siguiente sistema de ecuaciones en 101 interacciones:
+
 <img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-3/imagenes/metodo_gauss_seidel/Ejercicio%205.png" width="20%" alt="Ejercicio 5">
 
 **Solución con algoritmo de java**
