@@ -143,6 +143,13 @@ Resuelve el siguiente sistema de ecuaciones en 11 interacciones:
 
 <img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-3/imagenes/metodo_gauss_seidel/Solucion%20E1.png" width="30%" alt="Solución Ejercicio 1">
 
+**Análisis**
+El método de Gauss-Seidel permitió resolver el sistema de ecuaciones de manera iterativa, aproximando los valores de las variables mediante sucesivas correcciones hasta alcanzar la convergencia.
+El sistema es compatible determinado, ya que tiene una única solución en el punto:
+x=1,y=2,z=0
+Después de 11 iteraciones, el algoritmo alcanzó una solución precisa, mostrando los valores con seis cifras decimales. Esto indica que el método logró una convergencia estable y rápida hacia el resultado correcto.
+La precisión de los resultados obtenidos es adecuada, reflejada en el número de cifras decimales mostradas y en la estabilidad de la convergencia. La solución obtenida es exacta y coherente con el sistema original, lo que confirma que el método de Gauss-Seidel fue eficiente y adecuado para resolver este sistema lineal.
+
 ### Ejercicio 2:
 Resuelve el siguiente sistema de ecuaciones en 12 interacciones:
 
@@ -151,6 +158,13 @@ Resuelve el siguiente sistema de ecuaciones en 12 interacciones:
 **Solución con algoritmo de java**
 
 <img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-3/imagenes/metodo_gauss_seidel/Solucion%20E2.png" width="30%" alt="Solución Ejercicio 2">
+
+**Análisis**
+El método de Gauss-Seidel permitió resolver el sistema de ecuaciones mediante aproximaciones sucesivas, corrigiendo los valores de las variables hasta alcanzar la solución.
+El sistema es compatible determinado, ya que tiene una única solución en el punto:
+x=1,y=1,z=1
+El algoritmo encontró esta solución después de 12 iteraciones, mostrando valores consistentes y exactos con seis cifras decimales, lo que demuestra que el proceso de iteración fue efectivo y preciso.
+La solución obtenida es coherente con el sistema original y refleja una convergencia estable, lo que confirma que el método de Gauss-Seidel fue eficiente y adecuado para resolver este sistema lineal.
 
 ### Ejercicio 3:
 Resuelve el siguiente sistema de ecuaciones en 13 interacciones:
@@ -161,6 +175,14 @@ Resuelve el siguiente sistema de ecuaciones en 13 interacciones:
 
 <img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-3/imagenes/metodo_gauss_seidel/Solucion%20E3.png" width="30%" alt="Solución Ejercicio 4">
 
+**Análisis**
+Se comprueba que la solución del sistema:
+x=1.000000,y=−2.000000,z=−2.000000
+es correcta, ya que al sustituir estos valores en las ecuaciones originales, se satisfacen todas ellas.
+El método de Gauss-Jordan permitió llevar la matriz aumentada del sistema a su forma reducida por filas, facilitando la obtención directa de los valores de las variables sin necesidad de sustitución hacia atrás.
+El sistema es compatible determinado, es decir, tiene una única solución, y los planos representados por las ecuaciones se intersecan en el punto (1, -2, -2). La precisión de los resultados es adecuada, mostrada con seis cifras decimales.
+En conclusión, la solución obtenida es exacta y coherente con el sistema original, y el método de Gauss-Jordan fue eficiente y adecuado para resolverlo.
+
 ### Ejercicio 4:
 Resuelve el siguiente sistema de ecuaciones en 8 interacciones:
 
@@ -170,6 +192,7 @@ Resuelve el siguiente sistema de ecuaciones en 8 interacciones:
 
 <img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-3/imagenes/metodo_gauss_seidel/Solucion%20E4.png" width="30%" alt="Solución Ejercicio 4">
 
+**Análisis**
 Los resultados obtenidos con el método de Gauss-Seidel para el sistema propuesto son correctos. La solución encontrada (x = 1.299980, y = 2.868074, z = 2.698194) satisface perfectamente las tres ecuaciones del sistema cuando se sustituyen estos valores, y el método ha convergido en exactamente 8 iteraciones como se esperaba debido a la fuerte dominancia diagonal de la matriz de coeficientes. Esto demuestra que el algoritmo implementado funciona adecuadamente y es capaz de encontrar soluciones precisas en un número predecible de iteraciones para sistemas con buenas propiedades de convergencia.
 
 ### Ejercicio 5:(Sin solución)
@@ -181,6 +204,7 @@ Resuelve el siguiente sistema de ecuaciones en 101 interacciones:
 
 <img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-3/imagenes/metodo_gauss_seidel/Solucion%20E5.png" width="40%" alt="Solución Ejercicio 5">
 
+**Análisis**
 Este sistema no debería converger con el método de Gauss-Seidel porque no cumple con el criterio de dominancia diagonal. Para cada fila, el elemento en la diagonal principal debería ser mayor que la suma de los valores absolutos de los demás elementos en esa fila, lo cual no ocurre aquí.
 
 
