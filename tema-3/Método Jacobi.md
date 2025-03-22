@@ -21,7 +21,6 @@ absolutos de los demás elementos en su fila).
 
 ### Implementación en Java
 ```java
-// Clase que implementa el método iterativo de Jacobi para resolver sistemas de ecuaciones lineales Ax = b
 public class Jacobi {
 
     // Clase interna para almacenar el resultado del método: la solución y el número de iteraciones
