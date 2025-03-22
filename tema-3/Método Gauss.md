@@ -29,70 +29,110 @@ triangular superior (o una forma escalonada), a partir de la cual se pueden enco
    
    Despeja las incógnitas comenzando desde la última fila hacia arriba.
 
-### Implementación en Python
-```python
-import numpy as np
+### Implementación en Java
+```java
+public class GaussElimination {
 
-def gauss_elimination(A, b):
-    """
-    Resuelve un sistema de ecuaciones lineales mediante el método de eliminación de Gauss.
+    /**
+     * Resuelve un sistema de ecuaciones lineales mediante el método de eliminación de Gauss.
+     *
+     * @param A Matriz de coeficientes del sistema (n x n)
+     * @param b Vector de términos independientes (n)
+     * @return Vector de soluciones del sistema si hay solución única; null si no hay solución o hay infinitas soluciones.
+     */
+    public static double[] gaussElimination(double[][] A, double[] b) {
+        int n = b.length;
 
-    Parámetros:
-    A (numpy.ndarray): Matriz de coeficientes del sistema.
-    b (numpy.ndarray): Vector de términos independientes.
+        // Crear la matriz aumentada Ab = [A | b]
+        double[][] Ab = new double[n][n + 1];
+        for (int i = 0; i < n; i++) {
+            // Copiar los coeficientes de A a Ab
+            System.arraycopy(A[i], 0, Ab[i], 0, n);
+            // Añadir el término independiente b a la última columna
+            Ab[i][n] = b[i];
+        }
 
-    Devuelve:
-    numpy.ndarray: Vector de soluciones del sistema si hay solución única.
-    """
-    n = len(b)
-    A = A.astype(float)  
-    b = b.astype(float)
+        // Fase 1: Convertir Ab a forma escalonada mediante eliminación de Gauss
+        for (int i = 0; i < n; i++) {
+            // Verificar que el pivote no sea cero. Si es cero, intentar intercambiar con una fila inferior
+            if (Math.abs(Ab[i][i]) < 1e-9) {
+                for (int k = i + 1; k < n; k++) {
+                    if (Math.abs(Ab[k][i]) > 1e-9) {
+                        // Intercambio de filas i y k
+                        double[] temp = Ab[i];
+                        Ab[i] = Ab[k];
+                        Ab[k] = temp;
+                        break;
+                    }
+                }
+            }
 
-    # Crear matriz aumentada [A|b]
-    Ab = np.hstack([A, b.reshape(-1, 1)])
+            // Eliminar los elementos debajo del pivote actual
+            for (int j = i + 1; j < n; j++) {
+                if (Math.abs(Ab[i][i]) < 1e-9) {
+                    continue; // No se puede dividir entre cero
+                }
+                double factor = Ab[j][i] / Ab[i][i];
+                for (int k = i; k <= n; k++) {
+                    Ab[j][k] -= factor * Ab[i][k];
+                }
+            }
+        }
 
-    # Convertir la matriz en forma escalonada
-    for i in range(n):
-        if Ab[i, i] == 0:
-            for k in range(i+1, n):
-                if Ab[k, i] != 0:
-                    Ab[[i, k]] = Ab[[k, i]]  # Intercambio de filas
-                    break
-        
-        for j in range(i+1, n):
-            if Ab[i, i] == 0:
-                continue
-            factor = Ab[j, i] / Ab[i, i]
-            Ab[j, i:] -= factor * Ab[i, i:]
+        // Fase 2: Verificar si el sistema es inconsistente (no tiene solución)
+        for (int i = 0; i < n; i++) {
+            boolean allZero = true;
+            for (int j = 0; j < n; j++) {
+                if (Math.abs(Ab[i][j]) > 1e-9) {
+                    allZero = false;
+                    break;
+                }
+            }
+            // Si toda la fila de coeficientes es 0 pero el término independiente no es 0
+            if (allZero && Math.abs(Ab[i][n]) > 1e-9) {
+                System.out.println("El sistema no tiene solución.");
+                return null;
+            }
+        }
 
-    # Verificar consistencia
-    for i in range(n):
-        if np.all(Ab[i, :-1] == 0) and Ab[i, -1] != 0:
-            print("El sistema no tiene solución.")
-            return None
-    
-    # Sustitución hacia atrás
-    x = np.zeros(n)
-    for i in range(n-1, -1, -1):
-        if Ab[i, i] == 0:
-            print("El sistema tiene infinitas soluciones o no tiene solución.")
-            return None
-        x[i] = (Ab[i, -1] - np.dot(Ab[i, i+1:n], x[i+1:n])) / Ab[i, i]
+        // Fase 3: Sustitución hacia atrás para encontrar las soluciones
+        double[] x = new double[n];
+        for (int i = n - 1; i >= 0; i--) {
+            if (Math.abs(Ab[i][i]) < 1e-9) {
+                System.out.println("El sistema tiene infinitas soluciones o no tiene solución.");
+                return null;
+            }
+            double sum = 0;
+            for (int j = i + 1; j < n; j++) {
+                sum += Ab[i][j] * x[j];
+            }
+            x[i] = (Ab[i][n] - sum) / Ab[i][i];
+        }
 
-    # Mostrar solo la solución de x, y, z
-    for i, val in enumerate(x):
-        print(f"{['x', 'y', 'z'][i]} = {val:.6f}")
+        // Mostrar la solución (x, y, z)
+        String[] vars = {"x", "y", "z"};
+        for (int i = 0; i < n; i++) {
+            String var = (i < 3) ? vars[i] : "x" + (i + 1); // Manejo para más de 3 variables
+            System.out.printf("%s = %.6f%n", var, x[i]);
+        }
 
-    return x
+        return x;
+    }
 
-# Definir el sistema de ecuaciones 
-A = np.array([[2, -1, 1],
-              [4, 1, -2],
-              [-2, 2, 4]], dtype=float)
-b = np.array([3, -1, 7], dtype=float)
+    public static void main(String[] args) {
+        // Definir la matriz de coeficientes A y el vector de términos independientes b
+        double[][] A = {
+            {2, -1, 1},
+            {4, 1, -2},
+            {-2, 2, 4}
+        };
+        double[] b = {3, -1, 7};
 
-# Ejecutar el método de Gauss
-solucion = gauss_elimination(A, b)
+        // Ejecutar el método de Gauss
+        double[] solucion = gaussElimination(A, b);
+    }
+}
+
 ```
 ## Ejercicios Prácticos
 Resolver los siguientes sistemas de ecuaciones utilizando el método de eliminación de Gauss.
