@@ -4,10 +4,12 @@ una integral definida. Se basa en reemplazar la curva de la función por segment
 forman trapecios, y luego calcula el área de esos trapecios.
 Para una función f(x) definida en el intervalo [a,b], la integral aproximada se calcula como el promedio
 de los valores de la función en los extremos multiplicado por el ancho del intervalo:
-<img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-4/imagenes/Regla%20trapecio%201.png" width="20%" alt="Fórmula simple">
+
+<img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-4/imagenes/Regla%20trapecio%201.png" width="30%" alt="Fórmula simple">
 
 Si el intervalo [a,b] se divide en n subintervalos de igual tamaño h=b-a/n, la fórmula generalizada es:
-<img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-4/imagenes/Regla%20trapecio%20compuesta.png" width="20%" alt="Fórmula compuesta">
+
+<img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-4/imagenes/Regla%20trapecio%20compuesta.png" width="30%" alt="Fórmula compuesta">
 donde xi = a + i * h para i = 0,1,…,n.
 
 ## Algoritmo 
