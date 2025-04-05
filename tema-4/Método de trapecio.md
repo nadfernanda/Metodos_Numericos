@@ -13,10 +13,15 @@ Si el intervalo [a,b] se divide en n subintervalos de igual tamaño h=b-a/n, la 
 donde xi = a + i * h para i = 0,1,…,n.
 
 ## Algoritmo 
-Claro, aquí tienes el texto sin saltos de renglón innecesarios, fácil de copiar y pegar:
-
-**Algoritmo (Pasos)**
-
+**Para la regla del trapecio simple:**
+1. Definir el intervalo de integración con los valores de $a$ y $b$.
+2. Evaluar la función en los extremos:
+   * Calcular $f(a)$
+   * Calcular $f(b)$
+3. Aplicar la fórmula:
+   Aproximación $= \frac{b - a}{2} [f(a) + f(b)]$
+4. Mostrar el resultado como la aproximación de la integral.
+   
 **Para la regla del trapecio compuesta:**
 1. Definir los valores de $a$, $b$, y el número de subintervalos $n$.
 2. Calcular la longitud del paso: $h = \frac{b-a}{n}$.
