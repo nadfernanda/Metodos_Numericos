@@ -146,7 +146,6 @@ public class CuadraturaGaussiana {
 
 ```
 ## Ejercicios Prácticos
-
 ## Ejercicio 1
 Dada la Función:
 
