@@ -5,7 +5,7 @@ A diferencia de métodos como el trapecio o Simpson, que usan nodos equiespaciad
 óptimamente los nodos y los pesos para maximizar la precisión, siendo exacta para polinomios de grado hasta 2n−1 (donde n es el número de puntos).
 
 ## Algoritmo 
-Paso 1: Cambiar el intervalo
+**Paso 1: Cambiar el intervalo**
 
 Transformar el intervalo $[a, b]$ al intervalo $[-1, 1]$ usando el cambio de variable:
 
@@ -14,23 +14,23 @@ La integral queda:
 
 $\int_a^b f(x) dx = \frac{b - a}{2} \int_{-1}^1 f\left(\frac{b - a}{2}t + \frac{b + a}{2}\right) dt$
 
-Paso 2: Seleccionar el número de puntos $n$
+**Paso 2: Seleccionar el número de puntos $n$**
 
 Decidir cuántos puntos $n$ quieres usar (más puntos = más precisión).
 
-Paso 3: Obtener los nodos $x_i$ y pesos $w_i$
+**Paso 3: Obtener los nodos $x_i$ y pesos $w_i$**
 
 * Los $x_i$ son las raíces del polinomio de Legendre $P_n(x)$
   
 * Los $w_i$ son calculados con fórmulas especiales o se obtienen de tablas
 
-Paso 4: Evaluar la función en los puntos transformados
+**Paso 4: Evaluar la función en los puntos transformados**
 
 Para cada $x_i$, transformar al intervalo original y evaluar la función:
 
 $x'_i = \frac{b - a}{2} x_i + \frac{b + a}{2}$
 
-Paso 5: Calcular la suma
+**Paso 5: Calcular la suma**
 
 Finalmente:
 
