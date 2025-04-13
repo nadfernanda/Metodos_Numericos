@@ -116,8 +116,7 @@ public static void main (String[] args) {
 ```
 
 ## Ejercicios Prácticos
-Resolver los siguientes sistemas de ecuaciones utilizando el método de eliminación de Gauss Jordan.
-### Ejercicio 1: Sistema con solución única
+### Ejercicio 1
 <img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-3/imagenes/metodo_gauss_jordan/Ejercicio%201.png" width="20%" alt="Ejercicio 1">
 
 **Solución con algoritmo de java**
@@ -125,10 +124,11 @@ Resolver los siguientes sistemas de ecuaciones utilizando el método de eliminac
 <img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-3/imagenes/metodo_gauss_jordan/Solucion%20E1.png" width="20%" alt="Solución Ejercicio 1">
 
 **Análisis**
+
 El método de Gauss-Jordan permitió llevar la matriz aumentada del sistema a su forma reducida por filas, facilitando la obtención directa de los valores de las variables sin necesidad de sustitución hacia atrás.
 El sistema es compatible determinado, es decir, tiene una única solución, y los planos representados por las ecuaciones se intersecan en el punto (1, 2, 3). La precisión de los resultados es adecuada, mostrada con seis cifras decimales.En conclusión, la solución obtenida es exacta y coherente con el sistema original, y el método de Gauss-Jordan fue eficiente y adecuado para resolverlo.
 
-### Ejercicio 2: Sistema con solución única
+### Ejercicio 2
 <img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-3/imagenes/metodo_gauss_jordan/Ejercicio%202.png" width="20%" alt="Ejercicio 2">
 
 **Solución con algoritmo de java**
@@ -136,10 +136,11 @@ El sistema es compatible determinado, es decir, tiene una única solución, y lo
 <img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-3/imagenes/metodo_gauss_jordan/Solucion%20E2.png" width="20%" alt="Solución Ejercicio 2">
 
 **Análisis**
+
 El método de Gauss-Jordan permitió llevar la matriz aumentada del sistema a su forma reducida por filas, facilitando la obtención directa de los valores de las variables sin necesidad de sustitución hacia atrás.
 El sistema es compatible determinado, es decir, tiene una única solución, y los planos representados por las ecuaciones se intersecan en el punto (2, 3, -1). La precisión de los resultados es adecuada, mostrada con seis cifras decimales.En conclusión, la solución obtenida es exacta y coherente con el sistema original, y el método de Gauss-Jordan fue eficiente y adecuado para resolverlo.
 
-### Ejercicio 3: Sistema con solución única
+### Ejercicio 3
 <img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-3/imagenes/metodo_gauss_jordan/Ejercicio%203.png" width="20%" alt="Ejercicio 3">
 
 **Solución con algoritmo de java**
@@ -147,10 +148,11 @@ El sistema es compatible determinado, es decir, tiene una única solución, y lo
 <img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-3/imagenes/metodo_gauss_jordan/Solucion%20E3.png" width="20%" alt="Solución Ejercicio 3">
 
 **Análisis**
+
 El método de Gauss-Jordan permitió llevar la matriz aumentada del sistema a su forma reducida por filas, facilitando la obtención directa de los valores de las variables sin necesidad de sustitución hacia atrás.
 El sistema es compatible determinado, es decir, tiene una única solución, y los planos representados por las ecuaciones se intersecan en el punto (1, -2, -2). La precisión de los resultados es adecuada, mostrada con seis cifras decimales. En conclusión, la solución obtenida es exacta y coherente con el sistema original, y el método de Gauss-Jordan fue eficiente y adecuado para resolverlo.
 
-### Ejercicio 4: Sistema con solución única
+### Ejercicio 4
 <img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-3/imagenes/metodo_gauss_jordan/Ejercicio%204.png" width="20%" alt="Ejercicio 4">
 
 **Solución con algoritmo de java**
@@ -158,11 +160,12 @@ El sistema es compatible determinado, es decir, tiene una única solución, y lo
 <img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-3/imagenes/metodo_gauss_jordan/Solucion%20E4.png" width="20%" alt="Solución Ejercicio 4">
 
 **Análisis**
+
 El método de Gauss-Jordan permitió llevar la matriz aumentada del sistema a su forma reducida por filas, facilitando la obtención directa de los valores de las variables sin necesidad de sustitución hacia atrás.
 El sistema es compatible determinado, es decir, tiene una única solución, y los planos representados por las ecuaciones se intersecan en el punto (4, -1, 2). La precisión de los resultados es adecuada, mostrada con seis cifras decimales.
 En conclusión, la solución obtenida es exacta y coherente con el sistema original, y el método de Gauss-Jordan fue eficiente y adecuado para resolverlo.
 
-### Ejercicio 5: Sistema sin solución
+### Ejercicio 5 (sin solución)
 <img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-3/imagenes/metodo_gauss_jordan/Ejercicio%205.png" width="20%" alt="Ejercicio 5">
 
 **Solución con algoritmo de java**
@@ -170,4 +173,5 @@ En conclusión, la solución obtenida es exacta y coherente con el sistema origi
 <img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-3/imagenes/metodo_gauss_jordan/Solucion%20E5.png" width="35%" alt="Solución Ejercicio 5">
 
 **Análisis**
+
 Este sistema no tiene solución porque las dos primeras ecuaciones son equivalentes (representan el mismo plano), pero la tercera es contradictoria: dice que x + y + z = 4, mientras que la primera dice x + y + z = 3. No puede ser ambas cosas a la vez, por eso no hay ningún valor de x, y, z que cumpla las tres ecuaciones al mismo tiempo. El sistema es incompatible.
