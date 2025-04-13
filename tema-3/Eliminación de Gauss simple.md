@@ -123,8 +123,7 @@ public class GaussElimination {
 }
 ```
 ## Ejercicios Prácticos
-Resolver los siguientes sistemas de ecuaciones utilizando el método de eliminación de Gauss Simple.
-### Ejercicio 1: Sistema con solución única
+### Ejercicio 1
 <img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-3/imagenes/metodo_gauss/Ejercicio%201.png" width="20%" alt="Ejercicio 1">
 
 **Solución con algoritmo de java**
@@ -132,13 +131,14 @@ Resolver los siguientes sistemas de ecuaciones utilizando el método de eliminac
 <img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-3/imagenes/metodo_gauss/Solucion%20E1.png" width="20%" alt="Solución Ejercicio 1">
 
 **Análisis**
+
 El sistema de ecuaciones lineales fue resuelto correctamente usando el método de eliminación de Gauss simple, obteniendo la solución:
 x=3.000000,y=1.000000,z=1.000000
 La verificación al sustituir estos valores en las tres ecuaciones demuestra que satisfacen el sistema, por lo tanto, la solución es correcta.
 El método de eliminación de Gauss permitió transformar el sistema en una forma escalonada y despejar las variables de manera eficiente, lo que confirma que el sistema es compatible determinado, es decir, tiene una única solución.
 Geométricamente, esto significa que los tres planos representados por las ecuaciones se intersecan en un solo punto, el cual es (3,1,1). La solución presenta buena precisión, expresada con seis cifras decimales.
 
-### Ejercicio 2: Sistema con solución única
+### Ejercicio 2
 <img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-3/imagenes/metodo_gauss/Ejercicio%202.png" width="20%" alt="Ejercicio 2">
 
 **Solución con algoritmo de java**
@@ -146,13 +146,14 @@ Geométricamente, esto significa que los tres planos representados por las ecuac
 <img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-3/imagenes/metodo_gauss/Solucion%20E2.png" width="20%" alt="Solución Ejercicio 2">
 
 **Análisis**
+
 El sistema de ecuaciones lineales fue resuelto utilizando el método de eliminación de Gauss simple, obteniendo como resultado:
 x=1.000000,y=1.000000,z=1.000000
 Al verificar esta solución en las ecuaciones dadas, se confirma que cumple con todas ellas, lo que garantiza que la solución es correcta.
 El método de eliminación de Gauss permitió reducir el sistema a una forma escalonada que facilitó el cálculo de las variables, mostrando que el sistema es compatible determinado (tiene una única solución).
 Desde una perspectiva geométrica, las tres ecuaciones representan planos que se intersecan en un único punto en el espacio tridimensional, el punto (1,1,1). La solución tiene una buena precisión, expresada con seis cifras decimales.
 
-### Ejercicio 3: Sistema sin solución
+### Ejercicio 3 (sin solución)
 <img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-3/imagenes/metodo_gauss/Ejercicio%203.png" width="20%" alt="Ejercicio 3">
 
 **Solución con algoritmo de java**
@@ -160,9 +161,10 @@ Desde una perspectiva geométrica, las tres ecuaciones representan planos que se
 <img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-3/imagenes/metodo_gauss/Solucion%20E3.png" width="20%" alt="Solución Ejercicio 3">
 
 **Análisis**
+
 Este sistema no tiene solución porque sus filas son linealmente dependientes. Las filas 2 y 3 son múltiplos de la fila 1, lo que implica una contradicción en los términos independientes. Por ejemplo, al multiplicar la primera ecuación por 3, obtenemos 3x + 3y + 3z = 18, lo cual contradice la tercera ecuación, que es 3x + 3y + 3z = 15. Debido a esta inconsistencia, el algoritmo de Gauss fallará o generará resultados incorrectos, posiblemente por una división por cero.
 
-### Ejercicio 4: Sistema con solución única
+### Ejercicio 4
 <img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-3/imagenes/metodo_gauss/Ejercicio%204.png" width="20%" alt="Ejercicio 4">
 
 **Solución con algoritmo de java**
@@ -170,13 +172,14 @@ Este sistema no tiene solución porque sus filas son linealmente dependientes. L
 <img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-3/imagenes/metodo_gauss/Solucion%20E4.png" width="20%" alt="Solución Ejercicio 4">
 
 **Análisis**
+
 El sistema de ecuaciones lineales fue resuelto utilizando el método de eliminación de Gauss simple, obteniendo como resultado:
 x=2.000000,y=3.000000,z=1.000000
 Al verificar esta solución en las ecuaciones dadas, se confirma que cumple con todas ellas, lo que garantiza que la solución es correcta.
 El método de eliminación de Gauss permitió reducir el sistema a una forma escalonada que facilitó el cálculo de las variables, mostrando que el sistema es compatible determinado (tiene una única solución).
 Desde una perspectiva geométrica, las tres ecuaciones representan planos que se intersecan en un único punto en el espacio tridimensional, el punto (2,3,1). La solución tiene una buena precisión, expresada con seis cifras decimales.
 
-### Ejercicio 5: Sistema con solución única
+### Ejercicio 5
 <img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-3/imagenes/metodo_gauss/Ejercicio%205.png" width="20%" alt="Ejercicio 5">
 
 **Solución con algoritmo de java**
@@ -184,6 +187,7 @@ Desde una perspectiva geométrica, las tres ecuaciones representan planos que se
 <img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-3/imagenes/metodo_gauss/Solucion%20E5.png" width="20%" alt="Solución Ejercicio 5">
 
 **Análisis**
+
 El sistema de ecuaciones lineales fue resuelto utilizando el método de eliminación de Gauss simple, obteniendo como resultado:
 x=2.000000,y=1.000000,z=2.000000
 Al verificar esta solución en las ecuaciones dadas, se confirma que cumple con todas ellas, lo que garantiza que la solución es correcta.
