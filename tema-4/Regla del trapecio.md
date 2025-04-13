@@ -4,10 +4,13 @@ una integral definida. Se basa en reemplazar la curva de la función por segment
 forman trapecios, y luego calcula el área de esos trapecios.
 Para una función f(x) definida en el intervalo [a,b], la integral aproximada se calcula como el promedio
 de los valores de la función en los extremos multiplicado por el ancho del intervalo:
+
 $\int_a^b f(x) dx \approx \frac{b - a}{2} (f(a) + f(b))$
 
 Si el intervalo [a,b] se divide en n subintervalos de igual tamaño h=b-a/n, la fórmula generalizada es:
+
 $\int_a^b f(x) dx \approx \frac{h}{2} \left( f(x_0) + 2 \sum_{i=1}^{n-1} f(x_i) + f(x_n) \right)$
+
 donde xi = a + i * h para i = 0,1,…,n.
 
 ## Algoritmo 
