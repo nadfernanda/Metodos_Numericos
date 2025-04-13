@@ -85,11 +85,12 @@ public class ReglaTrapecio {
 ## Ejercicios Prácticos
 ### Ejercicio 1
 Dada la Función:
+
 f(x)=x^2 + 3x en el intervalo[1,3],n = 4
 
 **Solución con algoritmo de java**
 
-<img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-4/imagenes/Regla_Trapecio/Ejercicio%201.png" width="20%" alt="Solución Ejercicio 1">
+<img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-4/imagenes/Regla_Trapecio/Ejercicio%201.png" width="40%" alt="Solución Ejercicio 1">
 
 **Análisis**
 En este caso estamos integrando una función polinómica de segundo grado, que es continua, suave y no presenta ningún tipo de comportamiento inesperado dentro del intervalo [1,3]. La segunda derivada de la función es constante, lo cual es clave, ya que el
