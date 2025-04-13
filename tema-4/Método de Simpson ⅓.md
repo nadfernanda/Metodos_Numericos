@@ -5,6 +5,7 @@ que el método del trapecio, ya que utiliza polinomios de segundo grado (parábo
 
 ## Algoritmo
 **Paso 1: Elegir el número de subintervalos n (debe ser par)**
+
 Más subintervalos = más precisión.
 
 **Paso 2: Calcular el ancho de subintervalo**
@@ -15,7 +16,9 @@ $h = \frac{b - a}{n}$
 
 $x_i = a + ih$ para $i = 0, 1, ..., n$
 
-**Paso 4: Evaluar la función en esos puntos: $f(x_0), f(x_1), ..., f(x_n)$**
+**Paso 4: Evaluar la función en esos puntos:**
+
+$f(x_0), f(x_1), ..., f(x_n)$
 
 **Paso 5: Aplicar la fórmula**
 
@@ -104,6 +107,7 @@ f(x) = x³ + 2x² - 4x + 5 en el intervalo [0,2], n=6
 <img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-4/imagenes/Simpson_%E2%85%93/Ejercicio%201.png" width="35%" alt="Solución Ejercicio 1">
 
 **Análisis**
+
 En este ejercicio, el método de Simpson 1/3 proporciona una aproximación muy cercana al valor exacto para la integral de un polinomio de grado 3. El método de Simpson tiene un
 error de truncamiento de orden O(h⁴), lo que significa que debería ser exacto para polinomios de grado ≤ 3. Sin embargo, observamos un pequeño error debido a los cálculos
 de punto flotante y al redondeo durante las operaciones aritméticas.
@@ -118,6 +122,7 @@ f(x) = sin(x) + cos(x) en el intervalo [0,π], n=6
 <img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-4/imagenes/Simpson_%E2%85%93/Ejercicio%202.png" width="35%" alt="Solución Ejercicio 2">
 
 **Análisis**
+
 En este ejercicio, el método de Simpson 1/3 proporciona una aproximación extremadamente precisa para la integral de sin(x) + cos(x) en el intervalo [0, π]. La regla de Simpson 1/3 es
 exacta para polinomios de grado ≤ 3, y aunque sin(x) + cos(x) no es un polinomio, su comportamiento en este intervalo se puede aproximar muy bien con la regla de Simpson. El
 error es prácticamente nulo (del orden de 10^-16), lo que demuestra la eficacia del método para funciones trigonométricas.
@@ -132,6 +137,7 @@ f(x) = √(x) · ln(x) en el intervalo [1,4], n=4
 <img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-4/imagenes/Simpson_%E2%85%93/Ejercicio%203.png" width="35%" alt="Solución Ejercicio 3">
 
 **Análisis**
+
 En este ejercicio, aplicamos el método de Simpson 1/3 para aproximar una integral que combina funciones no polinómicas (raíz cuadrada y logaritmo natural). La precisión obtenida
 es bastante buena con solo 4 subdivisiones, con un error de aproximadamente 0.017 respecto al valor exacto. La regla de Simpson funciona bien para este tipo de funciones
 suaves porque aproxima la curva con parábolas, capturando mejor el comportamiento de la función que métodos más simples como el trapezoidal. Dado que la función (x) · ln(x) tiene
@@ -147,6 +153,7 @@ f(x) = x² / (x² + 4) en el intervalo [0,3], n=6
 <img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-4/imagenes/Simpson_%E2%85%93/Ejercicio%204.png" width="35%" alt="Solución Ejercicio 4">
 
 **Análisis**
+
 Este ejercicio presenta una función racional (cociente de polinomios) que tiende asintóticamente a 1 cuando x tiende a infinito. A pesar de su apariencia simple, calcular la
 antiderivada analíticamente requiere técnicas de integración como sustitución y descomposición en fracciones parciales. El método de Simpson 1/3 aproxima muy bien esta
 integral con solo 6 subdivisiones, obteniendo un resultado con un error de aproximadamente 0.001 respecto al valor exacto. La precisión es excelente considerando que la función tiene
@@ -163,6 +170,7 @@ f(x) = 1 / (1 + x²) en el intervalo[0,1], n=4
 <img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-4/imagenes/Simpson_%E2%85%93/Ejercicio%205.png" width="35%" alt="Solución Ejercicio 3">
 
 **Análisis**
+
 Este ejercicio resuelve numéricamente la integral de la función 1 / (1 + x²), que es la función de Cauchy o Lorentziana, ampliamente utilizada en física y estadística. Es conocido que la
 integral de esta función da como resultado arctan(x), y en el intervalo [0, 1] el valor exacto es π/4 ≈ 0.785398. El método de Simpson 1/3 proporciona una aproximación muy precisa
 con solo 4 subdivisiones, obteniendo un error menor a 0.0004. Esta precisión es notable considerando la simplicidad del método y el pequeño número de puntos de evaluación
@@ -178,6 +186,7 @@ f(x) = 1 / (x·ln(x)) en el intervalo [2,5], n=4
 <img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-4/imagenes/Simpson_%E2%85%93/Ejercicio%206.png" width="35%" alt="Solución Ejercicio 3">
 
 **Análisis**
+
 La integral de f(x) = 1 / (x·ln(x)) no tiene una solución analítica en términos de funciones elementales. Esta es una integral que da como resultado la función logaritmo integral Li(x),
 que es una función especial definida como: Li(x) = ∫₂ˣ dt / ln(t) El método de Simpson 1/3 nos permite obtener una aproximación numérica, pero no podemos verificar el resultado exacto
 mediante cálculo analítico directo.
