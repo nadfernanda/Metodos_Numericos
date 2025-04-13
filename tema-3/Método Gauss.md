@@ -135,22 +135,21 @@ public class GaussElimination {
 
 ```
 ## Ejercicios Prácticos
-Resolver los siguientes sistemas de ecuaciones utilizando el método de eliminación de Gauss.
-### Ejercicio 1:
+### Ejercicio 1
 Sistema de ecuaciones:
 
 <img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-3/imagenes/metodo_gauss/Ejercicio%201.png" width="30%" alt="sistemas de ecuaciones ejemplo1">
 
-Resultado con python:
+## Solución con algoritmo de java
 
 <img src="(https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-3/imagenes/metodo_gauss/Solucion%20E1.png)" width="30%" alt="Solucion E1">
 
-### Ejercicio 2:
+### Ejercicio 2
 Sistema de ecuaciones:
 
 <img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-3/imagenes/metodo_gauss/Ejercicio%202.png" width="30%" alt="sistemas de ecuaciones ejemplo2">
 
-Resultado con python:
+## Solución con algoritmo de java
 
 <img src="" width="30%" alt="Solucion E2">
 
