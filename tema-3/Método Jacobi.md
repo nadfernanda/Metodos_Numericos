@@ -114,8 +114,7 @@ public class Jacobi {
 
 ```
 ## Ejercicios Prácticos
-Resolver los siguientes sistemas de ecuaciones utilizando el método de Jacobi.
-### Ejercicio 1:
+### Ejercicio 1
 <img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-3/imagenes/metodo_jacobi/Ejercicio1.png" width="20%" alt="Ejercicio 1">
 
 **Solución con algoritmo de java**
@@ -123,12 +122,13 @@ Resolver los siguientes sistemas de ecuaciones utilizando el método de Jacobi.
 <img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-3/imagenes/metodo_jacobi/Solucion%20E1.png" width="20%" alt="Solución Ejercicio 1">
 
 **Análisis**
+
 El método de Jacobi permitió resolver el sistema de ecuaciones de manera iterativa, separando la actualización de cada variable en función de los valores anteriores hasta alcanzar la convergencia.
 El sistema es compatible determinado, ya que tiene una única solución en el punto:
 x=1.000000,y=−2.000000,z=3.000000
 El algoritmo alcanzó esta solución después de 18 iteraciones, lo que indica que la convergencia fue estable, aunque requirió más iteraciones en comparación con el método de Gauss-Seidel, debido a que Jacobi es más conservador en la actualización de valores.
 
-### Ejercicio 2:
+### Ejercicio 2
 <img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-3/imagenes/metodo_jacobi/Ejercicio%202.png" width="20%" alt="Ejercicio 2">
 
 **Solución con algoritmo de java**
@@ -136,12 +136,13 @@ El algoritmo alcanzó esta solución después de 18 iteraciones, lo que indica q
 <img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-3/imagenes/metodo_jacobi/Solucion%20E2.png" width="20%" alt="Solución Ejercicio 2">
 
 **Análisis**
+
 El método de Jacobi permitió resolver el sistema de ecuaciones mediante una actualización iterativa de las variables en función de los valores anteriores.
 El sistema es compatible determinado, ya que tiene una única solución en el punto:
 x=1.000000,y=2.000000,z=3.000000
 El algoritmo alcanzó esta solución después de 35 iteraciones, lo que indica que la convergencia fue más lenta, posiblemente debido a la configuración de los coeficientes o la cercanía de los valores entre las ecuaciones.
 
-### Ejercicio 3:
+### Ejercicio 3
 <img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-3/imagenes/metodo_jacobi/Ejercicio%203.png" width="20%" alt="Ejercicio 3">
 
 **Solución con algoritmo de java**
@@ -149,13 +150,14 @@ El algoritmo alcanzó esta solución después de 35 iteraciones, lo que indica q
 <img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-3/imagenes/metodo_jacobi/Solucion%20E3.png" width="20%" alt="Solución Ejercicio 3">
 
 **Análisis**
+
 El método de Jacobi resolvió el sistema de ecuaciones de manera eficiente mediante un proceso iterativo.
 El sistema es compatible determinado, ya que tiene una única solución en el punto:
 x=2.000000,y=1.000000,z=3.000000
 La solución fue alcanzada tras 29 iteraciones, mostrando una convergencia moderada. La estructura del sistema permitió que el método de Jacobi convergiera de manera relativamente rápida.
 
 
-### Ejercicio 4:
+### Ejercicio 4
 <img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-3/imagenes/metodo_jacobi/Ejercicio%204.png" width="20%" alt="Ejercicio 4">
 
 **Solución con algoritmo de java**
@@ -163,13 +165,14 @@ La solución fue alcanzada tras 29 iteraciones, mostrando una convergencia moder
 <img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-3/imagenes/metodo_jacobi/Solucion%20E4.png" width="20%" alt="Solución Ejercicio 4">
 
 **Análisis**
+
 El método de Jacobi permitió resolver el sistema mediante la actualización progresiva de las variables en función de los valores anteriores.
 El sistema es compatible determinado, ya que tiene una única solución en el punto:
 x=1.000000,y=2.000000,z=3.000000
 El algoritmo alcanzó esta solución después de 38 iteraciones, lo que indica que la convergencia fue un poco más lenta, posiblemente debido a la estructura de las ecuaciones.
 
 
-### Ejercicio 5:(Sin solución)
+### Ejercicio 5 (sin solución)
 <img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-3/imagenes/metodo_jacobi/Ejercicio%205.png" width="20%" alt="Ejercicio 5">
 
 **Solución con algoritmo de java**
@@ -177,5 +180,6 @@ El algoritmo alcanzó esta solución después de 38 iteraciones, lo que indica q
 <img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-3/imagenes/metodo_jacobi/Solucion%20E5.png" width="20%" alt="Solución Ejercicio 5">
 
 **Análisis**
+
 El método de Jacobi intentó resolver el sistema de ecuaciones de manera iterativa, separando la actualización de cada variable en función de los valores anteriores. Sin embargo, debido a la naturaleza del sistema, el algoritmo no logró encontrar una solución estable. El sistema es incompatible, ya que las ecuaciones presentan una contradicción: x+y+z=3x + y + z = 3x+y+z=3 y x+y+z=4x + y + z = 4x+y+z=4. Esta inconsistencia implica A pesar de las iteraciones realizadas, el algoritmo no pudo alcanzar la convergencia. Esto ocurre porque el método de Jacobi, al ser un método iterativo, solo es efectivo en sistemas compatibles y bien condicionados. Dado que el sistema es incompatible, Jacobi no puede estabilizarse, y los resultados no se aproximan a ninguna solución razonable.
 
