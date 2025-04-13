@@ -83,5 +83,76 @@ public class ReglaTrapecio {
 ```
 
 ## Ejercicios Prácticos
+### Ejercicio 1
+Dada la Función:
+f(x)=x^2 + 3x en el intervalo[1,3],n = 4
 
+**Solución con algoritmo de java**
 
+<img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-4/imagenes/Regla_Trapecio/Ejercicio%201.png" width="20%" alt="Solución Ejercicio 1">
+
+**Análisis**
+En este caso estamos integrando una función polinómica de segundo grado, que es continua, suave y no presenta ningún tipo de comportamiento inesperado dentro del intervalo [1,3]. La segunda derivada de la función es constante, lo cual es clave, ya que el
+error de la regla del trapecio depende directamente de dicha derivada. Como la curvatura de la función es uniforme y no cambia, el método del trapecio ofrece una aproximación sumamente precisa. De hecho, para funciones cuadráticas, la regla del trapecio casi no
+presenta error. En consecuencia, el valor obtenido es muy cercano al real y no se justificaría usar un método más complejo o más divisiones a menos que se busque una exactitud extremadamente alta.
+
+### Ejercicio 2
+Dada la Función:
+f(x)= x ⋅ ln(x+1) en el intervalo [0,2], n=4
+
+**Solución con algoritmo de java**
+
+<img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-4/imagenes/Regla_Trapecio/Ejercicio%202.png" width="20%" alt="Solución Ejercicio 2">
+
+**Análisis**
+Aquí trabajamos con una función que combina el crecimiento lineal con el comportamiento logarítmico. Aunque no es una función polinómica, es perfectamente continua en el intervalo evaluado y presenta una curvatura suave. La presencia del logaritmo hace que la
+función no sea simétrica ni de crecimiento uniforme, pero no representa una dificultad significativa para el método del trapecio. Al no haber cambios bruscos en la segunda derivada, la aproximación obtenida con cuatro subintervalos resulta aceptable. Aun así,
+dado que el logaritmo introduce cierta curvatura, el área estimada podría beneficiarse de una mayor cantidad de subintervalos o incluso del uso de la regla de Simpson, especialmente si se requiere más precisión.
+
+### Ejercicio 3
+Dada la Función:
+f(x)=e^−x^2 en el intervalo[0,1], n=6
+
+**Solución con algoritmo de java**
+
+<img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-4/imagenes/Regla_Trapecio/Ejercicio%203.png" width="20%" alt="Solución Ejercicio 3">
+
+**Análisis**
+Esta función es un caso muy interesante porque se relaciona con la campana de Gauss, ampliamente usada en estadística. Es una función muy suave, con decaimiento progresivo y simétrico. Sin embargo, su segunda derivada no es constante y presenta un punto donde cambia de comportamiento, lo que genera una curvatura variable en el intervalo. Debido a esto, aunque el método del trapecio logra una buena aproximación, el área calculada puede estar ligeramente subestimada o sobrestimada dependiendo del número de subintervalos.
+Con seis particiones, como se usó aquí, la precisión es más que razonable, pero un aumento en la cantidad de tramos o el uso de un método como Simpson podría capturar mejor las variaciones sutiles de la curva.
+
+### Ejercicio 4
+Dada la Función:
+f(x)=x^2+1/x+1 en el intervalo [1,3], n=4
+
+**Solución con algoritmo de java**
+
+<img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-4/imagenes/Regla_Trapecio/Ejercicio%204.png" width="20%" alt="Solución Ejercicio 4">
+
+**Análisis**
+En este ejercicio se integra una función racional que no tiene ningún problema de indefinición en el intervalo considerado. Aunque la función no es polinómica, se comporta de forma bastante regular y sin picos de curvatura. La segunda derivada es positiva en todo
+el intervalo, lo que indica que la función es cóncava hacia arriba, aunque dicha curvatura disminuye progresivamente a medida que x crece. El método del trapecio, al basarse en segmentos lineales, tiende a subestimar levemente el área bajo funciones con esta forma,
+pero la diferencia no es significativa en este caso. Con solo cuatro particiones ya se logra una buena estimación del área, y únicamente en contextos de alta exigencia numérica se justificaría cambiar de método.
+
+### Ejercicio 5
+Dada la Función:
+f(x)=√x^3+1 en el intervalo [0,2], con n=5
+
+**Solución con algoritmo de java**
+
+<img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-4/imagenes/Regla_Trapecio/Ejercicio%205.png" width="20%" alt="Solución Ejercicio 5">
+
+**Análisis**
+La función f(x)= √x^3+1 se evalúa en el intervalo [0,2] utilizando la Regla del Trapecio con n=5 subintervalos. La función es continua y suave, lo que hace que el método sea adecuado. Al dividir el intervalo y evaluar en los puntos correspondientes, obtenemos una aproximación razonable de la integral, que es 3.268. La función tiene un crecimiento más lento al principio y se acelera al final, lo que hace que la estimación sea precisa con un número moderado de subintervalos. Si se necesita mayor precisión, se podrían aumentar los subintervalos o usar métodos como la regla de Simpson, pero el resultado obtenido es satisfactorio para los 5 subintervalos empleados.
+
+### Ejercicio 6 (sin solución)
+Dada la Función:
+f(x)=e^x^2 en el intervalo[0,1], n=4
+
+**Solución con algoritmo de java**
+
+<img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-4/imagenes/Regla_Trapecio/Ejercicio%206.png" width="20%" alt="Solución Ejercicio 6">
+
+**Análisis**
+En este ejercicio se integró la función f(x)=e^x^2 en el intervalo [0,1] con n=4 subintervalos. Aunque la función es continua y suave, su integral no tiene una solución exacta en términos de funciones elementales, lo que significa que no puede resolverse con métodos clásicos de integración. Sin embargo, la regla del trapecio ofrece una manera efectiva de aproximar el área bajo la curva. El resultado obtenido con el código (≈ 1.4627) es razonable y útil, especialmente porque en este caso no existe una forma exacta conocida para comparar.
+Este ejemplo muestra cómo los métodos numéricos pueden ser esenciales cuando la solución analítica no está disponible.
