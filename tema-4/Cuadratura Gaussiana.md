@@ -146,6 +146,7 @@ public class CuadraturaGaussiana {
 
 ```
 ## Ejercicios Prácticos
+
 ## Ejercicio 1
 Dada la Función:
 
@@ -157,6 +158,7 @@ de n=2 puntos.
 <img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-4/imagenes/Cuadratura_Gaussiana/Ejercicio%201.png" width="35%" alt="Solución Ejercicio 1">
 
 **Análisis**
+
 El método de cuadratura gaussiana con n=2 puntos proporciona un resultado exacto (2.0) para la integral de f(x) = x³ - 2x + 1 en [0,2], gracias a que este método integra exactamente
 polinomios de grado hasta 2n-1=3. Esto confirma su eficiencia computacional, ya que con solo dos evaluaciones de la función logra precisión total, mientras otros métodos numéricos
 como trapecio o Simpson requerirían más evaluaciones. El error numérico es prácticamente nulo, limitado únicamente por la precisión de punto flotante, demostrando por qué la
@@ -173,6 +175,7 @@ con n=2 puntos.
 <img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-4/imagenes/Cuadratura_Gaussiana/Ejercicio%202.png" width="35%" alt="Solución Ejercicio 2">
 
 **Análisis**
+
 El método de cuadratura gaussiana con n=2 puntos proporciona una excelente aproximación (0.7869) para la integral de f(x) = 1/(1+x²) en [0,1], cuyo valor exacto es π/4 ≈
 0.7854. El error relativo es aproximadamente 0.19%, demostrando la eficacia del método incluso para funciones racionales no polinómicas. La precisión es notable considerando que
 solo se realizaron dos evaluaciones de la función, evidenciando por qué esta técnica es preferida para integrales donde la evaluación de la función es computacionalmente costosa,
@@ -189,6 +192,7 @@ n=2 puntos.
 <img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-4/imagenes/Cuadratura_Gaussiana/Ejercicio%203.png" width="35%" alt="Solución Ejercicio 3">
 
 **Análisis**
+
 El método de cuadratura gaussiana con n=2 puntos proporciona una buena aproximación (0.6182) para la integral de f(x) = sin(πx) en [0,1], cuyo valor exacto es 2/π ≈ 0.6366. El
 error relativo es aproximadamente 2.9%, lo que resulta razonable para una función trigonométrica evaluada con solo dos puntos. Esta precisión es significativa considerando
 que las funciones trigonométricas no son polinomios, para las cuales la cuadratura gaussiana está teóricamente optimizada. El resultado demuestra que el método es versátil y
@@ -205,6 +209,7 @@ puntos.
 <img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-4/imagenes/Cuadratura_Gaussiana/Ejercicio%204.png" width="35%" alt="Solución Ejercicio 4">
 
 **Análisis**
+
 El método de cuadratura gaussiana con n=2 puntos proporciona una excelente aproximación (5.3912) para la integral de f(x) = √x en [0,4], cuyo valor exacto es 16/3 ≈
 5.3333. El error relativo es aproximadamente 1.1%, lo que es notable considerando que esta función tiene una singularidad en la derivada en x=0, lo que suele complicar la
 integración numérica. Con solo dos evaluaciones de la función, el método logra capturar adecuadamente el comportamiento de la raíz cuadrada, demostrando su robustez incluso
@@ -221,6 +226,7 @@ con n=2 puntos.
 <img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-4/imagenes/Cuadratura_Gaussiana/Ejercicio%205.png" width="35%" alt="Solución Ejercicio 5">
 
 **Análisis**
+
 El método de cuadratura gaussiana con n=2 puntos proporciona una aproximación valiosa (0.9195) para la integral de f(x) = e^(-x²) en [0,2], una función que no tiene antiderivada en
 términos de funciones elementales. Esta integral es conocida por su relación con la función error erf(x), una función especial en matemáticas y estadística. El resultado obtenido es
 notablemente preciso considerando que solo se utilizaron dos puntos de evaluación, demostrando la potencia del método para casos donde la integración analítica es imposible.
