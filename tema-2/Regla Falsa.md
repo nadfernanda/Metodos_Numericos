@@ -1,7 +1,5 @@
 ## Definición
-es una técnica numérica que se utiliza para encontrar las raíces de una ecuación no lineal. Este método es una mejora del método de 
-bisección y combina características del método de secantes y de bisección, buscando acortar el intervalo donde se encuentra la raíz.
-se basa en el principio de que, dado un intervalo [a,b] tal que la función f(x) cambia de signo en los extremos (es decir, f(a)⋅f(b)<0), entonces existe al menos una raíz en el intervalo. El algoritmo mejora el método de bisección al calcular una aproximación a la raíz usando una línea recta (la secante) en lugar de un punto medio.
+El método de la regla falsa (también conocido como método de la falsi) es una técnica numérica que se utiliza para encontrar las raíces de una ecuación no lineal. Este método es una mejora del método de bisección y combina características del método de secantes y de bisección, buscando acortar el intervalo donde se encuentra la raíz. Se basa en el principio de que, dado un intervalo [a,b] tal que la función f(x) cambia de signo en los extremos (es decir, f(a)⋅f(b)<0), entonces existe al menos una raíz en el intervalo. El algoritmo mejora el método de bisección al calcular una aproximación a la raíz usando una línea recta (la secante) en lugar de un punto medio.
 
 ## Algoritmo
 1. **Inicialización:**
@@ -100,7 +98,7 @@ public class ReglaFalsa {
 ## Ejercicio 1 
 Dada la función:
 
-f(x) = x^2 - 4  en el intervalo [0,3]
+f(x) = ln(x) - 2  en el intervalo [1,10]
 
 **Solución con algoritmo de java**
 
@@ -112,7 +110,7 @@ f(x) = x^2 - 4  en el intervalo [0,3]
 ## Ejercicio 2
 Dada la función:
 
-f(x) = x^3 - x - 2  en el intervalo [1,2]
+f(x) = x^3 + x - 1  en el intervalo [0,1]
 
 **Solución con algoritmo de java**
 
@@ -120,12 +118,12 @@ f(x) = x^3 - x - 2  en el intervalo [1,2]
 
 **Análisis**
 
-La función $f(x) = \cos(x) - x$ es continua y suave en el intervalo $[0, 1]$, y tiene la propiedad de que sus valores cambian de signo en este intervalo. Evaluando la función, encontramos que $f(0) = 1$ y $f(1) = -0.459$, lo que garantiza, de acuerdo con el teorema de Bolzano, la existencia de una raíz en el intervalo $[0, 1]$. Esta raíz es la solución de la ecuación $\cos(x) = x$, que es conocida y se encuentra en torno a 0.7391. El método de bisección es adecuado para este tipo de problemas, ya que logra una aproximación precisa a la solución deseada mediante la iteración y el ajuste del intervalo de búsqueda.
+
 
 ## Ejercicio 3
 Dada la función:
 
-f(x) = x^2 - 4  en el intervalo [0,3]
+f(x) = √x + 2 - x  en el intervalo [0,2]
 
 **Solución con algoritmo de java**
 
