@@ -38,60 +38,76 @@ Se repiten los pasos 2 a 5 hasta que se cumpla una de las condiciones de termina
 public class ReglaFalsa {
 
     /**
-     * Función matemática a evaluar.
-     * Puedes cambiar esta función para probar con diferentes ejercicios.
-     * Ejemplo actual: f(x) = x^3 - x - 2
+     * Función f(x) que se desea analizar.
+     * Modifica esta función según el problema específico.
+     * Ejemplo actual: f(x) = x^2 - 4
+     *
+     * @param x Valor en el que se evalúa la función
+     * @return  Resultado de f(x)
      */
     public static double f(double x) {
-        return Math.pow(x, 3) - x - 2;
+        return x * x - 4;
+    }
+
+    /**
+     * Método que aplica el algoritmo de la regla falsa (falsa posición).
+     *
+     * @param a          Límite inferior del intervalo
+     * @param b          Límite superior del intervalo
+     * @param tolerancia Error máximo permitido (cuán precisa queremos la raíz)
+     * @param maxIter    Número máximo de iteraciones permitidas
+     */
+    public static void reglaFalsa(double a, double b, double tolerancia, int maxIter) {
+        double fa = f(a);
+        double fb = f(b);
+
+        // Verifica que el intervalo sea válido (f(a) y f(b) deben tener signos opuestos)
+        if (fa * fb >= 0) {
+System.out.println("No hay solución en el intervalo, ya que f(a) y f(b) tienen el mismo signo.");
+	 return;  // Salir si no hay solución
+        }
+
+        double raiz = 0;
+        int iteraciones = 0;
+
+        // Ciclo principal del método de la regla falsa
+        while (iteraciones < maxIter) {
+            // Cálculo de la raíz aproximada mediante fórmula de falsa posición
+            raiz = (a * fb - b * fa) / (fb - fa);
+            double fRaiz = f(raiz);
+            iteraciones++;
+
+            // Si la función evaluada en la raíz está dentro del margen de tolerancia, se detiene
+            if (Math.abs(fRaiz) < tolerancia) {
+                break;
+            }
+
+            // Actualización del intervalo según el signo de f(raiz)
+            if (fa * fRaiz < 0) {
+                b = raiz;
+                fb = fRaiz;
+            } else {
+                a = raiz;
+                fa = fRaiz;
+            }
+        }
+
+        // Imprimir los resultados solicitados
+        System.out.printf("Raíz aproximada: %.4f\n", raiz);
+        System.out.println("Iteraciones: " + iteraciones);
     }
 
     public static void main(String[] args) {
-        // Limites del intervalo
-        double a = 1;   // Límite inferior
-        double b = 2;   // Límite superior
-
-        // Tolerancia para el valor de la raíz
+        // Llamada al método con valores de ejemplo
+        double a = 0;
+        double b = 5;
         double tolerancia = 0.0001;
-
-        // Número máximo de iteraciones para evitar bucles infinitos
         int maxIteraciones = 100;
 
-        // Variable para contar las iteraciones
-        int iteraciones = 0;
-
-        // Variable para almacenar el punto medio (estimación de la raíz)
-        double c = a;
-
-        // Verificar si el método se puede aplicar: debe haber cambio de signo en f(a) y f(b)
-        if (f(a) * f(b) >= 0) {
-            System.out.println("No se puede aplicar el método: no hay cambio de signo en el intervalo.");
-            return; // Terminar el programa si no se puede aplicar
-        }
-
-        // Bucle principal del método de la regla falsa
-        while (Math.abs(f(c)) > tolerancia && iteraciones < maxIteraciones) {
-
-            // Aplicamos la fórmula de la regla falsa:
-            // c = b - f(b) * (a - b) / (f(a) - f(b))
-            c = b - (f(b) * (a - b)) / (f(a) - f(b));
-
-            // Reemplazamos uno de los extremos del intervalo dependiendo del signo
-            if (f(a) * f(c) < 0) {
-                b = c;
-            } else {
-                a = c;
-            }
-
-            // Aumentamos el contador de iteraciones
-            iteraciones++;
-        }
-
-        // Imprimir la raíz aproximada con 4 decimales
-        System.out.printf("Raíz aproximada: %.4f\n", c);
-        System.out.println("Iteraciones realizadas: " + iteraciones);
+        reglaFalsa(a, b, tolerancia, maxIteraciones);
     }
 }
+
 ```
 
 ## Ejercicios Prácticos
