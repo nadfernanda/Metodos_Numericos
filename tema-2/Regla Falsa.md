@@ -159,7 +159,7 @@ f(x) = x^2 + 4 en el intervalo [1,3]
 
 **Solución con algoritmo de java**
 
-<img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-2/Imagenes/Regla%20Falsa/Ejercicio%205.png" width="35%" alt="Solución Ejercicio 5">
+<img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-2/Imagenes/Regla%20Falsa/Ejercicio%205.png" width="50%" alt="Solución Ejercicio 5">
 
 **Análisis**
 
