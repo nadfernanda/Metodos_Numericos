@@ -104,28 +104,33 @@ La ecuación f(x) = x² - 5 convertida a x = √5 muestra una convergencia extre
 ## Ejercicio 3 
 Dada la ecuación:
 
-f(x) = x^3 - 2x^2 + x - 1  
+f(x) = x^2 - 3x^2 + 2  
 
 **Solución con algoritmo de java**
 
-<img src="aaaaa" width="35%" alt="Solución Ejercicio 1">
+<img src="aaaaa" width="35%" alt="Solución Ejercicio 3">
 
 **Análisis**
-## Ejercicio 1 
+
+La ecuación f(x) = x² - 3x + 2 transformada a x = (x² + 2)/3 converge a la solución x = 1 con velocidad moderada. La derivada g'(x) = 2x/3 tiene valor absoluto |g'(1)| = 2/3 < 1 en la solución, cumpliendo la condición necesaria para convergencia. Este valor, al estar moderadamente alejado de 1, permite una convergencia ni demasiado lenta ni extremadamente rápida, requiriendo aproximadamente 12 iteraciones para alcanzar la precisión deseada. La función se aproxima gradualmente a la solución sin oscilaciones bruscas.
+
+## Ejercicio 4 
 Dada la ecuación:
 
-f(x) = x^3 - x + 2  en el intervalo [1,2]
+f(x) = x^4 - 7
 
 **Solución con algoritmo de java**
 
-<img src="aaaaa" width="35%" alt="Solución Ejercicio 1">
+<img src="aaaaa" width="35%" alt="Solución Ejercicio 4">
 
 **Análisis**
 
-## Ejercicio 1 
+La ecuación f(x) = x⁴ - 7 convertida a x = ⁷√7 muestra una convergencia instantánea similar al Ejercicio 3. La función g(x) = ⁷√7 es constante con derivada g'(x) = 0, lo que garantiza convergencia en solo 2 iteraciones independientemente del valor inicial (siempre que sea razonable). Al ser una función constante, cada aplicación produce exactamente el mismo valor aproximado 1.6266, eliminando cualquier error después de la primera iteración. Esta es la formulación de punto fijo óptima posible.
+
+## Ejercicio 5
 Dada la ecuación:
 
-f(x) = x^3 - x + 2  en el intervalo [1,2]
+f(x) = 5x - 4 
 
 **Solución con algoritmo de java**
 
