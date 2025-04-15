@@ -98,62 +98,69 @@ public class ReglaFalsa {
 ## Ejercicio 1 
 Dada la función:
 
-f(x) = ln(x) - 2  en el intervalo [1,10]
+f(x) = f(x) = x^3 - 2x - 5  en el intervalo [2,3]
 
 **Solución con algoritmo de java**
 
-<img src="aaa" width="35%" alt="Solución Ejercicio 1">
+<img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-2/Imagenes/Regla%20Falsa/Ejercicio%201.png" width="35%" alt="Solución Ejercicio 1">
 
 **Análisis**
+
+Este es un caso clásico con una función cúbica que cruza el eje x exactamente una vez en ese intervalo. Como la función es continua y cambia de signo entre 2 y 3, el método converge rápidamente. En solo 6 iteraciones, se alcanza una raíz aproximada de 2.0945, lo que es bastante eficiente.
+El comportamiento de la función favorece a la regla falsa, ya que la pendiente de la línea secante no se aplana demasiado rápido. La convergencia es suave y progresiva porque la raíz está centrada dentro del intervalo.
 
 
 ## Ejercicio 2
 Dada la función:
 
-f(x) = x^3 + x - 1  en el intervalo [0,1]
+f(x) = cos(x) - x en el intervalo [0,1]
 
 **Solución con algoritmo de java**
 
-<img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-2/Imagenes/M%C3%A9todo%20Bisecci%C3%B3n/Ejercicio%202.png" width="35%" alt="Solución Ejercicio 2">
+<img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-2/Imagenes/Regla%20Falsa/Ejercicio%202.png" width="35%" alt="Solución Ejercicio 2">
 
 **Análisis**
 
-
+Esta función es conocida por tener una raíz cerca de 0.7391, el punto fijo de cos(x). La curva es bastante suave y casi lineal en ese tramo, lo cual beneficia mucho al método de la regla falsa, que depende de líneas secantes.
+La convergencia es rápida (solo 4 iteraciones), en parte porque el punto de corte de la secante se aproxima bien desde el inicio. Esto lo convierte en un ejemplo ideal de una función no polinómica donde el método también se desempeña de forma excelente.
 
 ## Ejercicio 3
 Dada la función:
 
-f(x) = √x + 2 - x  en el intervalo [0,2]
+f(x) = e^x - 3x en el intervalo [0,1]
 
 **Solución con algoritmo de java**
 
-<img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-2/Imagenes/M%C3%A9todo%20Bisecci%C3%B3n/Ejercicio%203.png" width="35%" alt="Solución Ejercicio 3">
+<img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-2/Imagenes/Regla%20Falsa/Ejercicio%203.png" width="35%" alt="Solución Ejercicio 3">
 
 **Análisis**
 
-La función $f(x) = x^2 - 4$ es un polinomio cuadrático, lo que significa que es continua y diferenciable en todo su dominio. En el intervalo $[0, 3]$, se evalúa que $f(0) = -4$ y $f(3) = 5$, lo que implica que existe un cambio de signo entre estos dos puntos, garantizando la presencia de una raíz real en este intervalo. La raíz de esta ecuación es conocida y se encuentra en $x = 2$, lo que convierte a este ejercicio en un caso simple y claro para el método de bisección. Al aplicar el algoritmo, el programa debería encontrar la raíz con gran precisión, cercana a 2.0000.
+Aquí la función combina crecimiento exponencial y decrecimiento lineal. La raíz cerca de 0.6191 es un buen ejemplo de una intersección entre una curva creciente y una recta.
+El método funciona bien porque la función tiene un cambio de curvatura suave, y la secante corta al eje con bastante precisión desde las primeras iteraciones. Nuevamente, en 8 pasos se alcanza la tolerancia deseada. Esto demuestra que la regla falsa es eficaz incluso en funciones con exponentes, siempre que no haya comportamientos extremos (como asintotas o curvas muy planas).
 
-## Ejercicio 4
+## Ejercicio 4 
 Dada la función:
 
-f(x) = e^-x - x  en el intervalo [0,1]
+f(x) = x^2 - 9  en el intervalo [2,4]
 
 **Solución con algoritmo de java**
 
-<img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-2/Imagenes/M%C3%A9todo%20Bisecci%C3%B3n/Ejercicio%204.png" width="35%" alt="Solución Ejercicio 4">
+<img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-2/Imagenes/Regla%20Falsa/Ejercicio%204.png" width="35%" alt="Solución Ejercicio 4">
 
 **Análisis**
 
+Este ejercicio es bastante sencillo y directo. La función f(x) = x² - 9 es una parábola que corta el eje x en x = 3. El intervalo 2,4 está centrado alrededor de esa raíz. El método de la regla falsa se desempeña muy bien aquí. Al ser una función cuadrática, el cambio de signo entre los valores de f(2) = -5 y f(4) = 7 es claro, y la secante converge rápidamente hacia la raíz. Solo son necesarias 6 iteraciones para encontrar la raíz aproximada de 3.0000, lo que muestra que el método es eficaz y preciso en este caso.
+La convergencia es rápida porque la función no tiene ninguna complejidad, es una parábola simple con una única raíz real dentro del intervalo. La secante mueve el intervalo con rapidez hacia el valor de la raíz, lo que demuestra la efectividad de este método para funciones polinómicas sencillas.
 
 ## Ejercicio 5 (sin solución)
 Dada la función:
 
-f(x) = x^2 + 4  en el intervalo [-2,2]
+f(x) = x^2 + 4 en el intervalo [1,3]
 
 **Solución con algoritmo de java**
 
-<img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-2/Imagenes/M%C3%A9todo%20Bisecci%C3%B3n/Ejercicio%205.png" width="35%" alt="Solución Ejercicio 5">
+<img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-2/Imagenes/Regla%20Falsa/Ejercicio%205.png" width="35%" alt="Solución Ejercicio 5">
 
 **Análisis**
 
-La función $f(x) = x^2 + 4$ nunca cambia de signo en el intervalo $[-2, 2]$, ya que siempre es positiva para cualquier valor de $x$. Es una parábola que se abre hacia arriba con un valor mínimo de 4 en $x = 0$. Por lo tanto, no existe ninguna raíz real en el intervalo, ya que la función no cruza el eje $x$. Al intentar aplicar el método de bisección, el algoritmo detectará que no hay un cambio de signo entre $f(-2) = 8$ y $f(2) = 8$, lo que indica que no se puede aplicar el método en este caso. La salida del programa reflejará correctamente que no es posible realizar la búsqueda de la raíz.
+Este ejercicio es un ejemplo clave de un caso sin solución real en el intervalo. La función f(x) = x² + 4 no tiene raíces reales, ya que siempre produce valores positivos para cualquier x. En este caso específico, f(1) = 5 y f(3) = 13, ambos positivos, por lo que no hay cambio de signo entre los valores de f(a) y f(b). Cuando el método de la regla falsa se ejecuta, verifica si hay un cambio de signo entre f(a) y f(b). Como no hay tal cambio de signo en este caso, el programa detiene su ejecución y muestra el mensaje de que no hay solución, gracias a la modificación que agregamos en el código. Esto es precisamente lo que debería ocurrir, ya que no se puede aplicar el método si no se cumple la condición de cambio de signo, lo que significa que no se puede encontrar una raíz en el intervalo dado.
