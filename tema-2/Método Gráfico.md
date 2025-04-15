@@ -59,7 +59,7 @@ Determina en qué puntos el puente presenta una tensión nula resolviendo la ecu
 
 **Solución**
 
-<img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-2/Imagenes/M%C3%A9todo%20Gr%C3%A1fico/metodo%20grafico%20ejemplo2.png" width="25%" alt="método gráfico ejemplo2">
+<img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-2/Imagenes/M%C3%A9todo%20Gr%C3%A1fico/metodo%20grafico%20ejemplo2.png" width="35%" alt="método gráfico ejemplo2">
 
 
 El puente presenta puntos de tensión nula en las posiciones **x ≈ -1, x ≈ 0.27 y x ≈ 3.73.**  
