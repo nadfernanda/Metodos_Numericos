@@ -127,13 +127,15 @@ f(x) = x^4 - 7
 
 La ecuación f(x) = x⁴ - 7 convertida a x = ⁷√7 muestra una convergencia instantánea similar al Ejercicio 3. La función g(x) = ⁷√7 es constante con derivada g'(x) = 0, lo que garantiza convergencia en solo 2 iteraciones independientemente del valor inicial (siempre que sea razonable). Al ser una función constante, cada aplicación produce exactamente el mismo valor aproximado 1.6266, eliminando cualquier error después de la primera iteración. Esta es la formulación de punto fijo óptima posible.
 
-## Ejercicio 5
+## Ejercicio 5 (sin solución)
 Dada la ecuación:
 
-f(x) = 5x - 4 
+f(x) = x^2 + 2 
 
 **Solución con algoritmo de java**
 
 <img src="aaaaa" width="35%" alt="Solución Ejercicio 1">
 
 **Análisis**
+
+Esta ecuación no tiene solución real, ya que x² + 2 > 0 para todo valor real de x. La formulación de punto fijo g(x) = √(x² + 2) no puede converger a un punto fijo porque cada iteración produce un valor cada vez mayor. La derivada g'(x) = x/√(x² + 2) se acerca a 1 para valores grandes de x, haciendo que la función se aleje cada vez más lentamente, pero constantemente, de cualquier punto inicial. El método seguirá produciendo una secuencia creciente de valores sin llegar nunca a converger dentro del número máximo de iteraciones establecido.
