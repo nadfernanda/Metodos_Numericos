@@ -30,7 +30,7 @@ public class MetodoSecante {
      * @return El valor de la función evaluada en x.
      */
     public static double f(double x) {
-        return x * x - 4; // Modifica esta línea con la función que deseas
+        return x * x - 4; // Función
     }
 
     /**
