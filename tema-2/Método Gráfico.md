@@ -40,7 +40,7 @@ El corredor sigue la ecuación:
 
 **Solución**
 
-<img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-2/Imagenes/M%C3%A9todo%20Gr%C3%A1fico/metodo%20grafico%20ejemplo%201.png" width="30%" alt="método gráfico ejemplo1">
+<img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-2/Imagenes/M%C3%A9todo%20Gr%C3%A1fico/metodo%20grafico%20ejemplo%201.png" width="25%" alt="método gráfico ejemplo1">
 
 El ciclista y el corredor se encuentran en el minuto 4, a una distancia de 24 metros del punto de inicio. En la gráfica, este punto de intersección se representa como: **(4,24)**.
 Esto indica que cuando t=4 minutos, ambas ecuaciones tienen el mismo valor de distancia 24, lo que confirma que en ese instante ambos coinciden en el mismo lugar.
@@ -59,7 +59,7 @@ Determina en qué puntos el puente presenta una tensión nula resolviendo la ecu
 
 **Solución**
 
-<img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-2/Imagenes/M%C3%A9todo%20Gr%C3%A1fico/metodo%20grafico%20ejemplo2.png" width="40%" alt="método gráfico ejemplo2">
+<img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-2/Imagenes/M%C3%A9todo%20Gr%C3%A1fico/metodo%20grafico%20ejemplo2.png" width="25%" alt="método gráfico ejemplo2">
 
 
 El puente presenta puntos de tensión nula en las posiciones **x ≈ -1, x ≈ 0.27 y x ≈ 3.73.**  
@@ -83,7 +83,7 @@ En algún momento del día, ambos vendedores se cruzan en una intersección ante
 
 **Solución**
 
-<img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-2/Imagenes/M%C3%A9todo%20Gr%C3%A1fico/metodo%20grafico%20ejemplo3.png" width="40%" alt="método gráfico ejemplo2">
+<img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-2/Imagenes/M%C3%A9todo%20Gr%C3%A1fico/metodo%20grafico%20ejemplo3.png" width="25%" alt="método gráfico ejemplo2">
 
 Si Eric y Kenny quieren aprovechar su encuentro para intercambiar productos o conversar sobre estrategias de venta, saben que deben encontrarse en la posición **(2,7)** dentro de la ciudad.
 
@@ -103,7 +103,7 @@ El departamento de tránsito necesita determinar el punto exacto donde ambas car
 
 **Solución**
 
-<img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-2/Imagenes/M%C3%A9todo%20Gr%C3%A1fico/metodo%20grafico%20ejemplo4.png" width="40%" alt="método gráfico ejemplo2">
+<img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-2/Imagenes/M%C3%A9todo%20Gr%C3%A1fico/metodo%20grafico%20ejemplo4.png" width="25%" alt="método gráfico ejemplo2">
 
 El departamento de tránsito debe colocar la nueva señal en la ubicación **(1.5, 0.5)**  para garantizar una mejor circulación y seguridad en la intersección.
 
@@ -138,6 +138,6 @@ Los conductores de ambas líneas de autobuses quieren saber en qué punto exacto
 | 2 | 3 |
 | 3 | 7 |
 
-<img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-2/Imagenes/M%C3%A9todo%20Gr%C3%A1fico/metodo%20grafico%20ejemplo5.png" width="40%" alt="método gráfico ejemplo2">
+<img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-2/Imagenes/M%C3%A9todo%20Gr%C3%A1fico/metodo%20grafico%20ejemplo5.png" width="25%" alt="método gráfico ejemplo2">
 
 Los conductores pueden planear su parada conjunta en la ubicación **(1.93, 2.71)** para mejorar la eficiencia del servicio y reducir tiempos de espera. Además, la tabulación de valores permite visualizar gráficamente cómo se cruzan las rutas en ese punto.
