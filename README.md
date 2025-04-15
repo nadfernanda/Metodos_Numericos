@@ -32,6 +32,7 @@ Los métodos de solución de ecuaciones son fundamentales para encontrar raíces
 
 ### Tema 3: Métodos de solución de sistemas de ecuaciones
 Resolver sistemas de ecuaciones es una tarea común en muchas áreas de la ciencia y la ingeniería. En este tema, analizaremos métodos tanto directos como iterativos para abordar estos problemas. Estudiaremos técnicas como la eliminación de Gauss, Gauss Jordan y métodos iterativos como Jacobi y Gauss-Seidel. Estos métodos permiten resolver sistemas de manera eficiente y son esenciales para problemas de mayor escala en la práctica computacional.
+
 1. [Método de eliminación de Gauss simple](tema-3/Eliminación%20de%20Gauss%20simple.md)
 2. [Método de Gauss](tema-3/Método%20Gauss.md) 
 3. [Método de Gauss Jordan](tema-3/Método%20Gauss%20Jordan.md)
@@ -39,8 +40,13 @@ Resolver sistemas de ecuaciones es una tarea común en muchas áreas de la cienc
 5. [Método de Jacobi](tema-3/Método%20Jacobi.md)
 
 ### Tema 4: Diferenciación e integración numérica
-Cuando las funciones no pueden derivarse o integrarse de forma analítica, recurrimos a métodos numéricos. En este tema, abordaremos técnicas para calcular derivadas e integrales de manera aproximada. Se estudiarán métodos como la cuadratura gaussiana, y los métodos del trapecio y de Simpson para la integración. Estas herramientas son clave para el análisis de datos experimentales y la simulación de fenómenos físicos complejos.
-1. M
+Cuando las funciones no pueden derivarse o integrarse de forma analítica, recurrimos a métodos numéricos. En este tema, abordaremos técnicas para calcular derivadas e integrales de manera aproximada. Se estudiarán métodos como la Cuadratura Gaussiana, y los métodos del trapecio y de Simpson para la integración. Estas herramientas son clave para el análisis de datos experimentales y la simulación de fenómenos físicos complejos.
+
+1. [Cuadratura Gaussiana](tema-4/Cuadratura%20Gaussiana.md)
+2. [Método de Simpson ⅓](tema-4/Método%20de%20Simpson%20⅓.md)
+3. [Método de Simpson ⅜](tema-4/Método%20de%20Simpson%20⅜.md)
+4.[Regla del Trapecio](tema-4/Regla%20del%20trapecio.md)
+
 
 ## 👥 Equipo  
 - **Mendoza Romero Nadia Fernanda**  yo y nada más yo contra el mundo
