@@ -28,7 +28,11 @@ El estudio de los errores es fundamental en el análisis numérico, ya que permi
 Los métodos de solución de ecuaciones son fundamentales para encontrar raíces de funciones cuando no es posible obtener soluciones exactas de forma algebraica. En este tema exploraremos cuatro métodos clave: bisección, punto fijo, Newton-Raphson y secante. Cada uno de ellos ofrece diferentes ventajas en términos de precisión, velocidad de convergencia y facilidad de implementación. Estos métodos son ampliamente utilizados en aplicaciones matemáticas, científicas e ingenieriles donde se requiere resolver ecuaciones de manera eficiente y confiable.
 
 1. [Método Gráfico](tema-2/Método%20Gráfico.md)
-
+2. [Método Bisección](tema-2/Método%20Bisección.md)
+3. [Método Newton-Raphson](tema-2/Método%20Newton-Raphson.md)
+4. [Método Punto Fijo](tema-2/Método%20Punto%20Fijo.md)
+5. [Método Regla Falsa](tema-2/Método%20Regla%20Falsa.md)
+6. [Método Secante](tema-2/Método%20Secante.md)
 
 ### Tema 3: Métodos de solución de sistemas de ecuaciones
 Resolver sistemas de ecuaciones es una tarea común en muchas áreas de la ciencia y la ingeniería. En este tema, analizaremos métodos tanto directos como iterativos para abordar estos problemas. Estudiaremos técnicas como la eliminación de Gauss, Gauss Jordan y métodos iterativos como Jacobi y Gauss-Seidel. Estos métodos permiten resolver sistemas de manera eficiente y son esenciales para problemas de mayor escala en la práctica computacional.
@@ -45,7 +49,7 @@ Cuando las funciones no pueden derivarse o integrarse de forma analítica, recur
 1. [Cuadratura Gaussiana](tema-4/Cuadratura%20Gaussiana.md)
 2. [Método de Simpson ⅓](tema-4/Método%20de%20Simpson%20⅓.md)
 3. [Método de Simpson ⅜](tema-4/Método%20de%20Simpson%20⅜.md)
-4.[Regla del Trapecio](tema-4/Regla%20del%20trapecio.md)
+4. [Regla del Trapecio](tema-4/Regla%20del%20trapecio.md)
 
 
 ## 👥 Equipo  
