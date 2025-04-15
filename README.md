@@ -39,5 +39,5 @@ Cuando lidiamos con sistemas de ecuaciones, necesitamos técnicas específicas p
 5. [Método de Jacobi](tema-3/Método%20Jacobi.md)
 
 ## 👥 Equipo  
-- **Mendoza Romero Nadia Fernanda**  
+- **Mendoza Romero Nadia Fernanda**  yo y nada más yo contra el mundo
   
