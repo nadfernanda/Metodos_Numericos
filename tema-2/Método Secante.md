@@ -30,8 +30,7 @@ public class MetodoSecante {
      * @return El valor de la función evaluada en x.
      */
     public static double f(double x) {
-        // Ejemplo: f(x) = x^2 - 4
-        return x * x - 4;
+        return x * x - 4; // Modifica esta línea con la función que deseas
     }
 
     /**
@@ -55,10 +54,7 @@ public class MetodoSecante {
             // Calcular el siguiente valor de la raíz usando la fórmula de la secante
             x2 = x1 - f1 * (x1 - x0) / (f1 - f0);
 
-            // Mostrar la aproximación de la raíz en la iteración actual con 4 decimales
-            System.out.printf("Iteración %d: x = %.4f\n", iter + 1, x2);
-
-            // Comprobar si la diferencia entre las dos iteraciones consecutivas es menor que epsilon
+            // Verificar si la diferencia entre las dos iteraciones consecutivas es menor que epsilon
             // Si la diferencia es suficientemente pequeña, se considera que se ha encontrado la raíz
             if (Math.abs(x2 - x1) < epsilon) {
                 System.out.printf("Raíz aproximada: %.4f\n", x2);
