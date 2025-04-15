@@ -82,7 +82,7 @@ Dada la ecuación:
 
 **Solución con algoritmo de java**
 
-<img src="aaaaa" width="35%" alt="Solución Ejercicio 1">
+<img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-2/Imagenes/Punto%20Fijo/Ejercicio%201.png" width="35%" alt="Solución Ejercicio 1">
 
 **Análisis**
 
@@ -95,7 +95,7 @@ f(x) = x^2 - 5
 
 **Solución con algoritmo de java**
 
-<img src="aaaaa" width="35%" alt="Solución Ejercicio 2">
+<img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-2/Imagenes/Punto%20Fijo/Ejercicio%202.png" width="35%" alt="Solución Ejercicio 2">
 
 **Análisis**
 
@@ -108,7 +108,7 @@ f(x) = x^2 - 3x^2 + 2
 
 **Solución con algoritmo de java**
 
-<img src="aaaaa" width="35%" alt="Solución Ejercicio 3">
+<img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-2/Imagenes/Punto%20Fijo/Ejercicio%203.png" width="35%" alt="Solución Ejercicio 3">
 
 **Análisis**
 
@@ -121,7 +121,7 @@ f(x) = x^4 - 7
 
 **Solución con algoritmo de java**
 
-<img src="aaaaa" width="35%" alt="Solución Ejercicio 4">
+<img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-2/Imagenes/Punto%20Fijo/Ejercicio%204.png" width="35%" alt="Solución Ejercicio 4">
 
 **Análisis**
 
@@ -134,7 +134,7 @@ f(x) = x^2 + 2
 
 **Solución con algoritmo de java**
 
-<img src="aaaaa" width="35%" alt="Solución Ejercicio 1">
+<img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-2/Imagenes/Punto%20Fijo/Ejercicio%205.png" width="35%" alt="Solución Ejercicio 1">
 
 **Análisis**
 
