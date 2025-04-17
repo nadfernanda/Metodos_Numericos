@@ -14,46 +14,29 @@ El **error de redondeo** es la diferencia entre el valor aproximado de un númer
 
 ### Implementación en Java
 ```java
-/**
- * Clase que proporciona métodos para calcular el error de redondeo entre un valor exacto y su aproximación.
- */
 public class ErrorRedondeo {
-
-    /**
-     * Calcula el error de redondeo entre un valor exacto y su aproximación.
-     * 
-     * @param valorExacto El valor exacto (tipo double).
-     * @param valorAproximado El valor aproximado (tipo double).
-     * @return El error de redondeo absoluto (diferencia entre el valor exacto y el aproximado).
-     * 
-     * @throws IllegalArgumentException Si alguno de los parámetros no es un número finito.
-     */
-    public static double calcularErrorRedondeo(double valorExacto, double valorAproximado) {
-        // Validación de parámetros
-        if (!Double.isFinite(valorExacto) || !Double.isFinite(valorAproximado)) {
-            throw new IllegalArgumentException("Los valores deben ser números finitos.");
-        }
-        
-        return Math.abs(valorExacto - valorAproximado);
-    }
-
-    /**
-     * Ejemplo de uso del método calcularErrorRedondeo.
-     */
     public static void main(String[] args) {
-        // Valores de ejemplo
-        double exacto = 1.23456789;
-        double aproximado = 1.234;
-        
-        // Cálculo del error
-        double error = calcularErrorRedondeo(exacto, aproximado);
-        
-        // Resultado
-        System.out.printf("Valor exacto: %.8f%n", exacto);
-        System.out.printf("Valor aproximado: %.3f%n", aproximado);
-        System.out.printf("Error de redondeo: %.8f%n", error);
+        // Definimos el valor real que queremos redondear
+        double valorReal = 9.87654321;  // Número original con todos sus decimales
+
+        // Definimos la cantidad de decimales a los cuales queremos redondear
+        int decimales = 3;  // En este caso, redondearemos a 3 decimales
+
+        // Redondeamos el valor real a los decimales especificados
+        // Multiplicamos por 10^decimales, redondeamos el valor y luego dividimos por 10^decimales
+        double valorRedondeado = Math.round(valorReal * Math.pow(10, decimales)) / Math.pow(10, decimales);
+
+        // Calculamos el error de redondeo
+        // El error es la diferencia absoluta entre el valor real y el valor redondeado
+        double error = Math.abs(valorReal - valorRedondeado);
+
+        // Mostramos los resultados en consola con un máximo de 6 decimales
+        System.out.printf("Valor real:        %.6f\n", valorReal);          // Imprime el valor original
+        System.out.printf("Valor redondeado:  %.6f\n", valorRedondeado);    // Imprime el valor redondeado
+        System.out.printf("Error de redondeo: %.6f\n", error);             // Imprime el error de redondeo
     }
 }
+
 ```
 ## Ejercicios Prácticos
 ## Ejercicio 1
