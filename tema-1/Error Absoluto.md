@@ -57,6 +57,7 @@ public class ErrorAbsoluto {
 Se ha estimado el valor de e (número de Euler) como 2.71. Calcula el error absoluto si el valor verdadero de e es 2.71828.
 
 **Solución con algoritmo de java**
+
 <img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-1/imagenes/Error%20Absoluto/Ejercicio%201.png" width="35%" alt="Solución Ejercicio 1">
 
 **Análisis** 🧠
@@ -67,6 +68,7 @@ El error absoluto obtenido al estimar el número de Euler como 2.71 en lugar de 
 Se mide la gravedad como 9.8 m/s². El valor verdadero es 9.81 m/s².
 
 **Solución con algoritmo de java**
+
 <img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-1/imagenes/Error%20Absoluto/Ejercicio%202.png" width="35%" alt="Solución Ejercicio 2">
 
 **Análisis**🧠
@@ -77,6 +79,7 @@ El error absoluto de 0.01 al medir la gravedad sugiere una ligera imprecisión q
 La raíz cuadrada de 2 se aproxima como 1.41. El valor real es 1.4142.
 
 **Solución con algoritmo de java**
+
 <img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-1/imagenes/Error%20Absoluto/Ejercicio%203.png" width="35%" alt="Solución Ejercicio 3">
 
 **Análisis**🧠
@@ -87,6 +90,7 @@ La diferencia de 0.0042 al aproximar la raíz de 2 refleja una buena aproximaci�
 Se estima la constante de Euler-Mascheroni como 0.58. El valor real es 0.5772.
 
 **Solución con algoritmo de java**
+
 <img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-1/imagenes/Error%20Absoluto/Ejercicio%204.png" width="35%" alt="Solución Ejercicio 4">
 
 **Análisis**🧠
@@ -98,6 +102,7 @@ La estimación de 0.58 en lugar de 0.5772 produce un error absoluto pequeño (0.
 Un estudiante aproxima el valor de π (pi) como 3.142 en un cálculo. El valor verdadero es 3.1416. Calcula el error absoluto de esta aproximación.
 
 **Solución con algoritmo de java**
+
 <img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-1/imagenes/Error%20Absoluto/Ejercicio%205.png" width="35%" alt="Solución Ejercicio 5">
 
 **Análisis**🧠
