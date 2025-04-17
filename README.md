@@ -23,6 +23,7 @@ El estudio de los errores es fundamental en el análisis numérico, ya que permi
 2. [Error Relativo](tema-1/Error%20Relativo.md)
 3. [Error de Redondeo](tema-1/Error%20Redondeo.md)
 4. [Error de Truncamiento](tema-1/Error%20De%20Truncamiento.md)
+5. [Error Iterativo](tema-1/Error%20Iterativo.md)
 
 ### Tema 2: Métodos de solución de ecuaciones
 Los métodos de solución de ecuaciones son fundamentales para encontrar raíces de funciones cuando no es posible obtener soluciones exactas de forma algebraica. En este tema exploraremos cuatro métodos clave: bisección, punto fijo, Newton-Raphson y secante. Cada uno de ellos ofrece diferentes ventajas en términos de precisión, velocidad de convergencia y facilidad de implementación. Estos métodos son ampliamente utilizados en aplicaciones matemáticas, científicas e ingenieriles donde se requiere resolver ecuaciones de manera eficiente y confiable.
