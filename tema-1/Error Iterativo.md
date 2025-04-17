@@ -1,7 +1,5 @@
 ## Definición
-El error iterativo es un concepto utilizado en los métodos numéricos iterativos, donde se estima la diferencia entre dos aproximaciones sucesivas de una solución. En cada paso de la iteración, el error es la diferencia entre el valor calculado en la iteración anterior y el valor calculado en la iteración actual.
-
-Este error se utiliza para determinar cuándo se ha alcanzado una solución suficientemente precisa y cuándo se debe detener el proceso iterativo. El objetivo es minimizar este error en cada iteración hasta que cumpla con un criterio de convergencia predefinido (por ejemplo, cuando el error sea menor que un valor umbral).
+El error iterativo es la diferencia entre el valor aproximado obtenido en una iteración actual ($x_n$) y el valor aproximado de la iteración anterior ($x_{n-1}$). Se utiliza en métodos numéricos iterativos (como Newton-Raphson, bisección, etc.) para determinar cuándo detener las iteraciones, asegurando que la solución converja a un valor aceptable dentro de una tolerancia predefinida.
 
 ## Algoritmo
 1. Definir la tolerancia ($\epsilon$): Límite aceptable para el error.
@@ -91,7 +89,7 @@ Queremos sumar 0.1 diez veces y comparar el resultado con el valor esperado (1.0
 
 **Solución con algoritmo de java**
 
-<img src="aaaaa" width="35%" alt="Solución Ejercicio 2">
+<img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-1/imagenes/Error%20Iterativo/Ejercicio%201.png" width="35%" alt="Solución Ejercicio 2">
 
 **Análisis** 🧠
 
@@ -103,7 +101,7 @@ Aproxima el valor de π (3.1416) usando la fracción 22/7. Calcula el error rela
 
 **Solución con algoritmo de java**
 
-<img src="aaaaa" width="35%" alt="Solución Ejercicio 2">
+<img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-1/imagenes/Error%20Iterativo/Ejercicio%202.png" width="35%" alt="Solución Ejercicio 2">
 
 **Análisis** 🧠
 
@@ -112,7 +110,7 @@ Usa el método de Newton-Raphson para aproximar √9 (valor real = 3.0). Muestra
 
 **Solución con algoritmo de java**
 
-<img src="aaaaa" width="35%" alt="Solución Ejercicio 2">
+<img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-1/imagenes/Error%20Iterativo/Ejercicio%203.png" width="35%" alt="Solución Ejercicio 2">
 
 **Análisis** 🧠
 
@@ -124,7 +122,7 @@ Partiendo de 2.0, divide el número entre 2 en cada iteración hasta que se acer
 
 **Solución con algoritmo de java**
 
-<img src="aaaaa" width="35%" alt="Solución Ejercicio 2">
+<img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-1/imagenes/Error%20Iterativo/Ejercicio%204.png" width="35%" alt="Solución Ejercicio 2">
 
 **Análisis** 🧠
 
@@ -133,6 +131,6 @@ Calcula el interés compuesto de $1000 al 5% anual durante 3 años. Compara con 
 
 **Solución con algoritmo de java**
 
-<img src="aaaaa" width="35%" alt="Solución Ejercicio 2">
+<img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-1/imagenes/Error%20Iterativo/Ejercicio%205.png" width="35%" alt="Solución Ejercicio 2">
 
 **Análisis** 🧠
