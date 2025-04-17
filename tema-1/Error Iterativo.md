@@ -108,7 +108,7 @@ Aproxima el valor de π (3.1416) usando la fracción 22/7. Calcula el error rela
 **Análisis** 🧠
 
 ## Ejercicio 3
-Usa el método de bisección para aproximar $\sqrt{2}$ (raíz de $f(x) = x^2 - 2$) en el intervalo $[1, 2]$. Calcula el error relativo porcentual en cada iteración hasta que sea menor al $0.1\%$.
+Usa el método de Newton-Raphson para aproximar √9 (valor real = 3.0). Muestra el error en cada paso.
 
 **Solución con algoritmo de java**
 
@@ -116,8 +116,11 @@ Usa el método de bisección para aproximar $\sqrt{2}$ (raíz de $f(x) = x^2 - 2
 
 **Análisis** 🧠
 
+El método corrige rápidamente el error.
+En solo 4 iteraciones, la aproximación es casi exacta.
+
 ## Ejercicio 4
-Usa el método de bisección para aproximar $\sqrt{2}$ (raíz de $f(x) = x^2 - 2$) en el intervalo $[1, 2]$. Calcula el error relativo porcentual en cada iteración hasta que sea menor al $0.1\%$.
+Partiendo de 2.0, divide el número entre 2 en cada iteración hasta que se acerque a 1.0. Calcula el error absoluto en cada paso.
 
 **Solución con algoritmo de java**
 
@@ -126,7 +129,7 @@ Usa el método de bisección para aproximar $\sqrt{2}$ (raíz de $f(x) = x^2 - 2
 **Análisis** 🧠
 
 ## Ejercicio 5
-Usa el método de bisección para aproximar $\sqrt{2}$ (raíz de $f(x) = x^2 - 2$) en el intervalo $[1, 2]$. Calcula el error relativo porcentual en cada iteración hasta que sea menor al $0.1\%$.
+Calcula el interés compuesto de $1000 al 5% anual durante 3 años. Compara con el valor real y calcula el error porcentual.
 
 **Solución con algoritmo de java**
 
