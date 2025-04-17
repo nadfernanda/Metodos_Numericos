@@ -93,8 +93,7 @@ Queremos sumar 0.1 diez veces y comparar el resultado con el valor esperado (1.0
 
 **Análisis** 🧠
 
-El error disminuye a medida que nos acercamos al valor real (1.0).
-En la última iteración, el error es 0.0 porque la suma coincide con el valor esperado.
+El error absoluto disminuye progresivamente a medida que la suma se acerca al valor real (1.0). En la última iteración, el error es cero porque la aproximación coincide exactamente con el valor esperado. Esto demuestra cómo, en operaciones acumulativas, el error puede reducirse sistemáticamente al aumentar las iteraciones.
 
 ## Ejercicio 2
 Aproxima el valor de π (3.1416) usando la fracción 22/7. Calcula el error relativo porcentual.
@@ -105,6 +104,8 @@ Aproxima el valor de π (3.1416) usando la fracción 22/7. Calcula el error rela
 
 **Análisis** 🧠
 
+La fracción 22/7 aproxima π con un error relativo mínimo (0.0402%), lo que confirma su utilidad como estimación práctica. Este ejemplo ilustra que incluso fórmulas sencillas pueden ofrecer resultados muy cercanos al valor real en contextos donde no se requiere precisión extrema.
+
 ## Ejercicio 3
 Usa el método de Newton-Raphson para aproximar √9 (valor real = 3.0). Muestra el error en cada paso.
 
@@ -114,8 +115,7 @@ Usa el método de Newton-Raphson para aproximar √9 (valor real = 3.0). Muestra
 
 **Análisis** 🧠
 
-El método corrige rápidamente el error.
-En solo 4 iteraciones, la aproximación es casi exacta.
+El método de Newton-Raphson converge rápidamente hacia la raíz cuadrada de 9, reduciendo el error de 0.4 a casi 0.0 en solo cuatro iteraciones. Esto resalta la eficiencia del método para funciones bien comportadas, donde una buena aproximación inicial acelera la convergencia.
 
 ## Ejercicio 4
 Partiendo de 2.0, divide el número entre 2 en cada iteración hasta que se acerque a 1.0. Calcula el error absoluto en cada paso.
@@ -126,6 +126,8 @@ Partiendo de 2.0, divide el número entre 2 en cada iteración hasta que se acer
 
 **Análisis** 🧠
 
+Aquí, el error aumenta en cada iteración porque la operación (dividir entre 2) aleja el resultado del valor objetivo (1.0). Este caso advierte sobre la importancia de elegir algoritmos que converjan al valor deseado, ya que no todos los métodos iterativos garantizan una reducción del error.
+
 ## Ejercicio 5
 Calcula el interés compuesto de $1000 al 5% anual durante 3 años. Compara con el valor real y calcula el error porcentual.
 
@@ -134,3 +136,5 @@ Calcula el interés compuesto de $1000 al 5% anual durante 3 años. Compara con 
 <img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-1/imagenes/Error%20Iterativo/Ejercicio%205.png" width="35%" alt="Solución Ejercicio 2">
 
 **Análisis** 🧠
+
+El interés simple subestima el valor real del interés compuesto en solo un 0.66%, pero en aplicaciones financieras, este pequeño error puede traducirse en diferencias significativas con el tiempo. El ejercicio muestra cómo las aproximaciones simplificadas, aunque útiles, pueden omitir efectos acumulativos importantes.
