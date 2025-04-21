@@ -1,16 +1,16 @@
 ## Definición
-La interpolación lineal consiste en estimar el valor de una función $f(x)$ dentro de un intervalo $[x_0, x_1]$, 
-conociendo los valores de la función en esos extremos. Se asume que el cambio entre los puntos es lineal (una recta).
-Es útil cuando se tienen solo dos puntos.
+El método de interpolación lineal es una forma sencilla y directa de estimar un valor desconocido que se encuentra entre dos valores conocidos. La idea principal es asumir que existe una relación lineal (una línea recta) entre los dos puntos de datos conocidos y usar esa línea para predecir el valor en el punto intermedio.
 
 ## Algoritmo 
-1. Dados dos puntos $(x_0, y_0)$ y $(x_1, y_1)$, identificar el valor de $x$ donde se desea interpolar.
+1. Toma dos puntos conocidos: $(x_0, y_0)$ y $(x_1, y_1)$.
    
-2. Usar la fórmula:
+2. Elige un valor de $x$ que esté entre $x_0$ y $x_1$.
    
-   $$f(x) = y_0 + \frac{(y_1 - y_0)}{(x_1 - x_0)}(x - x_0)$$
-  
-3. Sustituir los valores y calcular $f(x)$.
+3. Aplica la fórmula:
+   
+   $$f(x) = y_0 + \frac{(y_1 - y_0)}{(x_1 - x_0)} \cdot (x - x_0)$$
+
+4. El resultado es una estimación de $f(x)$.
 
 ### Implementación en Java
 ```java
