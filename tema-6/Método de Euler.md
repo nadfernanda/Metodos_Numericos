@@ -4,25 +4,19 @@ El método de Euler es un método numérico de primer orden para aproximar la so
 El método de Euler se basa en la idea de que, en un intervalo pequeño, la solución de una EDO puede aproximarse mediante una línea recta cuya pendiente es la derivada al inicio del intervalo. En otras palabras, utiliza la recta tangente a la solución en un punto conocido para estimar el valor de la solución en un punto cercano.
 
 ## Algoritmo
-1. Define la ecuación diferencial: $\frac{dy}{dx} = f(x, y)$
+1. Definir la ecuación diferencial en la forma: $y' = f(x, y)$
    
-2. Establece las condiciones iniciales: $x_0$, $y_0$
+2. Establecer las condiciones iniciales: $x_0, y_0$
    
-3. Selecciona un tamaño de paso: $h$
+3. Seleccionar el tamaño del paso: $h$
    
-4. Usa la fórmula de Euler para calcular el siguiente valor de $y$:
+4. Calcular los valores sucesivos de $y$ usando la fórmula:
 
-   $$
-   y_{n+1} = y_n + h \cdot f(x_n, y_n)
-   $$
+   $$y_{n+1} = y_n + h \cdot f(x_n, y_n)$$
 
-5. Actualiza el valor de $x$:
-
-   $$
-   x_{n+1} = x_n + h
-   $$
-
-6. Repite los pasos 4 y 5 hasta alcanzar el valor deseado de $x$
+5. Incrementar $x_n = x_n + h$
+    
+6. Repetir los pasos 4 y 5 hasta alcanzar el valor deseado de $x$
 ### Implementación en Java
 ```java
 ```
