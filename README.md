@@ -52,6 +52,21 @@ Cuando las funciones no pueden derivarse o integrarse de forma analítica, recur
 3. [Método de Simpson ⅜](tema-4/Método%20de%20Simpson%20⅜.md)
 4. [Regla del Trapecio](tema-4/Regla%20del%20trapecio.md)
 
+### Tema 5: Interpolación y ajuste de funciones ✏️
+La interpolación y el ajuste de funciones son técnicas fundamentales para aproximar datos experimentales mediante funciones matemáticas. En este tema, se estudiarán métodos de interpolación como el lineal, cuadrático, de Lagrange y de Newton. Estas herramientas permiten construir funciones que pasan exactamente por un conjunto de puntos dados, facilitando la predicción y análisis de comportamientos en sistemas reales.
+
+1. [Método de Interpolación Lineal](tema-5/Método%20de%20Interpolación%20Lineal.md)
+2. [Método de Interpolación Cuadrática](tema-5/Método%20de%20Interpolación%20Cuadrática.md)
+3. [Método de Interpolación de Lagrange](tema-5/Método%20de%20Interpolación%20de%20Lagrange.md)
+4. [Método de Interpolación de Newton](tema-5/Método%20de%20Interpolación%20de%20Newton.md)
+
+### Tema 6: Solución de ecuaciones diferenciales 🔧
+La resolución de ecuaciones diferenciales permite modelar una amplia gama de fenómenos físicos, biológicos y económicos. En este tema, se presentarán métodos numéricos como el de Euler, Runge-Kutta y Taylor, que ofrecen soluciones aproximadas a problemas donde no es posible obtener una solución analítica. Estas técnicas son esenciales para el estudio de sistemas dinámicos y procesos de cambio en el tiempo.
+
+1. [Método de Euler](tema-6/Método%20de%20Euler.md)
+2. [Método Runge Kutta](tema-6/Método%20Runge%20Kutta.md)
+3. [Método Taylor](tema-6/Método%20Taylor.md)
+
 
 ## 👥 Equipo  
 - **Mendoza Romero Nadia Fernanda**  yo y nada más yo contra el mundo
