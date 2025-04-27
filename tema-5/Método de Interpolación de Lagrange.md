@@ -18,6 +18,57 @@ La idea principal detrás del método de Lagrange es construir una serie de poli
 
 ### Implementación en Java
 ```java
+/**
+ * Método de Interpolación de Lagrange
+ * 
+ * Este método construye un polinomio que pasa exactamente por todos los puntos dados.
+ * Aproxima el valor de una función f(x) para un valor específico de x
+ * usando los puntos conocidos (xi, yi).
+ */
+public class InterpolacionLagrange {
+
+    /**
+     * Calcula la interpolación de Lagrange en un punto x
+     * @param xPuntos Arreglo con los valores de x conocidos
+     * @param yPuntos Arreglo con los valores de f(x) correspondientes a cada x
+     * @param x Valor en el cual se desea interpolar
+     * @return Valor aproximado de f(x) usando el polinomio de Lagrange
+     */
+    public static double interpolar(double[] xPuntos, double[] yPuntos, double x) {
+        int n = xPuntos.length;
+        double resultado = 0.0;
+
+        // Recorrer cada término del polinomio de Lagrange
+        for (int i = 0; i < n; i++) {
+            double termino = yPuntos[i]; // Comenzamos con yi
+            for (int j = 0; j < n; j++) {
+                if (j != i) {
+                    // Multiplicamos (x - xj) / (xi - xj)
+                    termino *= (x - xPuntos[j]) / (xPuntos[i] - xPuntos[j]);
+                }
+            }
+            resultado += termino; // Sumamos el término al resultado
+        }
+
+        return resultado;
+    }
+
+    public static void main(String[] args) {
+        // Puntos conocidos
+        double[] xPuntos = {1.0, 2.0, 4.0};
+        double[] yPuntos = {2.0, 3.0, 5.0};
+
+        // Punto a interpolar
+        double x = 3.0;
+
+        // Cálculo de la interpolación
+        double valorInterpolado = interpolar(xPuntos, yPuntos, x);
+
+        // Mostrar resultado
+        System.out.println("El valor interpolado en x = " + x + " es: " + valorInterpolado);
+    }
+}
+
 ```
 ## Ejercicios Prácticos
 ## Ejercicio 1
