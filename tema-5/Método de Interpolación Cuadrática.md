@@ -34,6 +34,53 @@ Al tener tres condiciones y tres incógnitas ($a, b, c$), generalmente existe un
 
 ### Implementación en Java
 ```java
+/**
+ * Método de Interpolación Cuadrática
+ * Dado tres puntos (x0, y0), (x1, y1), (x2, y2),
+ * este método aproxima el valor de la función en un punto x
+ * utilizando un polinomio de segundo grado.
+ */
+public class InterpolacionCuadratica {
+
+    /**
+     * Calcula la interpolación cuadrática en el punto x
+     * @param x0 Primer valor de x conocido
+     * @param y0 Valor de la función en x0
+     * @param x1 Segundo valor de x conocido
+     * @param y1 Valor de la función en x1
+     * @param x2 Tercer valor de x conocido
+     * @param y2 Valor de la función en x2
+     * @param x  Punto donde se desea interpolar
+     * @return Aproximación de f(x) usando interpolación cuadrática
+     */
+    public static double interpolar(double x0, double y0, double x1, double y1, double x2, double y2, double x) {
+        // Cálculo de las diferencias divididas
+        double f01 = (y1 - y0) / (x1 - x0);
+        double f12 = (y2 - y1) / (x2 - x1);
+        double f012 = (f12 - f01) / (x2 - x0);
+
+        // Fórmula de interpolación cuadrática de Newton
+        double resultado = y0 + f01 * (x - x0) + f012 * (x - x0) * (x - x1);
+        return resultado;
+    }
+
+    public static void main(String[] args) {
+        // Valores conocidos
+        double x0 = 1.0, y0 = 2.0;
+        double x1 = 2.0, y1 = 3.0;
+        double x2 = 4.0, y2 = 5.0;
+        
+        // Punto a interpolar
+        double x = 3.0;
+        
+        // Cálculo de la interpolación
+        double valorInterpolado = interpolar(x0, y0, x1, y1, x2, y2, x);
+
+        // Mostrar resultado
+        System.out.println("El valor interpolado en x = " + x + " es: " + valorInterpolado);
+    }
+}
+
 ```
 ## Ejercicios Prácticos
 ## Ejercicio 1
