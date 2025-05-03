@@ -95,3 +95,38 @@ Usa interpolación cuadrática para estimar el valor de la función en x=2.5, a 
 
 **Análisis**
 El valor interpolado en x=2.5 se encuentra entre los puntos x=4, donde la función primero sube y luego baja. El resultado de 6.375 refleja correctamente esta forma, alcanzando un valor más alto que los puntos extremos. Esto indica que el polinomio cuadrático capta la curvatura de la función.
+
+## Ejercicio 2
+
+**Solución con algoritmo de java**
+
+<img src="xxxxxxx" width="35%" alt="Solución Ejercicio 2">
+
+**Análisis**
+
+## Ejercicio 3
+
+**Solución con algoritmo de java**
+
+<img src="xxxxxxx" width="35%" alt="Solución Ejercicio 3">
+
+**Análisis**
+
+## Ejercicio 4
+
+**Solución con algoritmo de java**
+
+<img src="xxxxxxx" width="35%" alt="Solución Ejercicio 4">
+
+**Análisis**
+
+## Ejercicio 5
+
+**Solución con algoritmo de java**
+
+<img src="xxxxxxx" width="35%" alt="Solución Ejercicio 1">
+
+**Análisis**
+
+
+
