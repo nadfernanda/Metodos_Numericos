@@ -66,3 +66,56 @@ public class InterpolacionLineal {
 ```
 ## Ejercicios Prácticos
 ## Ejercicio 1
+Una máquina fue monitoreada a las 9:00 a.m. y marcó 30 °C. A las 11:00 a.m. registró 90 °C. ¿Qué temperatura se estima que tenía a las 10:15 a.m.?
+
+**Solución con algoritmo de java**
+
+<img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-5/imagenes/Inter_Lineal/Ejercicio%201.png" width="35%" alt="Solución Ejercicio 2">
+
+**Análisis** 
+
+Este ejercicio representa un caso común de interpolación temporal. Se estima un valor intermedio entre dos registros horarios, asumiendo un comportamiento lineal. El resultado es confiable mientras no existan cambios bruscos entre las mediciones.
+
+## Ejercicio 2
+Un auto viajaba a 60 km/h a los 10 minutos del recorrido y a 100 km/h a los 30 minutos. ¿Cuál fue su velocidad estimada a los 20 minutos?
+
+**Solución con algoritmo de java**
+
+<img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-5/imagenes/Inter_Lineal/Ejercicio%202.png" width="35%" alt="Solución Ejercicio 2">
+
+**Análisis** 
+
+La interpolación proporciona una estimación de la velocidad promedio a mitad de camino entre los puntos conocidos. Es útil en trayectos donde no hay frenadas ni aceleraciones súbitas. Se asume que el aumento de velocidad fue constante.
+
+## Ejercicio 3
+Se mide el pH de una solución con una concentración de 5 ml (pH 4.0) y otra con 15 ml (pH 6.0). ¿Cuál sería el pH aproximado con 12 ml de concentración?
+
+**Solución con algoritmo de java**
+
+<img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-5/imagenes/Inter_Lineal/Ejercicio%203.png" width="35%" alt="Solución Ejercicio 2">
+
+**Análisis** 
+
+Este caso aplica interpolación en un entorno químico, útil cuando los valores cambian suavemente. La linealidad del cambio en pH es una simplificación, pero válida si no hay reacciones bruscas o zonas de amortiguamiento.
+
+## Ejercicio 4
+Una fuente de luz emite 800 lux a 1 metro y 200 lux a 4 metros. ¿Qué intensidad habrá a 2 metros?
+
+**Solución con algoritmo de java**
+
+<img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-5/imagenes/Inter_Lineal/Ejercicio%204.png" width="35%" alt="Solución Ejercicio 2">
+
+**Análisis** 
+
+Aunque la intensidad de luz suele decrecer cuadráticamente, la interpolación lineal permite una estimación rápida para distancias cortas. Es adecuada para cálculos preliminares donde no se requiere alta precisión.
+
+## Ejercicio 5(sin solución)
+Se tienen dos puntos con la misma coordenada X: (4.0, 10.0) y (4.0, 20.0). Se desea interpolar en x = 4.0. ¿Qué ocurre?
+
+**Solución con algoritmo de java**
+
+<img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-5/imagenes/Inter_Lineal/Ejercicio%205.png" width="35%" alt="Solución Ejercicio 2">
+
+**Análisis** 
+
+Este es un caso inválido: no puede aplicarse interpolación lineal si `x0 = x1` porque se genera una división por cero. Es esencial que los puntos usados tengan diferentes valores en X para que la fórmula sea aplicable.
