@@ -73,3 +73,51 @@ public class InterpolacionLagrange {
 ## Ejercicios Prácticos
 ## Ejercicio 1
 
+
+**Solución con algoritmo de java**
+
+<img src="aaaaa" width="35%" alt="Solución Ejercicio 2">
+
+**Análisis** 
+
+## Ejercicio 2
+
+
+**Solución con algoritmo de java**
+
+<img src="aaaaa" width="35%" alt="Solución Ejercicio 2">
+
+**Análisis** 
+
+## Ejercicio 3
+
+
+**Solución con algoritmo de java**
+
+<img src="aaaaa" width="35%" alt="Solución Ejercicio 2">
+
+**Análisis** 
+
+## Ejercicio 4
+
+
+**Solución con algoritmo de java**
+
+<img src="aaaaa" width="35%" alt="Solución Ejercicio 2">
+
+**Análisis** 
+
+## Ejercicio 5(sin solución)
+
+
+**Solución con algoritmo de java**
+
+<img src="aaaaa" width="35%" alt="Solución Ejercicio 2">
+
+**Análisis** 
+
+
+
+
+
+
