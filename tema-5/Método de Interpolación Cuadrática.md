@@ -91,16 +91,16 @@ Usa interpolación cuadrática para estimar el valor de la función en x=2.5, a 
 
 **Solución con algoritmo de java**
 
-<img src="xxxxxxx" width="35%" alt="Solución Ejercicio 1">
+<img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-5/imagenes/Inter_Cuadr%C3%A1tica/Ejercicio%201.png" width="35%" alt="Solución Ejercicio 1">
 
 **Análisis**
-El valor interpolado en x=2.5 se encuentra entre los puntos x=4, donde la función primero sube y luego baja. El resultado de 6.375 refleja correctamente esta forma, alcanzando un valor más alto que los puntos extremos. Esto indica que el polinomio cuadrático capta la curvatura de la función.
+
 
 ## Ejercicio 2
 
 **Solución con algoritmo de java**
 
-<img src="xxxxxxx" width="35%" alt="Solución Ejercicio 2">
+<img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-5/imagenes/Inter_Cuadr%C3%A1tica/Ejercicio%202.png" width="35%" alt="Solución Ejercicio 2">
 
 **Análisis**
 
@@ -108,7 +108,7 @@ El valor interpolado en x=2.5 se encuentra entre los puntos x=4, donde la funci�
 
 **Solución con algoritmo de java**
 
-<img src="xxxxxxx" width="35%" alt="Solución Ejercicio 3">
+<img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-5/imagenes/Inter_Cuadr%C3%A1tica/Ejercicio%203.png" width="35%" alt="Solución Ejercicio 3">
 
 **Análisis**
 
@@ -116,7 +116,7 @@ El valor interpolado en x=2.5 se encuentra entre los puntos x=4, donde la funci�
 
 **Solución con algoritmo de java**
 
-<img src="xxxxxxx" width="35%" alt="Solución Ejercicio 4">
+<img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-5/imagenes/Inter_Cuadr%C3%A1tica/Ejercicio%204.png" width="35%" alt="Solución Ejercicio 4">
 
 **Análisis**
 
@@ -124,7 +124,7 @@ El valor interpolado en x=2.5 se encuentra entre los puntos x=4, donde la funci�
 
 **Solución con algoritmo de java**
 
-<img src="xxxxxxx" width="35%" alt="Solución Ejercicio 1">
+<img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-5/imagenes/Inter_Cuadr%C3%A1tica/Ejercicio%205.png" width="35%" alt="Solución Ejercicio 1">
 
 **Análisis**
 
