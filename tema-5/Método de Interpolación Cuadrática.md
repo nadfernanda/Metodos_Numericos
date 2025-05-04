@@ -84,49 +84,69 @@ public class InterpolacionCuadratica {
 ```
 ## Ejercicios Prácticos
 ## Ejercicio 1
-Usa interpolación cuadrática para estimar el valor de la función en x=2.5, a partir de los siguientes puntos:
-(1,3)
-(2,6)
-(4,3)
+Usa interpolación cuadrática para estimar el valor de la función en \( x = 2.5 \), a partir de los siguientes puntos:  
+- \( (1, 3) \)  
+- \( (2, 6) \)  
+- \( (4, 3) \)
 
 **Solución con algoritmo de java**
 
 <img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-5/imagenes/Inter_Cuadr%C3%A1tica/Ejercicio%201.png" width="35%" alt="Solución Ejercicio 1">
 
 **Análisis**
+En este ejercicio se observa un comportamiento no lineal de la función: sube desde \( y = 3 \) a \( y = 6 \) y luego baja nuevamente a \( y = 3 \). El resultado interpolado fue 6.375, que supera incluso el valor máximo conocido. Esto indica que la parábola generada por la interpolación tiene un vértice en ese punto, lo cual es coherente con la forma curva esperada.
 
 
 ## Ejercicio 2
+Usa interpolación cuadrática para estimar el valor de \( f(1.5) \), usando los puntos:  
+- \( (0, 1) \)  
+- \( (1, 3) \)  
+- \( (2, 2) \)
 
 **Solución con algoritmo de java**
 
 <img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-5/imagenes/Inter_Cuadr%C3%A1tica/Ejercicio%202.png" width="35%" alt="Solución Ejercicio 2">
 
 **Análisis**
+En este caso, la función crece y luego desciende, y el valor a interpolar está entre ambos comportamientos. El resultado de 2.875 es lógico: muestra una caída desde el máximo en \( x = 1 \). La parábola generada por la interpolación refleja correctamente esta variación suave.
 
 ## Ejercicio 3
-
+Estima el valor de \( f(4.0) \) con los siguientes puntos:  
+- \( (2, 4) \)  
+- \( (3, 5) \)  
+- \( (5, 1) \)
+  
 **Solución con algoritmo de java**
 
 <img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-5/imagenes/Inter_Cuadr%C3%A1tica/Ejercicio%203.png" width="35%" alt="Solución Ejercicio 3">
 
 **Análisis**
+Este ejercicio tiene un punto medio alto seguido de una bajada. El valor interpolado cae exactamente en 4.0, lo cual es consistente con una curva que desciende después del punto máximo. El método refleja bien el cambio de pendiente y la simetría de la parábola en ese intervalo.
 
 ## Ejercicio 4
-
+Estima el valor de \( f(1.5) \) usando interpolación cuadrática con los puntos:  
+- \( (0, 0) \)  
+- \( (1, 1) \)  
+- \( (2, 4) \)
+  
 **Solución con algoritmo de java**
 
 <img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-5/imagenes/Inter_Cuadr%C3%A1tica/Ejercicio%204.png" width="35%" alt="Solución Ejercicio 4">
 
 **Análisis**
+Aquí los puntos siguen la función cuadrática exacta \( y = x^2 \). El resultado coincide con \( 1.5^2 \), es decir, 2.25. Este ejercicio demuestra que la interpolación cuadrática reproduce con exactitud funciones cuadráticas cuando los datos provienen de dicha función.
 
-## Ejercicio 5
-
+## Ejercicio 5(sin solución)
+Usa interpolación cuadrática para estimar el valor de la función en \( x = 2.0 \), utilizando los puntos:  
+- \( (2.0, 4.0) \)  
+- \( (2.0, 5.0) \)  
+- \( (2.0, 6.0) \)
+  
 **Solución con algoritmo de java**
 
 <img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-5/imagenes/Inter_Cuadr%C3%A1tica/Ejercicio%205.png" width="35%" alt="Solución Ejercicio 1">
 
 **Análisis**
-
+Este ejercicio presenta una situación inválida para la interpolación cuadrática. Los tres puntos tienen la misma coordenada \( x = 2.0 \), lo que causa divisiones por cero al calcular las diferencias divididas necesarias para construir el polinomio de interpolación. Esto se debe a que el método requiere puntos con **valores de \( x \) distintos** para poder formar una parábola. En la práctica, este tipo de error es útil para resaltar la importancia de validar los datos de entrada antes de aplicar métodos numéricos. El resultado fue una excepción de ejecución, lo cual es coherente con un problema matemáticamente mal planteado.
 
 
