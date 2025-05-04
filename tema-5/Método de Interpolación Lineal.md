@@ -74,7 +74,7 @@ Una máquina fue monitoreada a las 9:00 a.m. y marcó 30 °C. A las 11:00 
 
 **Análisis** 
 
-Este ejercicio representa un caso común de interpolación temporal. Se estima un valor intermedio entre dos registros horarios, asumiendo un comportamiento lineal. El resultado es confiable mientras no existan cambios bruscos entre las mediciones.
+De acuerdo con el método de interpolación lineal, este ejercicio estima el valor intermedio de temperatura bajo la suposición de que el aumento entre las 9:00 a.m. y 11:00 a.m. fue constante. Es un caso clásico donde la variación continua del tiempo permite aplicar el método con bastante fiabilidad. Se considera una buena aproximación en ausencia de eventos térmicos abruptos.
 
 ## Ejercicio 2
 Un auto viajaba a 60 km/h a los 10 minutos del recorrido y a 100 km/h a los 30 minutos. ¿Cuál fue su velocidad estimada a los 20 minutos?
@@ -85,7 +85,7 @@ Un auto viajaba a 60 km/h a los 10 minutos del recorrido y a 100 km/h a los 
 
 **Análisis** 
 
-La interpolación proporciona una estimación de la velocidad promedio a mitad de camino entre los puntos conocidos. Es útil en trayectos donde no hay frenadas ni aceleraciones súbitas. Se asume que el aumento de velocidad fue constante.
+Aplicando la interpolación lineal, se puede estimar la velocidad del vehículo a los 20 minutos suponiendo un incremento uniforme desde los 10 hasta los 30 minutos. Este enfoque es válido si no hubo cambios bruscos en la aceleración. El método permite conocer un valor promedio en un punto intermedio, útil en situaciones de control de tráfico o consumo.
 
 ## Ejercicio 3
 Se mide el pH de una solución con una concentración de 5 ml (pH 4.0) y otra con 15 ml (pH 6.0). ¿Cuál sería el pH aproximado con 12 ml de concentración?
@@ -96,7 +96,7 @@ Se mide el pH de una solución con una concentración de 5 ml (pH 4.0) y otra 
 
 **Análisis** 
 
-Este caso aplica interpolación en un entorno químico, útil cuando los valores cambian suavemente. La linealidad del cambio en pH es una simplificación, pero válida si no hay reacciones bruscas o zonas de amortiguamiento.
+El método de interpolación lineal se emplea aquí para estimar el pH de una solución química, bajo la suposición de una relación lineal entre volumen y acidez. Aunque el pH puede tener variaciones no lineales, si el intervalo es pequeño y el sistema está amortiguado, la interpolación es una herramienta aceptable para obtener una estimación rápida y cercana al valor real.
 
 ## Ejercicio 4
 Una fuente de luz emite 800 lux a 1 metro y 200 lux a 4 metros. ¿Qué intensidad habrá a 2 metros?
@@ -107,7 +107,8 @@ Una fuente de luz emite 800 lux a 1 metro y 200 lux a 4 metros. ¿Qué intensida
 
 **Análisis** 
 
-Aunque la intensidad de luz suele decrecer cuadráticamente, la interpolación lineal permite una estimación rápida para distancias cortas. Es adecuada para cálculos preliminares donde no se requiere alta precisión.
+Este ejercicio aplica interpolación lineal a un fenómeno que, en la realidad, sigue una ley inversa cuadrática. Sin embargo, en distancias cortas y condiciones controladas, la suposición de una variación lineal puede ser razonable para estimaciones rápidas. El método es útil si no se requiere alta precisión física.
+
 
 ## Ejercicio 5(sin solución)
 Se tienen dos puntos con la misma coordenada X: (4.0, 10.0) y (4.0, 20.0). Se desea interpolar en x = 4.0. ¿Qué ocurre?
@@ -118,4 +119,4 @@ Se tienen dos puntos con la misma coordenada X: (4.0, 10.0) y (4.0, 20.0). Se de
 
 **Análisis** 
 
-Este es un caso inválido: no puede aplicarse interpolación lineal si `x0 = x1` porque se genera una división por cero. Es esencial que los puntos usados tengan diferentes valores en X para que la fórmula sea aplicable.
+De acuerdo con el fundamento de la interpolación lineal, los puntos deben tener valores de `x` distintos, ya que la fórmula implica dividir entre `(x1 - x0)`. En este caso, al tener `x0 = x1`, se produce una división por cero, lo cual hace imposible la interpolación. Este tipo de configuración debe ser evitado, ya que contradice las condiciones del método.
