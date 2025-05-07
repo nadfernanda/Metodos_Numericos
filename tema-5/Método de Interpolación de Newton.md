@@ -99,3 +99,68 @@ public class InterpolacionNewton {
 ```
 ## Ejercicios Prácticos
 ## Ejercicio 1
+
+
+**Solución con algoritmo de java**
+
+<img src="aaaaa" width="35%" alt="Solución Ejercicio 2">
+
+**Análisis** 
+
+## Ejercicio 2
+
+
+**Solución con algoritmo de java**
+
+<img src="aaaaa" width="35%" alt="Solución Ejercicio 2">
+
+**Análisis** 
+
+## Ejercicio 3
+
+
+**Solución con algoritmo de java**
+
+<img src="aaaaa" width="35%" alt="Solución Ejercicio 2">
+
+**Análisis** 
+
+## Ejercicio 4
+
+
+**Solución con algoritmo de java**
+
+<img src="aaaaa" width="35%" alt="Solución Ejercicio 2">
+
+**Análisis** 
+
+
+## Ejercicio 5 (utilizando dos métodos)
+
+Dado el siguiente conjunto de puntos:
+
+(1.0, 2.0)
+
+(2.0, 3.0)
+
+(4.0, 5.0)
+
+Interpola el valor de f(3.0) utilizando:
+
+- El método de interpolación de Lagrange
+
+- El método de interpolación de Newton
+
+**Solución con algoritmo de java**
+
+**Solución con el método de Lagrange**
+
+<img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-5/imagenes/Inter_Lagrange/Lagrange.png" width="35%" alt="Solución Newton">
+
+**Solución con el método de Newton**
+
+<img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-5/imagenes/Inter_Lagrange/Newton.png" width="35%" alt="Solución Lagrange">
+
+**Análisis** 
+
+Ambos métodos de interpolación, Lagrange y Newton, permiten estimar el valor de una función a partir de un conjunto de puntos conocidos. En este caso, al interpolar el valor de f(3.0) con los puntos (1.0,2.0), (2.0,3.0) y (4.0,5.0), ambos métodos arrojaron el mismo resultado:f(3.0)=4.0. Esto confirma que, aunque las técnicas y procedimientos son distintos, la interpolación conduce a una misma solución si se aplican correctamente. El método de Lagrange es más sencillo de implementar en problemas pequeños, mientras que el método de Newton resulta más eficiente cuando se deben realizar varias evaluaciones o agregar nuevos puntos, gracias a su uso de diferencias divididas. En conclusión, ambos métodos son herramientas confiables y útiles para la estimación de valores intermedios en funciones discretas.
