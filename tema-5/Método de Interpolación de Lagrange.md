@@ -137,22 +137,13 @@ Interpola el valor de f(3.0) utilizando:
 **Solución con algoritmo de java**
 
 **Solución con el método de Lagrange**
+
 <img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-5/imagenes/Inter_Lagrange/Lagrange.png" width="35%" alt="Solución Newton">
 
 **Solución con el método de Newton**
+
 <img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-5/imagenes/Inter_Lagrange/Newton.png" width="35%" alt="Solución Lagrange">
 
 **Análisis** 
 
 Ambos métodos de interpolación, Lagrange y Newton, permiten estimar el valor de una función a partir de un conjunto de puntos conocidos. En este caso, al interpolar el valor de f(3.0) con los puntos (1.0,2.0), (2.0,3.0) y (4.0,5.0), ambos métodos arrojaron el mismo resultado:f(3.0)=4.0. Esto confirma que, aunque las técnicas y procedimientos son distintos, la interpolación conduce a una misma solución si se aplican correctamente. El método de Lagrange es más sencillo de implementar en problemas pequeños, mientras que el método de Newton resulta más eficiente cuando se deben realizar varias evaluaciones o agregar nuevos puntos, gracias a su uso de diferencias divididas. En conclusión, ambos métodos son herramientas confiables y útiles para la estimación de valores intermedios en funciones discretas.
-
-## Cuota de Error
-
-Suponiendo que el valor real de la función en \( x = 3.0 \) es \( f(3.0) = 4.05 \), y que ambos métodos (Lagrange y Newton) dieron como resultado \( f(3.0) = 4.0 \), la cuota de error sería:
-
-\[
-\text{Error} = |f_{\text{real}}(3.0) - f_{\text{interpolado}}(3.0)| = |4.05 - 4.0| = 0.05
-\]
-
-Esto indica que el valor interpolado está muy cerca del valor real, con un error absoluto de **0.05**.
-
