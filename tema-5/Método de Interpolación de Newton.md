@@ -118,7 +118,8 @@ Interpolar f(2.5) con: f(1)=1, f(2)=4, f(3)=9
 
 **Análisis** 
 
-En el ejercicio 3, se aplica el mismo método de interpolación de Newton, pero con cuatro puntos dados: (1, 1), (2, 8), (3, 27) y (4, 64), que corresponden a los valores de y=x^3. El polinomio generado por Newton aproxima la función cúbica, y el valor interpolado en x=2.5 resulta ser 15.625. Este valor se obtiene mediante las diferencias divididas calculadas a partir de los puntos dados, lo que permite aproximar de manera efectiva la función en ese punto, a pesar de que el valor real de f(2.5) es también 15.625, lo que demuestra la exactitud del método para funciones polinómicas sencillas.
+En este caso se utilizan los puntos (1, 1), (2, 4), (3, 9), que claramente representan la función cuadrática 
+f(x)=x^2. Al interpolar en x=2.5, el valor estimado es 6.25, lo cual coincide perfectamente con 2.5^2. Este ejercicio destaca cómo el método de Newton no solo aproxima, sino que también puede reconstruir exactamente funciones polinómicas cuando los datos se extraen de una función conocida y consistente. Es una validación clara del poder del método cuando se aplica en situaciones ideales.
 
 ## Ejercicio 3
 Usando el método de interpolación de Newton, calcula el valor de la función desconocida en x=2.5, sabiendo que pasa por los puntos:
@@ -143,7 +144,7 @@ Usando el método de interpolación de Newton, calcula el valor de la función d
 
 **Análisis** 
 
-Este ejercicio presenta los puntos (2, 8), (5, 125) y (7, 343), que corresponden claramente a la función cúbica f(x)=x^3 . Usando la interpolación de Newton, el polinomio generado permite aproximar valores intermedios incluso sin conocer la función explícita. Al evaluar el polinomio en x=4, el valor estimado es 64, lo cual coincide exactamente con 4^3 , confirmando la exactitud del método para datos que siguen un patrón algebraico conocido. Este caso resalta la potencia del método para reconstruir fielmente funciones complejas a partir de pocos datos, siempre que estos sean consistentes y bien seleccionados.
+Los puntos (1, 1), (3, 9), y (4, 16) también muestran una tendencia cuadrática, aunque no siguen una progresión tan simple como en el ejercicio 3. Al aplicar la interpolación para x=2.5, el valor aproximado obtenido es 6.25, que es coherente con la curva que se infiere de los datos. Este ejemplo refuerza cómo el método se adapta incluso cuando los puntos no están equidistantes, generando un polinomio que ajusta bien los valores intermedios.
 
 ## Ejercicio 5 (utilizando dos métodos)
 
