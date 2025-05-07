@@ -76,7 +76,7 @@ Dada la función que pasa por los puntos (1, 2), (2, 3) y (4, 5), utiliza interp
 
 **Solución con algoritmo de java**
 
-<img src="aaaaa" width="35%" alt="Solución Ejercicio 2">
+<img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-5/imagenes/Inter_Lagrange/Ejercicio%201.png" width="35%" alt="Solución Ejercicio 1">
 
 **Análisis** 
 
@@ -88,7 +88,7 @@ Se conocen los valores de una función en los puntos (0, 1), (1, 3), y (2, 2). U
 
 **Solución con algoritmo de java**
 
-<img src="aaaaa" width="35%" alt="Solución Ejercicio 2">
+<img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-5/imagenes/Inter_Lagrange/Ejercicio%202.png" width="35%" alt="Solución Ejercicio 2">
 
 **Análisis** 
 
@@ -100,7 +100,7 @@ Interpola el valor de f(2.5) usando los puntos (1, 2), (2, 4), y (3, 3).
 
 **Solución con algoritmo de java**
 
-<img src="aaaaa" width="35%" alt="Solución Ejercicio 2">
+<img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-5/imagenes/Inter_Lagrange/Ejercicio%203.png" width="35%" alt="Solución Ejercicio 2">
 
 **Análisis** 
 
@@ -112,7 +112,7 @@ Se tienen los puntos (2, 8), (3, 27), y (5, 125), que pertenecen a la función f
 
 **Solución con algoritmo de java**
 
-<img src="aaaaa" width="35%" alt="Solución Ejercicio 2">
+<img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-5/imagenes/Inter_Lagrange/Ejercicio%204.png" width="35%" alt="Solución Ejercicio 2">
 
 **Análisis** 
 
@@ -134,12 +134,13 @@ Interpola el valor de f(3.0) utilizando:
 
 - El método de interpolación de Newton
 
-
 **Solución con algoritmo de java**
 
-<img src="aaaaa" width="35%" alt="Solución Newton">
+**Solución con el método de Lagrange**
+<img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-5/imagenes/Inter_Lagrange/Lagrange.png" width="35%" alt="Solución Newton">
 
-<img src="aaaaa" width="35%" alt="Solución Lagrange">
+**Solución con el método de Newton**
+<img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-5/imagenes/Inter_Lagrange/Newton.png" width="35%" alt="Solución Lagrange">
 
 **Análisis** 
 
