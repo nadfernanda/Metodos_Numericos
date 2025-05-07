@@ -99,41 +99,51 @@ public class InterpolacionNewton {
 ```
 ## Ejercicios Prácticos
 ## Ejercicio 1
-
+Aproximar el valor de f(2.5), con los siguientes datos: f(1)=2, f(2)=3, f(4)=5
 
 **Solución con algoritmo de java**
 
-<img src="aaaaa" width="35%" alt="Solución Ejercicio 2">
+<img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-5/imagenes/Inter_Newton/Ejercicio%201.png" width="35%" alt="Solución Ejercicio 1">
 
 **Análisis** 
+
+El ejercicio utiliza el método de interpolación de Newton para estimar el valor de una función en x=2.5, dado que pasa por los puntos (1, 2), (2, 3) y (3, 5). La aproximación generada por el polinomio de Newton es bastante precisa, ya que solo se requieren tres puntos para construir el polinomio cuadrático que mejor se ajusta a esos puntos. En este caso, el valor interpolado en x=2.5 es 3.5, que es el valor calculado por el polinomio de Newton después de construir la tabla de diferencias divididas.
 
 ## Ejercicio 2
-
+Interpolar f(2.5) con: f(1)=1, f(2)=4, f(3)=9
 
 **Solución con algoritmo de java**
 
-<img src="aaaaa" width="35%" alt="Solución Ejercicio 2">
+<img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-5/imagenes/Inter_Newton/Ejercicio%202.png" width="35%" alt="Solución Ejercicio 2">
 
 **Análisis** 
+
+En el ejercicio 3, se aplica el mismo método de interpolación de Newton, pero con cuatro puntos dados: (1, 1), (2, 8), (3, 27) y (4, 64), que corresponden a los valores de y=x^3. El polinomio generado por Newton aproxima la función cúbica, y el valor interpolado en x=2.5 resulta ser 15.625. Este valor se obtiene mediante las diferencias divididas calculadas a partir de los puntos dados, lo que permite aproximar de manera efectiva la función en ese punto, a pesar de que el valor real de f(2.5) es también 15.625, lo que demuestra la exactitud del método para funciones polinómicas sencillas.
 
 ## Ejercicio 3
-
+Usando el método de interpolación de Newton, calcula el valor de la función desconocida en x=2.5, sabiendo que pasa por los puntos:
+(1,1), (3,9), (4,16)
 
 **Solución con algoritmo de java**
 
-<img src="aaaaa" width="35%" alt="Solución Ejercicio 2">
+<img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-5/imagenes/Inter_Newton/Ejercicio%203.png" width="35%" alt="Solución Ejercicio 2">
 
 **Análisis** 
+
+Este ejercicio utiliza tres puntos: (1, 1), (3, 9) y (4, 16), que reflejan una tendencia cuadrática creciente, probablemente relacionada con una función como 
+f(x)=x^2, aunque el método de Newton no parte de una función explícita, sino de los datos. Al aplicar el método de interpolación de Newton, se genera un polinomio que ajusta esos puntos, y al evaluar en x=2.5, el valor aproximado obtenido es 6.25. Este resultado es coherente con la tendencia de los datos y demuestra cómo el método logra aproximar un valor intermedio incluso cuando los puntos no están equidistantes. La precisión del método se hace evidente en este caso, donde el resultado se alinea con la intuición de una función cuadrática.
 
 ## Ejercicio 4
-
+Usando el método de interpolación de Newton, calcula el valor de la función desconocida en x=1.5, sabiendo que pasa por los puntos:
+(1,1), (2,4), (4,16), (5,25)
 
 **Solución con algoritmo de java**
 
-<img src="aaaaa" width="35%" alt="Solución Ejercicio 2">
+<img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-5/imagenes/Inter_Newton/Ejercicio%204.png" width="35%" alt="Solución Ejercicio 2">
 
 **Análisis** 
 
+Este ejercicio presenta los puntos (2, 8), (5, 125) y (7, 343), que corresponden claramente a la función cúbica f(x)=x^3 . Usando la interpolación de Newton, el polinomio generado permite aproximar valores intermedios incluso sin conocer la función explícita. Al evaluar el polinomio en x=4, el valor estimado es 64, lo cual coincide exactamente con 4^3 , confirmando la exactitud del método para datos que siguen un patrón algebraico conocido. Este caso resalta la potencia del método para reconstruir fielmente funciones complejas a partir de pocos datos, siempre que estos sean consistentes y bien seleccionados.
 
 ## Ejercicio 5 (utilizando dos métodos)
 
