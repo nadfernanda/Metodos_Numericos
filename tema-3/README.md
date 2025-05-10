@@ -1,16 +1,16 @@
-# Tema 3: Métodos de Solución de Sistemas de Ecuaciones 🎯
+## Tema 3: Métodos de Solución de Sistemas de Ecuaciones 🎯
 
-Los sistemas de ecuaciones lineales aparecen constantemente en problemas reales como circuitos eléctricos, estructuras mecánicas, modelos económicos, entre otros. Existen métodos directos y métodos iterativos para resolverlos de manera eficiente.
+Resolver sistemas de ecuaciones lineales es una tarea común en muchas áreas de la ciencia, la ingeniería y la economía, ya que estos sistemas aparecen frecuentemente en problemas reales como circuitos eléctricos, estructuras mecánicas o modelos económicos.
 
-Este tema cubre los algoritmos fundamentales para resolver sistemas, comparando su eficiencia, estabilidad y aplicabilidad a distintos tamaños y características de matrices.
+En este tema se estudian tanto métodos directos como iterativos para abordar estos problemas de forma eficiente. Se analizarán técnicas como la eliminación de Gauss, Gauss-Jordan, y métodos iterativos como Jacobi y Gauss-Seidel. Además, se comparan sus características en términos de eficiencia, estabilidad y aplicabilidad, considerando distintos tamaños y propiedades de las matrices involucradas. Estos métodos son fundamentales para la práctica computacional, especialmente en problemas de gran escala.
 
 ## Métodos Incluidos
 
-- ✅ Eliminación de Gauss Simple
-- ✅ Método de Gauss
-- ✅ Método de Gauss-Jordan
-- ✅ Método de Gauss-Seidel
-- ✅ Método de Jacobi
+- ✅ [Método de eliminación de Gauss simple](https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-3/Eliminación%20de%20Gauss%20simple.md)
+- ✅ [Método de Gauss](https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-3/Método%20Gauss.md)
+- ✅ [Método de Gauss Jordan](https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-3/Método%20Gauss%20Jordan.md)
+- ✅ [Método de Gauss-Seidel](https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-3/Método%20Gauss%20Seidel.md)
+- ✅ [Método de Jacobi](https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-3/Método%20Jacobi.md)
 
 ## Recursos en esta carpeta
 
