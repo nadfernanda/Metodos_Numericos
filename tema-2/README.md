@@ -6,12 +6,12 @@ En este tema se presentan cuatro métodos clave: bisección, punto fijo, Newton-
 
 ## Métodos Incluidos
 
-- ✅ Método Gráfico
-- ✅ Método de Bisección
-- ✅ Método de Newton-Raphson
-- ✅ Método de Punto Fijo
-- ✅ Método de la Regla Falsa
-- ✅ Método de la Secante
+- ✅ [Método Gráfico](https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-2/Método%20Gráfico.md)
+- ✅ [Método Bisección](https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-2/Método%20Bisección.md)
+- ✅ [Método Newton-Raphson](https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-2/Método%20Newton-Raphson.md)
+- ✅ [Método Punto Fijo](https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-2/Método%20Punto%20Fijo.md)
+- ✅ [Método Regla Falsa](https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-2/Método%20Regla%20Falsa.md)
+- ✅ [Método Secante](https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-2/Método%20Secante.md)
 
 ## Recursos en esta carpeta
 
