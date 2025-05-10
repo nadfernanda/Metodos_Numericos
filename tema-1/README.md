@@ -1,8 +1,10 @@
 # Tema 1: Tipos de Errores ❗
 
-El estudio de los errores es fundamental en el análisis numérico, ya que permite comprender las limitaciones de los métodos computacionales.
+Comprender los diferentes tipos de errores es esencial en el análisis numérico, ya que todas las operaciones realizadas por una computadora están sujetas a limitaciones de precisión. Este tema explora las fuentes de error que afectan la calidad de los resultados numéricos y cómo pueden propagarse a través de cálculos sucesivos.
 
-## Contenido
+En la práctica, distinguir entre errores absolutos, relativos, de redondeo o de truncamiento permite no solo interpretar mejor los resultados, sino también tomar decisiones más informadas sobre la estabilidad y confiabilidad de los métodos utilizados.
+
+## Contenidos
 
 - ✅ Error Absoluto
 - ✅ Error Relativo
@@ -10,8 +12,7 @@ El estudio de los errores es fundamental en el análisis numérico, ya que permi
 - ✅ Error de Truncamiento
 - ✅ Error Iterativo
 
-Analizar estos conceptos nos ayuda a interpretar con mayor precisión los resultados obtenidos y a mejorar la confiabilidad de nuestras soluciones numéricas.
-
 ## Recursos en esta carpeta
 
-Aquí se encontrará el algoritmo, junto con ejercicios resueltos relacionado con cada tipo de error mencionado.
+Aquí se encontrará el algoritmo, junto con ejercicios resueltos relacionado relacionados con cada tipo de error mencionado.
+
