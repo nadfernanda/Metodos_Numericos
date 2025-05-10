@@ -17,7 +17,7 @@ Existen muchos tipos de métodos numéricos, cada uno diseñado para resolver un
 
 ## 📚 Temas  
 
-## [Tema 1: Tipos de Errores ❗](./tema-1/README.md)
+## [Tema 1: Tipos de Errores ❗](https://github.com/nadfernanda/Metodos_Numericos/tree/main/tema-1)
 
 El estudio de los errores es fundamental en el análisis numérico, ya que permite comprender las limitaciones de los métodos computacionales. En este tema, exploraremos los distintos tipos de errores que pueden surgir al realizar cálculos: errores de truncamiento, errores de redondeo y propagación de errores. Analizar estos conceptos nos ayuda a interpretar con mayor precisión los resultados obtenidos y a mejorar la confiabilidad de nuestras soluciones numéricas.
 
@@ -27,7 +27,7 @@ El estudio de los errores es fundamental en el análisis numérico, ya que permi
 4. [Error de Truncamiento](tema-1/Error%20De%20Truncamiento.md)
 5. [Error Iterativo](tema-1/Error%20Iterativo.md)
 
-## [Tema 2: Métodos de Solución de Ecuaciones 🧠](./tema-2/README.md)
+## [Tema 2: Métodos de Solución de Ecuaciones 🧠](https://github.com/nadfernanda/Metodos_Numericos/tree/main/tema-2)
 
 Los métodos de solución de ecuaciones son fundamentales para encontrar raíces de funciones cuando no es posible obtener soluciones exactas de forma algebraica. En este tema exploraremos cuatro métodos clave: bisección, punto fijo, Newton-Raphson y secante. Cada uno de ellos ofrece diferentes ventajas en términos de precisión, velocidad de convergencia y facilidad de implementación. Estos métodos son ampliamente utilizados en aplicaciones matemáticas, científicas e ingenieriles donde se requiere resolver ecuaciones de manera eficiente y confiable.
 
@@ -38,7 +38,7 @@ Los métodos de solución de ecuaciones son fundamentales para encontrar raíces
 5. [Método Regla Falsa](tema-2/Método%20Regla%20Falsa.md)
 6. [Método Secante](tema-2/Método%20Secante.md)
 
-## [Tema 3: Métodos de Solución de Sistemas de Ecuaciones 🎯](./tema-3/README.md)
+## [Tema 3: Métodos de Solución de Sistemas de Ecuaciones 🎯](https://github.com/nadfernanda/Metodos_Numericos/tree/main/tema-3)
 
 Resolver sistemas de ecuaciones es una tarea común en muchas áreas de la ciencia y la ingeniería. En este tema, analizaremos métodos tanto directos como iterativos para abordar estos problemas. Estudiaremos técnicas como la eliminación de Gauss, Gauss Jordan y métodos iterativos como Jacobi y Gauss-Seidel. Estos métodos permiten resolver sistemas de manera eficiente y son esenciales para problemas de mayor escala en la práctica computacional.
 
@@ -48,7 +48,7 @@ Resolver sistemas de ecuaciones es una tarea común en muchas áreas de la cienc
 4. [Método de Gauss-Seidel](tema-3/Método%20Gauss%20Seidel.md)
 5. [Método de Jacobi](tema-3/Método%20Jacobi.md)
 
-## [Tema 4: Diferenciación e Integración Numérica 📐](./tema-4/README.md)
+## [Tema 4: Diferenciación e Integración Numérica 📐](https://github.com/nadfernanda/Metodos_Numericos/tree/main/tema-4)
 
 Cuando las funciones no pueden derivarse o integrarse de forma analítica, recurrimos a métodos numéricos. En este tema, abordaremos técnicas para calcular derivadas e integrales de manera aproximada. Se estudiarán métodos como la Cuadratura Gaussiana, y los métodos del trapecio y de Simpson para la integración. Estas herramientas son clave para el análisis de datos experimentales y la simulación de fenómenos físicos complejos.
 
@@ -57,7 +57,7 @@ Cuando las funciones no pueden derivarse o integrarse de forma analítica, recur
 3. [Método de Simpson ⅜](tema-4/Método%20de%20Simpson%20⅜.md)
 4. [Regla del Trapecio](tema-4/Regla%20del%20trapecio.md)
 
-## [Tema 5: Interpolación y Ajuste de Funciones ✏️](./tema-5/README.md)
+## [Tema 5: Interpolación y Ajuste de Funciones ✏️](https://github.com/nadfernanda/Metodos_Numericos/tree/main/tema-5)
 
 La interpolación y el ajuste de funciones son técnicas fundamentales para aproximar datos experimentales mediante funciones matemáticas. En este tema, se estudiarán métodos de interpolación como el lineal, cuadrático, de Lagrange y de Newton. Estas herramientas permiten construir funciones que pasan exactamente por un conjunto de puntos dados, facilitando la predicción y análisis de comportamientos en sistemas reales.
 
@@ -66,7 +66,7 @@ La interpolación y el ajuste de funciones son técnicas fundamentales para apro
 3. [Método de Interpolación de Lagrange](tema-5/Método%20de%20Interpolación%20de%20Lagrange.md)
 4. [Método de Interpolación de Newton](tema-5/Método%20de%20Interpolación%20de%20Newton.md)
 
-## [Tema 6: Solución de Ecuaciones Diferenciales 🔧](./tema-6/README.md)
+## [Tema 6: Solución de Ecuaciones Diferenciales 🔧](https://github.com/nadfernanda/Metodos_Numericos/tree/main/tema-6)
 
 La resolución de ecuaciones diferenciales permite modelar una amplia gama de fenómenos físicos, biológicos y económicos. En este tema, se presentarán métodos numéricos como el de Euler, Runge-Kutta y Taylor, que ofrecen soluciones aproximadas a problemas donde no es posible obtener una solución analítica. Estas técnicas son esenciales para el estudio de sistemas dinámicos y procesos de cambio en el tiempo.
 
