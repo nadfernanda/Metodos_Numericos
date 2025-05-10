@@ -8,10 +8,10 @@ En la práctica, distinguir entre errores absolutos, relativos, de redondeo o de
 ## Contenidos
 
 - ✅ [Error Absoluto](https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-1/Error%20Absoluto.md)
-- ✅ [Error Relativo](tema-1/Error%20Relativo.md)
-- ✅ [Error de Redondeo](tema-1/Error%20Redondeo.md)
-- ✅ [Error de Truncamiento](tema-1/Error%20De%20Truncamiento.md)
-- ✅ [Error Iterativo](tema-1/Error%20Iterativo.md)
+- ✅ [Error Relativo](https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-1/Error%20Relativo.md)
+- ✅ [Error de Redondeo](https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-1/Error%20Redondeo.md)
+- ✅ [Error de Truncamiento](https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-1/Error%20De%20Truncamiento.md)
+- ✅ [Error Iterativo](https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-1/Error%20Iterativo.md)
 
 ## Recursos en esta carpeta
 
