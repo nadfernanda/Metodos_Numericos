@@ -8,17 +8,12 @@ Los métodos numéricos permiten transformar problemas abstractos en algoritmos 
 Además, estos métodos no solo ayudan a encontrar soluciones cuando no hay una fórmula cerrada disponible, sino que también permiten controlar el nivel de precisión deseado, optimizando recursos y tiempo de cómputo.
 
 ## ¿Por qué usar métodos numéricos? 🔍
-Los métodos numéricos son una herramienta indispensable en la resolución de problemas matemáticos que no pueden abordarse de manera exacta o que resultan demasiado complejos para resolverse manualmente. Su uso se ha vuelto fundamental en una gran variedad de disciplinas debido a los siguientes motivos:
+Los métodos numéricos son esenciales para resolver problemas complejos que no pueden abordarse de forma exacta. Sus principales ventajas incluyen:
 
-- **Solución de problemas complejos**: Existen muchas ecuaciones y sistemas que, por su naturaleza no lineal o por la gran cantidad de variables involucradas, no pueden resolverse de forma analítica. Los métodos numéricos permiten obtener soluciones aproximadas con un nivel de precisión ajustable.
-
-- **Simulación y modelado**: En áreas como la física, la biología, la ingeniería y las ciencias sociales, es común construir modelos matemáticos de fenómenos reales. Estos modelos, al ser muy complejos, requieren de métodos numéricos para simular su comportamiento de forma eficiente.
-
-- **Procesamiento de grandes volúmenes de datos**: En el análisis de datos, estadística computacional o machine learning, es habitual trabajar con grandes cantidades de información. Los métodos numéricos permiten aplicar algoritmos eficientes para obtener resultados precisos y útiles.
-
-- **Automatización y cómputo digital**: A través de algoritmos implementados en lenguajes de programación, los métodos numéricos permiten automatizar procesos de cálculo que de otra forma serían imprácticos, ahorrando tiempo y reduciendo errores humanos.
-
-- **Flexibilidad y control sobre la precisión**: Una de sus mayores ventajas es que permiten ajustar la precisión del resultado según las necesidades del problema, lo cual es clave cuando se trabaja con recursos computacionales limitados.
+- **Solución de problemas complejos**: Permiten obtener soluciones aproximadas cuando no hay una solución analítica.
+- **Simulación y modelado**: Son fundamentales para simular fenómenos en ciencias e ingeniería.
+- **Análisis de datos**: Ayudan a procesar grandes volúmenes de información de manera eficiente.
+- **Control de precisión**: Permiten ajustar la exactitud de los resultados según se necesite.
 
 ## 📚 Temas  
 
