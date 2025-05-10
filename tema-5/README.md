@@ -1,4 +1,4 @@
-# Tema 5: Interpolación y Ajuste de Funciones ✏️
+## Tema 5: Interpolación y Ajuste de Funciones ✏️
 
 La interpolación y el ajuste de funciones son técnicas fundamentales para aproximar datos experimentales mediante funciones matemáticas, especialmente en contextos como la ingeniería, la física y las ciencias de datos.
 
