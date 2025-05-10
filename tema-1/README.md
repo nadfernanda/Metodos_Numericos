@@ -1,4 +1,4 @@
-# Tema 1: ###Tipos de Errores ❗
+## Tema 1: Tipos de Errores ❗
 
 Comprender los diferentes tipos de errores es esencial en el análisis numérico, ya que todas las operaciones realizadas por una computadora están sujetas a limitaciones de precisión. Este tema explora las fuentes de error que afectan la calidad de los resultados numéricos y cómo pueden propagarse a través de cálculos sucesivos.
 
@@ -7,7 +7,7 @@ En la práctica, distinguir entre errores absolutos, relativos, de redondeo o de
 
 ## Contenidos
 
-- ✅ [Error Absoluto](tema-1/Error%20Absoluto.md)
+- ✅ [Error Absoluto](https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-1/Error%20Absoluto.md)
 - ✅ [Error Relativo](tema-1/Error%20Relativo.md)
 - ✅ [Error de Redondeo](tema-1/Error%20Redondeo.md)
 - ✅ [Error de Truncamiento](tema-1/Error%20De%20Truncamiento.md)
