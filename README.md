@@ -21,40 +21,27 @@ Existen muchos tipos de métodos numéricos, cada uno diseñado para resolver un
 
 Estudio de errores en cálculos numéricos: error absoluto, relativo, de redondeo, truncamiento e iterativo.
 
-## [Tema 2: Métodos de Solución de Ecuaciones 🧠](./tema-2)
+## [Tema 2: Métodos de Solución de Ecuaciones 🧠](./tema-2/README.md)
 
 Técnicas para encontrar raíces de funciones: bisección, Newton-Raphson, punto fijo, regla falsa, entre otros.
 
-## [Tema 3: Métodos de Solución de Sistemas de Ecuaciones 🎯](./tema-3)
+## [Tema 3: Métodos de Solución de Sistemas de Ecuaciones 🎯](./tema-3/README.md)
 
 Métodos directos e iterativos para resolver sistemas lineales: Gauss, Gauss-Jordan, Jacobi y Gauss-Seidel.
 
-## [Tema 4: Diferenciación e Integración Numérica 📐](./tema-4)
+## [Tema 4: Diferenciación e Integración Numérica 📐](./tema-4/README.md)
 
-Cuando las funciones no pueden derivarse o integrarse de forma analítica, recurrimos a métodos numéricos. En este tema, abordaremos técnicas para calcular derivadas e integrales de manera aproximada. Se estudiarán métodos como la Cuadratura Gaussiana, y los métodos del trapecio y de Simpson para la integración. Estas herramientas son clave para el análisis de datos experimentales y la simulación de fenómenos físicos complejos.
+Aproximación de derivadas e integrales con métodos como trapecio, Simpson y cuadratura gaussiana.
 
-1. [Cuadratura Gaussiana](tema-4/Cuadratura%20Gaussiana.md)
-2. [Método de Simpson ⅓](tema-4/Método%20de%20Simpson%20⅓.md)
-3. [Método de Simpson ⅜](tema-4/Método%20de%20Simpson%20⅜.md)
-4. [Regla del Trapecio](tema-4/Regla%20del%20trapecio.md)
+## [Tema 5: Interpolación y Ajuste de Funciones ✏️](./tema-5/README.md)
 
-## [Tema 5: Interpolación y Ajuste de Funciones ✏️](./tema-5)
+Interpolación lineal, cuadrática, de Lagrange y de Newton para modelar datos experimentales.
 
-La interpolación y el ajuste de funciones son técnicas fundamentales para aproximar datos experimentales mediante funciones matemáticas. En este tema, se estudiarán métodos de interpolación como el lineal, cuadrático, de Lagrange y de Newton. Estas herramientas permiten construir funciones que pasan exactamente por un conjunto de puntos dados, facilitando la predicción y análisis de comportamientos en sistemas reales.
+## [Tema 6: Solución de Ecuaciones Diferenciales 🔧](./tema-6/README.md)
 
-1. [Método de Interpolación Lineal](tema-5/Método%20de%20Interpolación%20Lineal.md)
-2. [Método de Interpolación Cuadrática](tema-5/Método%20de%20Interpolación%20Cuadrática.md)
-3. [Método de Interpolación de Lagrange](tema-5/Método%20de%20Interpolación%20de%20Lagrange.md)
-4. [Método de Interpolación de Newton](tema-5/Método%20de%20Interpolación%20de%20Newton.md)
+Métodos numéricos para resolver EDOs: Euler, Runge-Kutta y Taylor.
 
-## [Tema 6: Solución de Ecuaciones Diferenciales 🔧](./tema-6)
-
-La resolución de ecuaciones diferenciales permite modelar una amplia gama de fenómenos físicos, biológicos y económicos. En este tema, se presentarán métodos numéricos como el de Euler, Runge-Kutta y Taylor, que ofrecen soluciones aproximadas a problemas donde no es posible obtener una solución analítica. Estas técnicas son esenciales para el estudio de sistemas dinámicos y procesos de cambio en el tiempo.
-
-1. [Método de Euler](tema-6/Método%20de%20Euler.md)
-2. [Método Runge Kutta](tema-6/Método%20Runge%20Kutta.md)
-3. [Método Taylor](tema-6/Método%20Taylor.md)
-
+---
 
 ## 👥 Equipo  
 - **Mendoza Romero Nadia Fernanda**  yo y nada más yo contra el mundo
