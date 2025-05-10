@@ -4,7 +4,7 @@ Resolver ecuaciones no lineales es una tarea frecuente en matemáticas aplicadas
 
 En este tema se presentan distintos enfoques para obtener raíces de funciones, destacando sus ventajas, limitaciones y condiciones de convergencia. Cada método tiene aplicaciones específicas, y conocerlos facilita la elección adecuada en cada contexto.
 
-## Contenidos
+## Métodos Incluidos
 
 - ✅ Método Gráfico
 - ✅ Método de Bisección
