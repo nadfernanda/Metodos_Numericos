@@ -1,5 +1,5 @@
 # Métodos numéricos 🚀
--------------------
+
 ## 📌 Introducción  
 Los **métodos numéricos** son técnicas matemáticas que se utilizan para aproximar soluciones a problemas que son difíciles o imposibles de resolver analíticamente. Estos métodos son fundamentales en ciencia e ingeniería, ya que permiten obtener resultados numéricos precisos en una variedad de situaciones.
 ## ¿Por qué usar métodos numéricos? 🔍
