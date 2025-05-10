@@ -17,7 +17,9 @@ Existen muchos tipos de métodos numéricos, cada uno diseñado para resolver un
 
 ## 📚 Temas  
 
-## [Tema 1: Tipos de Errores ❗](./tema-1)
+## [Tema 1: Tipos de Errores ❗](./tema-1/README.md)
+
+Estudio de errores en cálculos numéricos: error absoluto, relativo, de redondeo, truncamiento e iterativo.
 
 El estudio de los errores es fundamental en el análisis numérico, ya que permite comprender las limitaciones de los métodos computacionales. En este tema, exploraremos los distintos tipos de errores que pueden surgir al realizar cálculos: errores de truncamiento, errores de redondeo y propagación de errores. Analizar estos conceptos nos ayuda a interpretar con mayor precisión los resultados obtenidos y a mejorar la confiabilidad de nuestras soluciones numéricas.
 
