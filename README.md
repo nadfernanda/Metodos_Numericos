@@ -21,34 +21,13 @@ Existen muchos tipos de métodos numéricos, cada uno diseñado para resolver un
 
 Estudio de errores en cálculos numéricos: error absoluto, relativo, de redondeo, truncamiento e iterativo.
 
-El estudio de los errores es fundamental en el análisis numérico, ya que permite comprender las limitaciones de los métodos computacionales. En este tema, exploraremos los distintos tipos de errores que pueden surgir al realizar cálculos: errores de truncamiento, errores de redondeo y propagación de errores. Analizar estos conceptos nos ayuda a interpretar con mayor precisión los resultados obtenidos y a mejorar la confiabilidad de nuestras soluciones numéricas.
-
-1. [Error Absoluto](tema-1/Error%20Absoluto.md)
-2. [Error Relativo](tema-1/Error%20Relativo.md)
-3. [Error de Redondeo](tema-1/Error%20Redondeo.md)
-4. [Error de Truncamiento](tema-1/Error%20De%20Truncamiento.md)
-5. [Error Iterativo](tema-1/Error%20Iterativo.md)
-
 ## [Tema 2: Métodos de Solución de Ecuaciones 🧠](./tema-2)
 
-Los métodos de solución de ecuaciones son fundamentales para encontrar raíces de funciones cuando no es posible obtener soluciones exactas de forma algebraica. En este tema exploraremos cuatro métodos clave: bisección, punto fijo, Newton-Raphson y secante. Cada uno de ellos ofrece diferentes ventajas en términos de precisión, velocidad de convergencia y facilidad de implementación. Estos métodos son ampliamente utilizados en aplicaciones matemáticas, científicas e ingenieriles donde se requiere resolver ecuaciones de manera eficiente y confiable.
-
-1. [Método Gráfico](tema-2/Método%20Gráfico.md)
-2. [Método Bisección](tema-2/Método%20Bisección.md)
-3. [Método Newton-Raphson](tema-2/Método%20Newton-Raphson.md)
-4. [Método Punto Fijo](tema-2/Método%20Punto%20Fijo.md)
-5. [Método Regla Falsa](tema-2/Método%20Regla%20Falsa.md)
-6. [Método Secante](tema-2/Método%20Secante.md)
+Técnicas para encontrar raíces de funciones: bisección, Newton-Raphson, punto fijo, regla falsa, entre otros.
 
 ## [Tema 3: Métodos de Solución de Sistemas de Ecuaciones 🎯](./tema-3)
 
-Resolver sistemas de ecuaciones es una tarea común en muchas áreas de la ciencia y la ingeniería. En este tema, analizaremos métodos tanto directos como iterativos para abordar estos problemas. Estudiaremos técnicas como la eliminación de Gauss, Gauss Jordan y métodos iterativos como Jacobi y Gauss-Seidel. Estos métodos permiten resolver sistemas de manera eficiente y son esenciales para problemas de mayor escala en la práctica computacional.
-
-1. [Método de eliminación de Gauss simple](tema-3/Eliminación%20de%20Gauss%20simple.md)
-2. [Método de Gauss](tema-3/Método%20Gauss.md) 
-3. [Método de Gauss Jordan](tema-3/Método%20Gauss%20Jordan.md)
-4. [Método de Gauss-Seidel](tema-3/Método%20Gauss%20Seidel.md)
-5. [Método de Jacobi](tema-3/Método%20Jacobi.md)
+Métodos directos e iterativos para resolver sistemas lineales: Gauss, Gauss-Jordan, Jacobi y Gauss-Seidel.
 
 ## [Tema 4: Diferenciación e Integración Numérica 📐](./tema-4)
 
