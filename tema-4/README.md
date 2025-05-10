@@ -1,4 +1,4 @@
-# Tema 4: Diferenciación e Integración Numérica 📐
+## Tema 4: Diferenciación e Integración Numérica 📐
 
 Cuando las funciones no pueden derivarse o integrarse de forma analítica o exacta, es necesario recurrir a métodos numéricos que permitan obtener aproximaciones útiles para el análisis y la simulación.
 
