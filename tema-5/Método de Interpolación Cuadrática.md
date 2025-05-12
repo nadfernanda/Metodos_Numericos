@@ -137,6 +137,7 @@ Estima el valor de \( f(1.5) \) usando interpolación cuadrática con los puntos
 <img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-5/imagenes/Inter_Cuadr%C3%A1tica/Ejercicio%204.png" width="35%" alt="Solución Ejercicio 4">
 
 **Análisis**
+
 Aquí los puntos siguen la función cuadrática exacta \( y = x^2 \). El resultado coincide con \( 1.5^2 \), es decir, 2.25. Este ejercicio demuestra que la interpolación cuadrática reproduce con exactitud funciones cuadráticas cuando los datos provienen de dicha función.
 
 ## Ejercicio 5(sin solución)
@@ -151,6 +152,7 @@ Usa interpolación cuadrática para estimar el valor de la función en \( x = 2.
 <img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-5/imagenes/Inter_Cuadr%C3%A1tica/Ejercicio%205.png" width="40%" alt="Solución Ejercicio 1">
 
 **Análisis**
+
 Este ejercicio presenta una situación inválida para la interpolación cuadrática. Los tres puntos tienen la misma coordenada \( x = 2.0 \), lo que causa divisiones por cero al calcular las diferencias divididas necesarias para construir el polinomio de interpolación. Esto se debe a que el método requiere puntos con **valores de \( x \) distintos** para poder formar una parábola. En la práctica, este tipo de error es útil para resaltar la importancia de validar los datos de entrada antes de aplicar métodos numéricos. El resultado fue una excepción de ejecución, lo cual es coherente con un problema matemáticamente mal planteado.
 
 
