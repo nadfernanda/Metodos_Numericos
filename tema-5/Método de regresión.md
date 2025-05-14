@@ -86,7 +86,7 @@ y = [2.2, 2.8, 3.6, 4.5, 5.1]
 
 **Solución con algoritmo de java**
 
-<img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-5/imagenes/Regresi%C3%B3n/Ejercicio%201.png" width="35%" alt="Solución Ejercicio 2">
+<img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-5/imagenes/Regresi%C3%B3n/Ejercicio%201.png" width="20%" alt="Solución Ejercicio 2">
 
 **Análisis** 
 
@@ -99,7 +99,7 @@ y = [15, 25, 35, 45, 55]
 
 **Solución con algoritmo de java**
 
-<img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-5/imagenes/Regresi%C3%B3n/Ejercicio%202.png" width="35%" alt="Solución Ejercicio 2">
+<img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-5/imagenes/Regresi%C3%B3n/Ejercicio%202.png" width="20%" alt="Solución Ejercicio 2">
 
 **Análisis** 
 
@@ -112,7 +112,7 @@ y = [5, 4, 3, 2, 1]
 
 **Solución con algoritmo de java**
 
-<img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-5/imagenes/Regresi%C3%B3n/Ejercicio%203.png" width="35%" alt="Solución Ejercicio 2">
+<img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-5/imagenes/Regresi%C3%B3n/Ejercicio%203.png" width="20%" alt="Solución Ejercicio 2">
 
 **Análisis**
 
@@ -125,7 +125,7 @@ y = [1, 3, 7, 13, 21]
 
 **Solución con algoritmo de java**
 
-<img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-5/imagenes/Regresi%C3%B3n/Ejercicio%204.png" width="35%" alt="Solución Ejercicio 2">
+<img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-5/imagenes/Regresi%C3%B3n/Ejercicio%204.png" width="20%" alt="Solución Ejercicio 2">
 
 **Análisis** 
 
@@ -138,7 +138,7 @@ y = [1, 1, 2, 3, 5]
 
 **Solución con algoritmo de java**
 
-<img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-5/imagenes/Regresi%C3%B3n/Ejercicio%205.png" width="35%" alt="Solución Ejercicio 2">
+<img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-5/imagenes/Regresi%C3%B3n/Ejercicio%205.png" width="20%" alt="Solución Ejercicio 2">
 
 **Análisis** 
 
