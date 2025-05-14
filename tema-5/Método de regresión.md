@@ -90,7 +90,7 @@ y = [2.2, 2.8, 3.6, 4.5, 5.1]
 
 **Análisis** 
 
-Los datos presentan una relación perfectamente lineal positiva: a medida que los valores de x aumentan, los de y también lo hacen de forma proporcional. Esto da como resultado un coeficiente de correlación de 1.0000, lo cual indica una correlación positiva perfecta.
+Los datos corresponden a una relación lineal directa perfecta, donde cada incremento en x genera un incremento proporcional en y. La regresión ajusta exactamente una recta con pendiente igual a 2, lo que refleja que los puntos se alinean perfectamente con el modelo.
 
 ## Ejercicio 2
 Dado el conjunto de datos:
@@ -103,7 +103,7 @@ y = [15, 25, 35, 45, 55]
 
 **Análisis** 
 
-Los valores de x aumentan mientras que los de y disminuyen de manera perfectamente proporcional. Esta relación inversa produce un coeficiente de correlación de -1.0000, lo que representa una correlación negativa perfecta.
+Los valores muestran una relación inversa perfecta entre x e y, donde al aumentar x, los valores de y disminuyen proporcionalmente. La línea de regresión obtenida tiene una pendiente negativa, representando correctamente esta relación descendente.
 
 ## Ejercicio 3
 Dado el conjunto de datos:
@@ -116,7 +116,7 @@ y = [5, 4, 3, 2, 1]
 
 **Análisis**
 
-Aunque los valores de x cambian, los de y permanecen constantes. En este caso, no existe relación alguna entre ambas variables, por lo que el coeficiente de correlación es 0.0000, reflejando ausencia total de correlación.
+El conjunto de datos presenta valores de y constantes a pesar del cambio en x, lo que sugiere que no hay dependencia de y respecto a x. Por ello, la línea de regresión es horizontal, y su pendiente es igual a cero, indicando una relación nula.
 
 ## Ejercicio 4
 Dado el conjunto de datos:
@@ -129,7 +129,7 @@ y = [1, 3, 7, 13, 21]
 
 **Análisis** 
 
-Existe una fuerte relación lineal positiva entre x e y, aunque no perfectamente exacta. Los valores de y siguen creciendo con x, pero con pequeñas desviaciones, lo que produce un coeficiente de correlación muy cercano a 1 (≈ 0.9994), indicando una correlación positiva muy alta.
+Aunque hay una relación positiva entre x e y, los datos presentan pequeñas fluctuaciones. La línea de regresión sigue esa tendencia general ascendente, reflejando una buena aproximación al patrón general aunque no sea perfecto.
 
 ## Ejercicio 5
 Dado el conjunto de datos:
@@ -142,5 +142,5 @@ y = [1, 1, 2, 3, 5]
 
 **Análisis** 
 
-Los datos muestran una tendencia lineal positiva clara, aunque con algunas irregularidades leves. Los incrementos en y no son exactamente constantes, pero siguen un patrón ascendente que resulta en un coeficiente de correlación alto (≈ 0.9872), señal de una relación positiva fuerte.
+Los datos muestran una tendencia creciente con ciertos desvíos irregulares en y, pero el modelo de regresión capta adecuadamente la dirección positiva general. La línea ajustada representa con bastante precisión la relación entre las variables, aunque no sea una alineación exacta.
 
