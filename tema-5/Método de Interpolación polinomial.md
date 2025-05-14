@@ -73,7 +73,7 @@ Dado los puntos (1, 1), (2, 4), (3, 9), interpolar el valor para x = 2.5
  
 **Solución con algoritmo de java**
 
-<img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-5/imagenes/Inter_Polinomial/Ejercicio%201.png" width="28%" alt="Solución Ejercicio 2">
+<img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-5/imagenes/Inter_Polinomial/Ejercicio%201.png" width="25%" alt="Solución Ejercicio 2">
 
 **Análisis** 
 
@@ -86,7 +86,7 @@ Dado los puntos (0, 1), (1, 0), (2, 1), interpolar el valor para x=1.5
 
 **Solución con algoritmo de java**
 
-<img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-5/imagenes/Inter_Polinomial/Ejercicio%202.png" width="28%" alt="Solución Ejercicio 2">
+<img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-5/imagenes/Inter_Polinomial/Ejercicio%202.png" width="25%" alt="Solución Ejercicio 2">
 
 **Análisis** 
 
@@ -98,7 +98,7 @@ Dado los puntos (2, 8), (3, 27), (4, 64), interpolar el valor para x=2.5.
 
 **Solución con algoritmo de java**
 
-<img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-5/imagenes/Inter_Polinomial/Ejercicio%203.png" width="28%" alt="Solución Ejercicio 2">
+<img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-5/imagenes/Inter_Polinomial/Ejercicio%203.png" width="25%" alt="Solución Ejercicio 2">
 
 **Análisis** 
 
@@ -109,7 +109,7 @@ Dado los puntos (1, 2), (2, 8), (4, 64), interpolar el valor para x=3.
 
 **Solución con algoritmo de java**
 
-<img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-5/imagenes/Inter_Polinomial/Ejercicio%204.png" width="28%" alt="Solución Ejercicio 2">
+<img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-5/imagenes/Inter_Polinomial/Ejercicio%204.png" width="25%" alt="Solución Ejercicio 2">
 
 **Análisis** 
 
@@ -121,7 +121,7 @@ Dado los puntos (1, 3), (3, 27), (5, 125), interpolar el valor para x=4.
 
 **Solución con algoritmo de java**
 
-<img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-5/imagenes/Inter_Polinomial/Ejercicio%205.png" width="28%" alt="Solución Ejercicio 2">
+<img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-5/imagenes/Inter_Polinomial/Ejercicio%205.png" width="25%" alt="Solución Ejercicio 2">
 
 **Análisis** 
 
