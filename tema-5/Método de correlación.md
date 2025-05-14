@@ -90,6 +90,7 @@ public class Correlacion {
 Halla la correlación entre x y y, dado :
 
 x = {1, 2, 3, 4, 5} 
+
 y = {2, 4, 6, 8, 10}
 
 **Solución con algoritmo de java**
@@ -104,6 +105,7 @@ Los datos presentan una relación perfectamente lineal positiva: a medida que lo
 Halla la correlación entre x y y, dado :
 
 x = {1, 2, 3, 4, 5} 
+
 y = {10, 8, 6, 4, 2} 
 
 **Solución con algoritmo de java**
@@ -118,6 +120,7 @@ Los valores de x aumentan mientras que los de y disminuyen de manera perfectamen
 Halla la correlación entre x y y, dado :
 
 x = {1, 3, 5, 7} 
+
 y = {2, 2, 2, 2}
 
 **Solución con algoritmo de java**
@@ -132,6 +135,7 @@ Aunque los valores de x cambian, los de y permanecen constantes. En este caso, n
 Halla la correlación entre x y y, dado :
 
 x = {1, 2, 3, 4, 5} 
+
 y = {2.1, 4.2, 6.1, 8.3, 10.1}
 
 **Solución con algoritmo de java**
@@ -146,6 +150,7 @@ Existe una fuerte relación lineal positiva entre x e y, aunque no perfectamente
 Halla la correlación entre x y y, dado :
 
 x = {1, 2, 3, 4, 5} 
+
 y = {10, 11, 13, 14, 16} 
 
 **Solución con algoritmo de java**
