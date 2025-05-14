@@ -1,9 +1,12 @@
 ## Definición
 El método de regresión lineal se utiliza para encontrar la mejor línea recta que se ajusta a un conjunto de datos (x, y). La ecuación de esa recta es:
-y=a+bx
+
+y = a + bx
 
 Donde:
+
 a: ordenada al origen (intersección con eje y)
+
 b: pendiente de la recta
 
 Se basa en minimizar la suma de los errores cuadrados entre los valores reales y los valores estimados por la recta.
