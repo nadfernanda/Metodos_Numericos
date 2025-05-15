@@ -35,7 +35,7 @@ Aproximación de derivadas e integrales con métodos como trapecio, Simpson y cu
 
 ## [Tema 5: Interpolación y Ajuste de Funciones ✏️](./tema-5/README.md)
 
-Interpolación lineal, cuadrática, de Lagrange y de Newton para modelar datos experimentales.
+Interpolación lineal, cuadrática, de Lagrange, de Newton y polinomial, así como métodos de ajuste como regresión, mínimos cuadrados y correlación para modelar datos experimentales.
 
 ## [Tema 6: Solución de Ecuaciones Diferenciales 🔧](./tema-6/README.md)
 
