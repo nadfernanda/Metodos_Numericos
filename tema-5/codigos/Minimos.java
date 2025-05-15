@@ -36,16 +36,5 @@ public class Minimos {
         // Imprimir la ecuación de la recta ajustada: y = a + b*x
         System.out.printf("Ecuación de la recta: y = %.4f + %.4fx\n", a, b);
 
-        // Inicialización del cálculo del Error Cuadrático Medio (MSE)
-        double mse = 0;
-        for (int i = 0; i < n; i++) {
-            double yEst = a + b * x[i];             // Valor estimado de y usando la recta
-            mse += Math.pow(y[i] - yEst, 2);        // Sumar el error cuadrado (diferencia al cuadrado)
-        }
-
-        mse /= n;   // Se divide entre el número de datos para obtener el promedio
-
-        // Imprimir el valor del MSE, que indica qué tan buena es la aproximación
-        System.out.printf("Error cuadrático medio: %.4f\n", mse);
     }
 }
