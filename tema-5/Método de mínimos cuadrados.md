@@ -3,22 +3,40 @@ El **método de mínimos cuadrados** es una técnica estadística utilizada para
 En el caso lineal, este método es el mismo que la regresión lineal: encuentra la recta \( y = a + bx \) que mejor se ajusta a los datos.
 
 ## Algoritmo 
-1. Obtener los datos: \( x_1, x_2, ..., x_n \) y \( y_1, y_2, ..., y_n \)
+1. Se tienen $n$ pares de datos $(x_1, y_1), (x_2, y_2), ..., (x_n, y_n)$.
+   
+2. Calcular las siguientes sumas:
+   
+   - La suma de todos los valores de $x$:
+     
+     $$\sum x_i$$
+     
+   - La suma de todos los valores de $y$:
+     
+     $$\sum y_i$$
+     
+   - La suma de los productos $x \cdot y$:
+     
+     $$\sum x_i y_i$$
+   
+   - La suma de los cuadrados de $x$:
+     
+     $$\sum x_i^2$$
 
-2. Calcular:
-   - \( \sum x \), \( \sum y \), \( \sum x^2 \), \( \sum xy \)
+3. Calcular la pendiente $m$ de la recta de ajuste usando la fórmula:
+   
+   $$m = \frac{n \sum x_i y_i - (\sum x_i)(\sum y_i)}{n \sum x_i^2 - (\sum x_i)^2}$$
 
-3. Resolver el sistema de ecuaciones normales para obtener \( a \) y \( b \):
+4. Calcular la ordenada al origen $b$ (intersección con el eje y):
+   
+   $$b = \frac{\sum y_i - m \sum x_i}{n}$$
 
-\[
-b = \frac{n \sum(xy) - \sum x \sum y}{n \sum x^2 - (\sum x)^2}
-\]
-\[
-a = \frac{\sum y - b \sum x}{n}
-\]
+5. Escribir la ecuación de la recta de regresión:
+   
+   $$y = mx + b$$
 
-4. Generar la función estimada \( y = a + bx \)
-5. 
+6. (Opcional) Utilizar la ecuación para hacer predicciones de $y$ dados nuevos valores de $x$.
+    
 ### Implementación en Java
 ```java
 /**
