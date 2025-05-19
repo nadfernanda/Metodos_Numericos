@@ -68,7 +68,7 @@ $$\frac{dy}{dx} = x + 1 \quad \text{con} \quad y(0) = 1, h = 0.1, n = 10$$
 
 **Solución con algoritmo de java**
 
-<img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-6/imagenes/M%C3%A9todo%20de%20Euler/Ejercicio1.png" width="25%" alt="Solución Ejercicio 2">
+<img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-6/imagenes/M%C3%A9todo%20de%20Euler/Ejercicio1.png" width="35%" alt="Solución Ejercicio 2">
 
 **Análisis** 
 
