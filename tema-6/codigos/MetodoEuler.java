@@ -29,7 +29,7 @@ public class MetodoEuler {
         }
 
         // Imprime el resultado final de y para el valor de x alcanzado
-        System.out.printf("Resultado final: y(%.2f) = %.5f%n", x, y);
+        System.out.printf("Resultado final: y(%.3f) = %.3f%n", x, y);
     }
 
     /**
