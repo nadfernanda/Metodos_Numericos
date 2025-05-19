@@ -68,7 +68,7 @@ $$\frac{dy}{dx} = x + 1 \quad \text{con} \quad y(0) = 1, h = 0.1, n = 10$$
 
 **Solución con algoritmo de java**
 
-<img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-5/imagenes/Regresi%C3%B3n/Ejercicio%201.png" width="35%" alt="Solución Ejercicio 2">
+<img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-6/imagenes/M%C3%A9todo%20de%20Euler/Ejercicio%201.png" width="25%" alt="Solución Ejercicio 2">
 
 **Análisis** 
 
@@ -81,7 +81,7 @@ $$\frac{dy}{dx} = 2x  \quad \text{con} \quad y(0) = 1, h = 0.2, n = 5$$
 
 **Solución con algoritmo de java**
 
-<img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-5/imagenes/Regresi%C3%B3n/Ejercicio%202.png" width="35%" alt="Solución Ejercicio 2">
+<img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-6/imagenes/M%C3%A9todo%20de%20Euler/Ejercicio%202.png" width="25%" alt="Solución Ejercicio 2">
 
 **Análisis** 
 
@@ -94,7 +94,7 @@ $$\frac{dy}{dx} = y  \quad \text{con} \quad y(0) = 1, h = 0.1, n = 10$$
 
 **Solución con algoritmo de java**
 
-<img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-5/imagenes/Regresi%C3%B3n/Ejercicio%203.png" width="35%" alt="Solución Ejercicio 2">
+<img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-6/imagenes/M%C3%A9todo%20de%20Euler/Ejercicio%203.png" width="25%" alt="Solución Ejercicio 2">
 
 **Análisis**
 
@@ -108,7 +108,7 @@ $$\frac{dy}{dx} = cos(x)  \quad \text{con} \quad y(0) = 1, h = 0.1, n = 10$$
 
 **Solución con algoritmo de java**
 
-<img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-5/imagenes/Regresi%C3%B3n/Ejercicio%204.png" width="35%" alt="Solución Ejercicio 2">
+<img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-6/imagenes/M%C3%A9todo%20de%20Euler/Ejercicio%204.png" width="25%" alt="Solución Ejercicio 2">
 
 **Análisis** 
 
@@ -122,7 +122,7 @@ $$\frac{dy}{dx} = x * y  \quad \text{con} \quad y(0) = 1, h = 0.1, n = 10$$
 
 **Solución con algoritmo de java**
 
-<img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-5/imagenes/Regresi%C3%B3n/Ejercicio%205.png" width="35%" alt="Solución Ejercicio 2">
+<img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-6/imagenes/M%C3%A9todo%20de%20Euler/Ejercicio%205.png" width="25%" alt="Solución Ejercicio 2">
 
 **Análisis** 
 
