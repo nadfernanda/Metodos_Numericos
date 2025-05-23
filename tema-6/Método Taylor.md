@@ -84,7 +84,7 @@ public class MetodoTaylor {
 ## Ejercicio 1
 Resuelve la ecuación diferencial 
 
-$\frac{dy}{dx} = x + y$
+$$\frac{dy}{dx} = x + y$$
 
 con condición inicial $y(0) = 1$, usando el método de Taylor de orden 2. Usa un tamaño de paso $h = 0.1$ durante 10 pasos. 
 La segunda derivada es $\frac{d^2y}{dx^2} = 1 + (x + y)$.
