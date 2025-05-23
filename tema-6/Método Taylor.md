@@ -1,4 +1,4 @@
-## Definición
+![image](https://github.com/user-attachments/assets/722c69dd-8893-4d9c-90cb-e4f648270842)## Definición
 El método de Taylor es una técnica numérica para aproximar la solución de una ecuación diferencial ordinaria (EDO) utilizando la serie de Taylor de la solución alrededor de un punto. A diferencia del método de Euler, que solo usa la primera derivada, el método de Taylor utiliza derivadas de orden superior para lograr una mayor precisión.
 
 Se basa en la expansión de la solución y(x) en una serie de Taylor alrededor de un punto xi donde se conoce la solución (ya sea la condición inicial o un punto previamente calculado). Al incluir más términos de la serie (es decir, derivadas de mayor orden), se obtiene una mejor aproximación de la función en puntos cercanos.
@@ -82,3 +82,86 @@ public class MetodoTaylor {
 ```
 ## Ejercicios Prácticos
 ## Ejercicio 1
+Resuelve la ecuación diferencial 
+
+$\frac{dy}{dx} = x + y$
+
+con condición inicial $y(0) = 1$, usando el método de Taylor de orden 2. Usa un tamaño de paso $h = 0.1$ durante 10 pasos. 
+La segunda derivada es $\frac{d^2y}{dx^2} = 1 + (x + y)$.
+
+**Solución con algoritmo de java**
+
+<img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-6/imagenes/M%C3%A9todo%20de%20Taylor/Ejercicio%201.png" width="30%" alt="Solución Ejercicio 2">
+
+**Análisis** 
+
+En esta ecuación, la derivada depende de la suma de x y y, lo que hace que el valor de y crezca muy rápido. El método de Taylor de segundo orden mejora la precisión al usar también la segunda derivada. El valor final y(1) = 3.42816 muestra que la solución sube bastante, como era de esperarse, y el método logra seguir bien ese crecimiento.
+
+## Ejercicio 2
+Resuelve la ecuación diferencial 
+
+$\frac{dy}{dx} = x^2 + y$
+
+con condición inicial $y(0) = 2$, usando el método de Taylor de orden 2. Usa un tamaño de paso $h = 0.2$ durante 5 pasos. 
+La segunda derivada es $\frac{d^2y}{dx^2} = 2x - (x^2 - y)$.
+
+
+**Solución con algoritmo de java**
+
+<img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-6/imagenes/M%C3%A9todo%20de%20Taylor/Ejercicio%202.png" width="30%" alt="Solución Ejercicio 2">
+
+**Análisis** 
+
+En este problema, Aquí, la función tiende a bajar al principio porque la derivada es x^2 - y,  al comienzo y es mayor que x^2. El método de Taylor permite ver cómo y baja poco a poco hasta llegar justo a 1 cuando x=1. Es un buen ejemplo donde la solución se estabiliza y el método lo calcula con buena.
+
+
+## Ejercicio 3
+Resuelve la ecuación diferencial 
+
+$\frac{dy}{dx} = cos(x) - y$
+
+con condición inicial $y(0) = 1$, usando el método de Taylor de orden 2. Usa un tamaño de paso $h = 0.1$ durante 10 pasos. 
+La segunda derivada es $\frac{d^2y}{dx^2} = - sin(x) - cos(x) - y$.
+
+**Solución con algoritmo de java**
+
+<img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-6/imagenes/M%C3%A9todo%20de%20Taylor/Ejercicio%203.png" width="30%" alt="Solución Ejercicio 2">
+
+**Análisis**
+
+En este caso, la derivada depende de cos⁡(x)−y, lo que hace que yyy baje con el tiempo, ya que se va restando a sí misma. El método de Taylor de segundo orden ayuda a seguir mejor esa bajada al incluir también cómo cambia la derivada. El valor final y(1)=0.87530 muestra que la solución desciende de forma suave desde el valor inicial, y el método lo calcula con buena precisión. Es un buen ejemplo de cómo Taylor funciona bien con funciones que oscilan como el coseno.
+
+## Ejercicio 4
+Resuelve la ecuación diferencial 
+
+$\frac{dy}{dx} = x^2 + y$
+
+con condición inicial $y(0) = 1$, usando el método de Taylor de orden 2. Usa un tamaño de paso $h = 0.2$ durante 5 pasos. 
+La segunda derivada es $\frac{d^2y}{dx^2} = 2x + (x^2 + y)$.
+
+**Solución con algoritmo de java**
+
+<img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-6/imagenes/M%C3%A9todo%20de%20Taylor/Ejercicio%204.png" width="30%" alt="Solución Ejercicio 2">
+
+**Análisis** 
+
+La función crece porque se le suma x^2, que siempre es positivo, y también y. Eso hace que el valor de y suba rápidamente. Con el método de Taylor de segundo orden, se logra una mejor aproximación al tener en cuenta cómo cambia la pendiente con la segunda derivada. El resultado final y(1)=3.10812 muestra este crecimiento, y el método logra seguir ese aumento de forma bastante precisa.
+
+
+## Ejercicio 5
+Resuelve la ecuación diferencial 
+
+$\frac{dy}{dx} = x - y$
+
+con condición inicial $y(0) = 1$, usando el método de Taylor de orden 2. Usa un tamaño de paso $h = 0.1$ durante 10 pasos. 
+La segunda derivada es $\frac{d^2y}{dx^2} = 1 - (x - y)$.
+
+**Solución con algoritmo de java**
+
+<img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-6/imagenes/M%C3%A9todo%20de%20Taylor/Ejercicio%205.png" width="30%" alt="Solución Ejercicio 2">
+
+**Análisis** 
+
+En este caso, como la derivada es x−y, el valor de y tiende a disminuir al principio, pero luego el valor de x crece y compensa un poco la caída. El método de Taylor ayuda a reflejar ese comportamiento, mostrando que y baja, pero no tanto como parecía al inicio. El valor final y(1)=0.73708 demuestra una bajada moderada desde el valor inicial, y el método logra capturar bien esa forma de cambiar del sistema.
+
+
