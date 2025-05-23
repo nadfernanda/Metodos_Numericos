@@ -59,7 +59,7 @@ public class MetodoTaylor {
         }
 
         // Mostrar solo el resultado final
-        System.out.printf("Resultado final en x = %.5f: y = %.5f%n", x, y);
+        System.out.printf("Resultado final en x = %.4f: y = %.4f%n", x, y);
     }
 
     public static void main(String[] args) {
