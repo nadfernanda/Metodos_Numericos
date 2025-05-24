@@ -32,58 +32,102 @@ Dado un intervalo $[x_0, x_n]$, un valor inicial $y_0$, y un tamaño de paso $h$
 ```java
 import java.util.function.BiFunction;
 
-public class MetodoRungeKutta {
+/**
+ * Clase que implementa el método de Runge-Kutta de cuarto orden (RK4)
+ * para resolver ecuaciones diferenciales ordinarias (EDO) de primer orden.
+ */
+public class RungeKutta {
 
     /**
-     * Método que resuelve una ecuación diferencial usando el método de Runge-Kutta de cuarto orden (RK4).
+     * Método estático que implementa el algoritmo de Runge-Kutta de cuarto orden.
+     * Este método aproxima la solución de una EDO de la forma dy/dx = f(x, y)
+     * en un intervalo definido por el número de pasos y el tamaño de paso.
      *
-     * @param f    Función que representa la derivada dy/dx, depende de x e y (por eso BiFunction)
-     * @param x0   Valor inicial de x
-     * @param y0   Valor inicial de y
-     * @param h    Tamaño de paso
-     * @param n    Número de pasos a realizar
+     * @param f    Función que representa la derivada dy/dx, dependiente de x e y
+     * @param x0   Valor inicial de x (condición inicial)
+     * @param y0   Valor inicial de y (condición inicial)
+     * @param h    Tamaño de paso (incremento de x)
+     * @param n    Número de pasos a ejecutar
      */
     public static void rungeKutta(BiFunction<Double, Double, Double> f, double x0, double y0, double h, int n) {
-        double x = x0;
-        double y = y0;
+        double x = x0; // Inicializa x con el valor inicial
+        double y = y0; // Inicializa y con el valor inicial
 
-        System.out.println("Paso\t x\t\t y");
-        System.out.printf("0\t %.5f\t %.5f%n", x, y);
-
+        // Itera n veces para calcular la aproximación de y en x + n*h
         for (int i = 1; i <= n; i++) {
-            // Calculamos los cuatro k del método de Runge-Kutta
+            // Calcula los coeficientes de Runge-Kutta
             double k1 = h * f.apply(x, y);
             double k2 = h * f.apply(x + h / 2.0, y + k1 / 2.0);
             double k3 = h * f.apply(x + h / 2.0, y + k2 / 2.0);
             double k4 = h * f.apply(x + h, y + k3);
 
-            // Fórmula para actualizar y
+            // Actualiza el valor de y usando los coeficientes
             y = y + (k1 + 2 * k2 + 2 * k3 + k4) / 6.0;
 
-            // Avanzamos en x
+            // Incrementa el valor de x
             x = x + h;
-
-            // Imprimimos los valores de cada paso
-            System.out.printf("%d\t %.5f\t %.5f%n", i, x, y);
         }
+
+        // Imprime el resultado final de y en x final
+        System.out.printf("Resultado final: y(%.2f) = %.5f%n", x, y);
     }
 
+    /**
+     * Método principal para probar la implementación del método de Runge-Kutta.
+     * Define la función derivada, condiciones iniciales, tamaño de paso y número de pasos.
+     */
     public static void main(String[] args) {
-        // Definimos la derivada dy/dx como una función que depende de x e y
-        BiFunction<Double, Double, Double> derivada = (x, y) -> x + y; // Ejemplo: dy/dx = x + y
+        // Definición de la función derivada dy/dx = x * sqrt(y)
+        BiFunction<Double, Double, Double> derivada = (x, y) -> x * Math.sqrt(y);
 
-        // Parámetros iniciales
+        // Condiciones iniciales
         double x0 = 0;    // Valor inicial de x
         double y0 = 1;    // Valor inicial de y
-        double h = 0.1;   // Tamaño de paso
-        int n = 10;       // Número de pasos
 
-        // Llamamos al método de Runge-Kutta
+        // Parámetros del método
+        double h = 0.2;   // Tamaño de paso
+        int n = 5;        // Número de pasos
+
+        // Llamada al método de Runge-Kutta para resolver la EDO
         rungeKutta(derivada, x0, y0, h, n);
     }
 }
-
 ```
 ## Ejercicios Prácticos
 ## Ejercicio 1
+Resuelve la ecuación diferencial  
+$\frac{dy}{dx}  = x + y$, con condición inicial y(0)=1, usando un paso h = 0.1 y 10 pasos.
+
+
+**Solución con algoritmo de java**
+
+<img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-6/imagenes/M%C3%A9todo%20de%20Runge%20Kutta/Ejercicio%201.png" width="30%" alt="Solución Ejercicio 2">
+
+**Análisis** 
+
+Este ejercicio muestra cómo el método de Runge-Kutta calcula el crecimiento de una función cuya derivada depende tanto de x como de y. Aunque esperábamos un valor cercano a e, el resultado final 3.43656 indica que la acumulación de y en cada paso provoca un crecimiento más acelerado. El método sigue siendo útil, pero recuerda que el comportamiento depende de cómo la función reacciona a los incrementos, no de un resultado exacto como e.
+
+## Ejercicio 2
+Resuelve la ecuación diferencial  
+$\frac{dy}{dx}  = = x√(y)$, con condición inicial y(0) = 1, usando h = 0.2 y 5 pasos.
+
+**Solución con algoritmo de java**
+
+<img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-6/imagenes/M%C3%A9todo%20de%20Runge%20Kutta/Ejercicio%202.png" width="30%" alt="Solución Ejercicio 2">
+
+**Análisis** 
+
+Aquí vemos que, con una función que involucra una raíz cuadrada, el método da un resultado final de 1.56250, lo que muestra un crecimiento más suave. Aunque puede parecer más lento que lo esperado, este comportamiento es coherente con el hecho de que la derivada depende de √(y), que crece lentamente. El método sigue capturando correctamente la evolución del sistema, pero sin saltos bruscos.
+
+## Ejercicio 3
+Resuelve la ecuación diferencial  
+$\frac{dy}{dx}  = y - x^2 + 1$,  con condición inicial y(0) = 0.5, usando h = 0.1 y 10 pasos
+
+**Solución con algoritmo de java**
+
+<img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-6/imagenes/M%C3%A9todo%20de%20Runge%20Kutta/Ejercicio%203.png" width="30%" alt="Solución Ejercicio 2">
+
+**Análisis** 
+
+Este resultado final de 2.64086 demuestra que el método de Runge-Kutta maneja muy bien ecuaciones con términos no lineales como -x² + 1. Aunque se esperaba algo más cercano a 1.23, el hecho de que y crezca tanto sugiere que la combinación de los términos produce una pendiente acumulativa mayor. El método sigue siendo confiable, pero nos recuerda que pequeños errores o supuestos pueden alterar significativamente el resultado final.
 
