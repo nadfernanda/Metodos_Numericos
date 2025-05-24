@@ -1,11 +1,11 @@
 /**
- * Clase que implementa el Método de Euler Modificado (Heun)
- * para resolver una ecuación diferencial ordinaria de primer orden.
+ * Clase que implementa el método de Heun (Euler modificado)
+ * para resolver una EDO y mostrar solo el resultado final.
  */
 public class MetodoHeun {
 
     /**
-     * Interfaz funcional que representa la función f(x, y) de la EDO.
+     * Interfaz funcional para representar la función f(x, y).
      */
     @FunctionalInterface
     public interface Funcion {
@@ -13,47 +13,46 @@ public class MetodoHeun {
     }
 
     /**
-     * Aplica el Método de Heun (Euler modificado) para resolver una EDO.
+     * Aplica el método de Heun para resolver la EDO y retorna el valor final de y.
      *
-     * @param f  La función f(x, y) que define la EDO dy/dx = f(x, y)
-     * @param x0 Valor inicial de x
-     * @param y0 Valor inicial de y (y(x0))
-     * @param h  Paso de integración
-     * @param n  Número de pasos
+     * @param f  función f(x, y)
+     * @param x0 valor inicial de x
+     * @param y0 valor inicial de y
+     * @param h  paso
+     * @param n  número de pasos
+     * @return valor final de y después de n pasos
      */
-    public static void heun(Funcion f, double x0, double y0, double h, int n) {
+    public static double heun(Funcion f, double x0, double y0, double h, int n) {
         double x = x0;
         double y = y0;
 
-        System.out.printf("Paso\t x\t\t y\n");
-        System.out.printf("0\t %.6f\t %.6f\n", x, y);
-
-        // Iteración del método de Heun
         for (int i = 1; i <= n; i++) {
-            double k1 = f.aplicar(x, y);                  // pendiente al inicio del intervalo
-            double k2 = f.aplicar(x + h, y + h * k1);     // pendiente al final del intervalo
-            y = y + (h / 2.0) * (k1 + k2);                // promedio de pendientes
-            x = x + h;                                    // incrementa x
- // Imprime resultados 
-            System.out.printf("%d\t %.4f\t %.4f\n", i, x, y);
+            double k1 = f.aplicar(x, y);
+            double k2 = f.aplicar(x + h, y + h * k1);
+            y = y + (h / 2.0) * (k1 + k2);
+            x = x + h;
         }
+
+        return y;
     }
 
     /**
-     * Función principal (main) para probar el método con un ejemplo.
-     * En este caso, resolvemos dy/dx = x + y con y(0) = 1
+     * Método principal con ejemplo de uso.
+     * Resuelve dy/dx = y con y(0) = 1, h = 0.2, n = 5
      */
-    public static void main(String[] args) {
-        // Definición de la función f(x, y) = x + y
-        Funcion f = (x, y) -> x + y;
-
-        // Parámetros iniciales de la EDO
-        double x0 = 0.0;  // x inicial
-        double y0 = 1.0;  // y inicial
-        double h = 0.1;   // paso
-        int n = 10;       // número de pasos
-
-        // Ejecutar el método de Heun
-        heun(f, x0, y0, h, n);
-    }
+   public static void main(String[] args) {
+    // Definición de la función f(x, y) = -3y + 6
+    Funcion f = (x, y) -> -3 * y + 6;
+    
+    // Parámetros iniciales de la EDO
+    double x0 = 0.0;  // x inicial
+    double y0 = 0.0;  // y inicial
+    double h = 0.1;   // paso
+    int n = 8;        // número de pasos
+    
+    // Ejecutar el método de Heun
+    double resultadoFinal = heun(f, x0, y0, h, n);
+    System.out.printf("Resultado final en x = %.2f: y ≈ %.6f\n", x0 + h * n, resultadoFinal);
 }
+    }
+
