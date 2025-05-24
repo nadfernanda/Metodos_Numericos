@@ -64,7 +64,7 @@ public class MetodoEuler {
 ## Ejercicio 1
 Resuelve la EDO:
 
-$$\frac{dy}{dx} = x + 1 \quad \text{con} \quad y(0) = 1, h = 0.1, n = 10$$
+$\frac{dy}{dx} = x + 1 \quad \text{con} \quad y(0) = 1, h = 0.1, n = 10$
 
 **Solución con algoritmo de java**
 
@@ -77,7 +77,7 @@ El resultado obtenido fue y(1)=2.450, mientras que la solución exacta es y = x^
 ## Ejercicio 2
 Resuelve la EDO:
 
-$$\frac{dy}{dx} = 2x  \quad \text{con} \quad y(0) = 1, h = 0.2, n = 5$$
+$\frac{dy}{dx} = 2x  \quad \text{con} \quad y(0) = 1, h = 0.2, n = 5$
 
 **Solución con algoritmo de java**
 
@@ -90,7 +90,7 @@ Aquí se obtuvo y(1) = 0.800, mientras que la solución exacta es y= x^2 y por l
 ## Ejercicio 3
 Resuelve la EDO:
 
-$$\frac{dy}{dx} = y  \quad \text{con} \quad y(0) = 1, h = 0.1, n = 10$$
+$\frac{dy}{dx} = y  \quad \text{con} \quad y(0) = 1, h = 0.1, n = 10$
 
 **Solución con algoritmo de java**
 
@@ -104,7 +104,7 @@ El valor final obtenido fue y(1) = 2.594, frente a la solución exacta y = e^x, 
 ## Ejercicio 4
 Resuelve la EDO:
 
-$$\frac{dy}{dx} = cos(x)  \quad \text{con} \quad y(0) = 1, h = 0.1, n = 10$$
+$\frac{dy}{dx} = cos(x)  \quad \text{con} \quad y(0) = 1, h = 0.1, n = 10$
 
 **Solución con algoritmo de java**
 
@@ -117,7 +117,7 @@ El valor estimado fue y(1) = 0.864, comparado con la solución exacta y = sin(x)
 ## Ejercicio 5
 Resuelve la EDO:
 
-$$\frac{dy}{dx} = x * y  \quad \text{con} \quad y(0) = 1, h = 0.1, n = 10$$
+$\frac{dy}{dx} = x * y  \quad \text{con} \quad y(0) = 1, h = 0.1, n = 10$
 
 
 **Solución con algoritmo de java**
