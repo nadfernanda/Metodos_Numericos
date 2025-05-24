@@ -2,7 +2,6 @@
 El método de Euler modificado o método de Heun es una mejora del método de Euler simple. Mientras que Euler usa solo la pendiente en el inicio del intervalo para aproximar la solución, Heun calcula primero una pendiente preliminar al final del intervalo y luego promedia ambas pendientes para obtener una mejor aproximación. Esto reduce el error y mejora la precisión, sin complicar mucho el cálculo. Es un método explícito y de un paso muy usado cuando se busca un equilibrio entre simplicidad y exactitud.
 
 ## Algoritmo
-
 (Dado $y' = f(x, y)$, $y(x_0) = y_0$, paso $h$)
 
 1. Calcular pendiente inicial:
