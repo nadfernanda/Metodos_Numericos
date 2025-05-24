@@ -24,7 +24,7 @@ El método de Euler modificado o método de Heun es una mejora del método de Eu
  * Clase que implementa el método de Heun (Euler modificado)
  * para resolver una EDO y mostrar solo el resultado final.
  */
-public class Main {
+public class MetodoHeun {
 
     /**
      * Interfaz funcional para representar la función f(x, y).
@@ -77,6 +77,7 @@ public class Main {
     System.out.printf("Resultado final en x = %.2f: y ≈ %.6f\n", x0 + h * n, resultadoFinal);
 }
     }
+
 ```
 ## Ejercicios Prácticos
 ## Ejercicio 1
