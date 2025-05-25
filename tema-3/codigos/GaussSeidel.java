@@ -94,9 +94,9 @@ public class GaussSeidel{
         // Imprimir resultados
         if (convergencia) {
             System.out.println("Solución encontrada en " + iteraciones + " iteraciones:");
-            System.out.println("x = " + String.format("%.6f", solucion[0]));
-            System.out.println("y = " + String.format("%.6f", solucion[1]));
-            System.out.println("z = " + String.format("%.6f", solucion[2]));
+            System.out.println("x = " + String.format("%.4f", solucion[0]));
+            System.out.println("y = " + String.format("%.4f", solucion[1]));
+            System.out.println("z = " + String.format("%.4f", solucion[2]));
         } else {
             System.out.println("No se alcanzó la convergencia en " + iteraciones + " iteraciones");
         }
