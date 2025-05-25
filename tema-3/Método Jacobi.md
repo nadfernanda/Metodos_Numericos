@@ -104,7 +104,7 @@ public class Jacobi {
         System.out.println("Solución aproximada:");
         for (int i = 0; i < result.solution.length; i++) {
             String variable = (i == 0) ? "x" : (i == 1) ? "y" : "z";
-            System.out.printf("%s = %1.6f%n", variable, result.solution[i]);
+            System.out.printf("%s = %.4f%n", variable, result.solution[i]);
         }
 
         // Imprimir el número de iteraciones realizadas
@@ -119,7 +119,7 @@ public class Jacobi {
 
 **Solución con algoritmo de java**
 
-<img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-3/imagenes/metodo_jacobi/Solucion%20E1.png" width="20%" alt="Solución Ejercicio 1">
+<img src="https://github.com/nadfernanda/Metodos_Numericos/blob/main/tema-3/imagenes/metodo_jacobi/Solucion%20E2.png" width="20%" alt="Solución Ejercicio 1">
 
 **Análisis**
 
