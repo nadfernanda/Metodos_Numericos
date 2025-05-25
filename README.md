@@ -39,7 +39,7 @@ Interpolación lineal, cuadrática, de Lagrange, de Newton y polinomial, así co
 
 ## [Tema 6: Solución de Ecuaciones Diferenciales 🔧](./tema-6/README.md)
 
-Métodos numéricos para resolver EDOs: Euler, Runge-Kutta y Taylor.
+Métodos numéricos para resolver EDOs: Euler, Runge-Kutta, Taylor, Adams-Bashforth, Adams-Moulton y Heun.
 
 ---
 
