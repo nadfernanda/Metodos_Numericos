@@ -105,9 +105,9 @@ public static void main (String[] args) {
         double[] solucion = gaussJordan(a, b);
         // Mostrar la solución
             System.out.println("Solución del sistema:");
-            System.out.printf("x = %.6f\n", solucion[0]);
-            System.out.printf("y = %.6f\n", solucion[1]);
-            System.out.printf("z = %.6f\n", solucion[2]);
+            System.out.printf("x = %.4f\n", solucion[0]);
+            System.out.printf("y = %.4f\n", solucion[1]);
+            System.out.printf("z = %.4f\n", solucion[2]);
         } catch (ArithmeticException e) {
             System.out.println(e.getMessage());
         }
