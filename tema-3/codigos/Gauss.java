@@ -80,7 +80,7 @@ public class GaussElimination {
         String[] vars = {"x", "y", "z"};
         for (int i = 0; i < n; i++) {
             String var = (i < 3) ? vars[i] : "x" + (i + 1); // Manejo para más de 3 variables
-            System.out.printf("%s = %.6f%n", var, x[i]);
+            System.out.printf("%s = %.4f%n", var, x[i]);
         }
 
         return x;
