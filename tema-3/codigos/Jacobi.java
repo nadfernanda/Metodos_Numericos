@@ -82,7 +82,7 @@ public class Jacobi {
         System.out.println("Solución aproximada:");
         for (int i = 0; i < result.solution.length; i++) {
             String variable = (i == 0) ? "x" : (i == 1) ? "y" : "z";
-            System.out.printf("%s = %1.6f%n", variable, result.solution[i]);
+           System.out.printf("%s = %.4f%n", variable, result.solution[i]);
         }
 
         // Imprimir el número de iteraciones realizadas
